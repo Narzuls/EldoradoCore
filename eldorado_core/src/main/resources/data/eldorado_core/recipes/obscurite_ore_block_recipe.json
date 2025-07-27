@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "eldorado_core:obscurite_ingot"
+    }
+  },
+  "result": {
+    "item": "eldorado_core:obscurite_block",
+    "count": 1
+  }
+}

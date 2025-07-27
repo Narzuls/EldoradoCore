@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "eldorado_core:block/eldoradium_gem_ore",
+    "particle": "eldorado_core:block/eldoradium_gem_ore"
+  },
+  "render_type": "solid"
+}

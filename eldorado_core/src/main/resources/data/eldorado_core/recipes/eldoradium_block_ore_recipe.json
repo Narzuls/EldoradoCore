@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "eldorado_core:eldoradium_block"
+    }
+  ],
+  "result": {
+    "item": "eldorado_core:eldoradium_chunk",
+    "count": 9
+  }
+}

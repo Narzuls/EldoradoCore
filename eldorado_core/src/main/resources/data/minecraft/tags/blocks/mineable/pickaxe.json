@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "eldorado_core:eldoradium_gem_block",
+    "eldorado_core:eldoradium_gem_ore",
+    "eldorado_core:eldoradium_ore",
+    "eldorado_core:eldoradium_block",
+    "eldorado_core:obscurite_ore",
+    "eldorado_core:obscurite_block",
+    "eldorado_core:verdorium_ore",
+    "eldorado_core:verdorium_block",
+    "eldorado_core:unoctanium_ore",
+    "eldorado_core:unoctanium_block"
+  ]
+}

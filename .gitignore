@@ -1,0 +1,71 @@
+# MCreator workspace files in eldorado_core folder
+eldorado_core/.mcreator/
+eldorado_core/run/
+eldorado_core/build/
+eldorado_core/.gradle/
+
+# Compiled outputs
+*.class
+*.jar
+!eldorado_core/libs/*.jar  # Keep library JARs if you have any
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.project
+.classpath
+bin/
+eldorado_core/.idea/
+eldorado_core/*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.mcreator-backup
+*_backup
+*.bak
+
+# Logs
+logs/
+*.log
+crash-reports/
+eldorado_core/logs/
+eldorado_core/crash-reports/
+
+# Test runs
+eldorado_core/runs/
+eldorado_core/run_client/
+eldorado_core/run_server/
+eldorado_core/run_data/
+
+# Gradle
+eldorado_core/gradle/
+eldorado_core/gradlew
+eldorado_core/gradlew.bat
+eldorado_core/gradle.properties
+!gradle-wrapper.jar
+
+# Build outputs
+out/
+classes/
+eldorado_core/out/
+eldorado_core/classes/
+
+# Keep these important files
+!.gitignore
+!eldorado_core/*.mcreator
+!eldorado_core/elements/
+!eldorado_core/src/main/resources/assets/
+!eldorado_core/src/main/resources/data/
+!eldorado_core/textures/
+!eldorado_core/models/
+!eldorado_core/sounds/
+!eldorado_core/structures/
+!LICENSE
+!README.md
