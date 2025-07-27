@@ -22,7 +22,7 @@ import java.util.Collections;
 
 public class EldoradiumGemOreBlock extends Block {
 	public EldoradiumGemOreBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(10.5f, 13.6214844771f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(3f, 5f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -38,7 +38,7 @@ public class EldoradiumGemOreBlock extends Block {
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 3;
+			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}
 

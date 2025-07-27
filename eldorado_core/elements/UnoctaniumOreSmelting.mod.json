@@ -10,40 +10,8 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
-      "value": ""
-    },
     "smeltingInputStack": {
-      "value": "CUSTOM:UnoctaniumOre"
+      "value": "CUSTOM:RawUnoctanium"
     },
     "smeltingReturnStack": {
       "value": "CUSTOM:UnoctaniumIngot"

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "eldorado_core:item/chatgpt_image_26_juil._2025_18_30_53"
+  }
+}

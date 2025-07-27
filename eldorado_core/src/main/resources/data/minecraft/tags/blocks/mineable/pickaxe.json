@@ -7,9 +7,11 @@
     "eldorado_core:eldoradium_block",
     "eldorado_core:obscurite_ore",
     "eldorado_core:obscurite_block",
+    "eldorado_core:unoctanium_ore",
+    "eldorado_core:unoctanium_block",
     "eldorado_core:verdorium_ore",
     "eldorado_core:verdorium_block",
-    "eldorado_core:unoctanium_ore",
-    "eldorado_core:unoctanium_block"
+    "eldorado_core:zultium_ore",
+    "eldorado_core:zultium_block"
   ]
 }

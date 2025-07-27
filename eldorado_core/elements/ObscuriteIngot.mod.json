@@ -8,9 +8,9 @@
     "customProperties": {},
     "states": [],
     "name": "Obscurite",
-    "rarity": "COMMON",
+    "rarity": "EPIC",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:EldoradoCore"
     },
     "stackSize": 64,
     "enchantability": 0,

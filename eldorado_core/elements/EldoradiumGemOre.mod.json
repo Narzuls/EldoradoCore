@@ -33,16 +33,16 @@
         "subtract": false
       }
     ],
-    "name": "Eldoradium Gem Ore",
+    "name": "EldoradiumGem Ore",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 10.5,
-    "resistance": 13.62148447714549,
+    "hardness": 3.0,
+    "resistance": 5.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:EldoradoCore"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -100,7 +100,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 2,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -131,9 +131,9 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 3,
-    "frequencyOnChunk": 2,
+    "frequencyPerChunks": 11,
+    "frequencyOnChunk": 7,
     "minGenerateHeight": 1,
-    "maxGenerateHeight": 20
+    "maxGenerateHeight": 63
   }
 }

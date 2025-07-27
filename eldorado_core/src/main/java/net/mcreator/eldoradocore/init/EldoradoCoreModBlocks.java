@@ -10,6 +10,8 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.eldoradocore.block.ZultiumOreBlock;
+import net.mcreator.eldoradocore.block.ZultiumBlockBlock;
 import net.mcreator.eldoradocore.block.VerdoriumOreBlock;
 import net.mcreator.eldoradocore.block.VerdoriumBlockBlock;
 import net.mcreator.eldoradocore.block.UnoctaniumOreBlock;
@@ -30,8 +32,10 @@ public class EldoradoCoreModBlocks {
 	public static final RegistryObject<Block> ELDORADIUM_BLOCK = REGISTRY.register("eldoradium_block", () -> new EldoradiumBlockBlock());
 	public static final RegistryObject<Block> OBSCURITE_ORE = REGISTRY.register("obscurite_ore", () -> new ObscuriteOreBlock());
 	public static final RegistryObject<Block> OBSCURITE_BLOCK = REGISTRY.register("obscurite_block", () -> new ObscuriteBlockBlock());
-	public static final RegistryObject<Block> VERDORIUM_ORE = REGISTRY.register("verdorium_ore", () -> new VerdoriumOreBlock());
-	public static final RegistryObject<Block> VERDORIUM_BLOCK = REGISTRY.register("verdorium_block", () -> new VerdoriumBlockBlock());
 	public static final RegistryObject<Block> UNOCTANIUM_ORE = REGISTRY.register("unoctanium_ore", () -> new UnoctaniumOreBlock());
 	public static final RegistryObject<Block> UNOCTANIUM_BLOCK = REGISTRY.register("unoctanium_block", () -> new UnoctaniumBlockBlock());
+	public static final RegistryObject<Block> VERDORIUM_ORE = REGISTRY.register("verdorium_ore", () -> new VerdoriumOreBlock());
+	public static final RegistryObject<Block> VERDORIUM_BLOCK = REGISTRY.register("verdorium_block", () -> new VerdoriumBlockBlock());
+	public static final RegistryObject<Block> ZULTIUM_ORE = REGISTRY.register("zultium_ore", () -> new ZultiumOreBlock());
+	public static final RegistryObject<Block> ZULTIUM_BLOCK = REGISTRY.register("zultium_block", () -> new ZultiumBlockBlock());
 }

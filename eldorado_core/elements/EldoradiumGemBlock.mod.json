@@ -42,7 +42,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:EldoradoCore"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -100,7 +100,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 2,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

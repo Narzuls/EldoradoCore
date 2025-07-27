@@ -7,10 +7,10 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Eldoradium Gem",
+    "name": "EldoradiumGem",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:EldoradoCore"
     },
     "stackSize": 64,
     "enchantability": 0,
