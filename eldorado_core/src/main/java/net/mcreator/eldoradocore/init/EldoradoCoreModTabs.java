@@ -62,25 +62,19 @@ public class EldoradoCoreModTabs {
 				tabData.accept(EldoradoCoreModItems.ELDONIUM_INGOT.get());
 				tabData.accept(EldoradoCoreModItems.ULTOMATHIUM_BAR.get());
 				tabData.accept(EldoradoCoreModItems.OBSCUTANIUM_PICKAXE.get());
+				tabData.accept(EldoradoCoreModItems.VELDORDIUM.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(EldoradoCoreModBlocks.ZULTIUM_ORE.get().asItem());
 			tabData.accept(EldoradoCoreModBlocks.ZULTIUM_BLOCK.get().asItem());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(EldoradoCoreModItems.OBSCUTANIUM_SWORD.get());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(EldoradoCoreModItems.ZULTIUM_INGOT.get());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(EldoradoCoreModItems.OBSCUTANIUM_AXE.get());
 			tabData.accept(EldoradoCoreModItems.OBSCUTANIUM_SHOVEL.get());
 			tabData.accept(EldoradoCoreModItems.OBSCUTANIUM_HOE.get());

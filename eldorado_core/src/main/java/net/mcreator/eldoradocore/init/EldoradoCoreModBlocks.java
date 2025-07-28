@@ -26,8 +26,8 @@ import net.mcreator.eldoradocore.EldoradoCoreMod;
 
 public class EldoradoCoreModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, EldoradoCoreMod.MODID);
-	public static final RegistryObject<Block> ELDORADIUM_GEM_BLOCK = REGISTRY.register("eldoradium_gem_block", () -> new EldoradiumGemBlockBlock());
 	public static final RegistryObject<Block> ELDORADIUM_GEM_ORE = REGISTRY.register("eldoradium_gem_ore", () -> new EldoradiumGemOreBlock());
+	public static final RegistryObject<Block> ELDORADIUM_GEM_BLOCK = REGISTRY.register("eldoradium_gem_block", () -> new EldoradiumGemBlockBlock());
 	public static final RegistryObject<Block> ELDORADIUM_ORE = REGISTRY.register("eldoradium_ore", () -> new EldoradiumOreBlock());
 	public static final RegistryObject<Block> ELDORADIUM_BLOCK = REGISTRY.register("eldoradium_block", () -> new EldoradiumBlockBlock());
 	public static final RegistryObject<Block> OBSCURITE_ORE = REGISTRY.register("obscurite_ore", () -> new ObscuriteOreBlock());
@@ -38,4 +38,6 @@ public class EldoradoCoreModBlocks {
 	public static final RegistryObject<Block> VERDORIUM_BLOCK = REGISTRY.register("verdorium_block", () -> new VerdoriumBlockBlock());
 	public static final RegistryObject<Block> ZULTIUM_ORE = REGISTRY.register("zultium_ore", () -> new ZultiumOreBlock());
 	public static final RegistryObject<Block> ZULTIUM_BLOCK = REGISTRY.register("zultium_block", () -> new ZultiumBlockBlock());
+	// Start of user code block custom blocks
+	// End of user code block custom blocks
 }

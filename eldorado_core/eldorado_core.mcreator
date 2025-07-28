@@ -24,6 +24,7 @@
       "registry_name": "eldoradium_gem_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldoradium_gem_ore.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradiumGemOreBlock.java",
           "src/main/resources/assets/eldorado_core/models/item/eldoradium_gem_ore.json",
           "src/main/resources/data/eldorado_core/forge/biome_modifier/eldoradium_gem_ore_biome_modifier.json",
@@ -45,6 +46,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/eldorado_core/models/block/eldoradium_gem_block.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldoradium_gem_block.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradiumGemBlockBlock.java",
           "src/main/resources/assets/eldorado_core/blockstates/eldoradium_gem_block.json",
           "src/main/resources/assets/eldorado_core/models/item/eldoradium_gem_block.json"
@@ -107,6 +109,7 @@
           "src/main/resources/assets/eldorado_core/models/block/eldoradium_ore.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradiumOreBlock.java",
           "src/main/resources/data/eldorado_core/forge/biome_modifier/eldoradium_ore_biome_modifier.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldoradium_ore.json",
           "src/main/resources/assets/eldorado_core/models/item/eldoradium_ore.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldoradium_ore.json",
           "src/main/resources/data/eldorado_core/worldgen/placed_feature/eldoradium_ore.json",
@@ -127,6 +130,7 @@
           "src/main/resources/assets/eldorado_core/blockstates/eldoradium_block.json",
           "src/main/resources/assets/eldorado_core/models/block/eldoradium_block.json",
           "src/main/resources/assets/eldorado_core/models/item/eldoradium_block.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldoradium_block.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradiumBlockBlock.java"
         ]
       },
@@ -258,6 +262,7 @@
           "src/main/resources/data/eldorado_core/forge/biome_modifier/obscurite_ore_biome_modifier.json",
           "src/main/resources/data/eldorado_core/worldgen/placed_feature/obscurite_ore.json",
           "src/main/resources/assets/eldorado_core/models/block/obscurite_ore.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/obscurite_ore.json",
           "src/main/resources/data/eldorado_core/worldgen/configured_feature/obscurite_ore.json",
           "src/main/resources/assets/eldorado_core/models/item/obscurite_ore.json"
         ]
@@ -274,6 +279,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/eldoradocore/block/ObscuriteBlockBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/obscurite_block.json",
           "src/main/resources/assets/eldorado_core/models/block/obscurite_block.json",
           "src/main/resources/assets/eldorado_core/blockstates/obscurite_block.json",
           "src/main/resources/assets/eldorado_core/models/item/obscurite_block.json"
@@ -394,6 +400,7 @@
           "src/main/resources/data/eldorado_core/worldgen/placed_feature/unoctanium_ore.json",
           "src/main/resources/assets/eldorado_core/models/item/unoctanium_ore.json",
           "src/main/resources/assets/eldorado_core/blockstates/unoctanium_ore.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/unoctanium_ore.json",
           "src/main/resources/assets/eldorado_core/models/block/unoctanium_ore.json",
           "src/main/resources/data/eldorado_core/forge/biome_modifier/unoctanium_ore_biome_modifier.json",
           "src/main/java/net/mcreator/eldoradocore/block/UnoctaniumOreBlock.java",
@@ -411,6 +418,7 @@
       "registry_name": "unoctanium_block",
       "metadata": {
         "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/unoctanium_block.json",
           "src/main/resources/assets/eldorado_core/models/item/unoctanium_block.json",
           "src/main/java/net/mcreator/eldoradocore/block/UnoctaniumBlockBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/unoctanium_block.json",
@@ -609,6 +617,7 @@
           "src/main/java/net/mcreator/eldoradocore/block/VerdoriumOreBlock.java",
           "src/main/resources/assets/eldorado_core/blockstates/verdorium_ore.json",
           "src/main/resources/data/eldorado_core/forge/biome_modifier/verdorium_ore_biome_modifier.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/verdorium_ore.json",
           "src/main/resources/data/eldorado_core/worldgen/placed_feature/verdorium_ore.json",
           "src/main/resources/assets/eldorado_core/models/block/verdorium_ore.json"
         ]
@@ -626,6 +635,7 @@
         "files": [
           "src/main/java/net/mcreator/eldoradocore/block/VerdoriumBlockBlock.java",
           "src/main/resources/assets/eldorado_core/models/item/verdorium_block.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/verdorium_block.json",
           "src/main/resources/assets/eldorado_core/blockstates/verdorium_block.json",
           "src/main/resources/assets/eldorado_core/models/block/verdorium_block.json"
         ]
@@ -716,6 +726,7 @@
           "src/main/java/net/mcreator/eldoradocore/block/ZultiumOreBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/zultium_ore.json",
           "src/main/resources/data/eldorado_core/worldgen/placed_feature/zultium_ore.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/zultium_ore.json",
           "src/main/resources/assets/eldorado_core/models/item/zultium_ore.json",
           "src/main/resources/data/eldorado_core/worldgen/configured_feature/zultium_ore.json",
           "src/main/resources/assets/eldorado_core/blockstates/zultium_ore.json"
@@ -735,6 +746,7 @@
           "src/main/java/net/mcreator/eldoradocore/block/ZultiumBlockBlock.java",
           "src/main/resources/assets/eldorado_core/models/item/zultium_block.json",
           "src/main/resources/assets/eldorado_core/blockstates/zultium_block.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/zultium_block.json",
           "src/main/resources/assets/eldorado_core/models/block/zultium_block.json"
         ]
       },
@@ -1120,59 +1132,179 @@
         ]
       },
       "path": "~/Tools/Obscutanium"
+    },
+    {
+      "name": "Veldordium",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "veldordium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/item/VeldordiumItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/veldordium.json"
+        ]
+      },
+      "path": "~/Resources/Ingots"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:forge:ingots/eldoradium": [
+      "CUSTOM:EldoradiumIngot"
+    ],
+    "ITEMS:forge:ingots/obscutanium_crimson": [
+      "CUSTOM:ObscutaniumCrimsonIngot"
+    ],
+    "ITEMS:exdeorum:ore_chunks": [
+      "CUSTOM:EldoradiumOreChunk",
+      "CUSTOM:ObscuriteOreChunk",
+      "CUSTOM:UnoctaniumOreChunk",
+      "CUSTOM:VerdoriumOreChunk",
+      "CUSTOM:ZultiumOreChunk"
+    ],
+    "ITEMS:forge:ingots/obscutanium_ember": [
+      "CUSTOM:ObscutaniumEmberIngot"
+    ],
+    "ITEMS:forge:ingots/zultium": [
+      "CUSTOM:ZultiumIngot"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:ZultiumBlock",
+      "~CUSTOM:ZultiumOre",
+      "~CUSTOM:VerdoriumBlock",
+      "~CUSTOM:VerdoriumOre",
+      "~CUSTOM:UnoctaniumBlock",
+      "~CUSTOM:UnoctaniumOre",
+      "~CUSTOM:ObscuriteBlock",
+      "~CUSTOM:ObscuriteOre",
+      "~CUSTOM:EldoradiumBlock",
+      "~CUSTOM:EldoradiumGemBlock",
+      "~CUSTOM:EldoradiumGemOre"
+    ],
+    "ITEMS:forge:ingots/obscutanium_basilisk": [
+      "CUSTOM:ObscutaniumBasiliskIngot"
+    ],
+    "ITEMS:forge:ingots/obscutanium_havoc": [
+      "CUSTOM:ObscutaniumHavocIngot"
+    ],
+    "ITEMS:forge:ingots/obscutanium": [
+      "CUSTOM:ObscutaniumBasiliskIngot",
+      "CUSTOM:ObscutaniumAlphaIngot",
+      "CUSTOM:ObscutaniumCrimsonIngot",
+      "CUSTOM:ObscutaniumDreadIngot",
+      "CUSTOM:ObscutaniumEmberIngot",
+      "CUSTOM:ObscutaniumFluxIngot",
+      "CUSTOM:ObscutaniumHavocIngot"
+    ],
+    "ITEMS:forge:ingots/unoctanium": [
+      "CUSTOM:UnoctaniumIngot"
+    ],
+    "ITEMS:mod:eldoradium": [
+      "CUSTOM:EldoradiumGem",
+      "CUSTOM:EldoradiumGemOre",
+      "CUSTOM:EldoradiumGemBlock",
+      "CUSTOM:EldoradiumIngot",
+      "CUSTOM:EldoradiumOre",
+      "CUSTOM:EldoradiumBlock",
+      "CUSTOM:RawEldoradium",
+      "CUSTOM:EldoradiumOreChunk",
+      "CUSTOM:EldoradiumDust"
+    ],
+    "ITEMS:forge:ingots/obscutanium_dread": [
+      "CUSTOM:ObscutaniumDreadIngot"
+    ],
+    "ITEMS:forge:ingots/vibranium": [
+      "CUSTOM:VibraniumIngot"
+    ],
+    "ITEMS:forge:ingots/verdorium": [
+      "CUSTOM:VerdoriumIngot"
+    ],
+    "ITEMS:forge:bars/ultomathium": [
+      "CUSTOM:UltomathiumBar"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:ZultiumBlock",
+      "~CUSTOM:ZultiumOre",
+      "~CUSTOM:VerdoriumBlock",
+      "~CUSTOM:VerdoriumOre",
+      "~CUSTOM:UnoctaniumBlock",
+      "~CUSTOM:UnoctaniumOre",
+      "~CUSTOM:ObscuriteBlock",
+      "~CUSTOM:ObscuriteOre",
+      "~CUSTOM:EldoradiumBlock",
+      "~CUSTOM:EldoradiumOre",
+      "~CUSTOM:EldoradiumGemBlock",
+      "~CUSTOM:EldoradiumGemOre"
+    ],
+    "ITEMS:forge:ingots/eldonium": [
+      "CUSTOM:EldoniumIngot"
+    ],
+    "ITEMS:forge:ingots/obscutanium_flux": [
+      "CUSTOM:ObscutaniumFluxIngot"
+    ],
+    "ITEMS:forge:ingots/veldordium": [
+      "CUSTOM:Veldordium"
+    ],
+    "ITEMS:forge:ingots/obscutanium_alpha": [
+      "CUSTOM:ObscutaniumAlphaIngot"
+    ],
+    "ITEMS:forge:ingots/obscurite": [
+      "CUSTOM:ObscuriteIngot"
+    ]
+  },
   "language_map": {
     "en_us": {
-      "item.eldorado_core.eldoradium_ingot": "Eldoradium",
       "block.eldorado_core.verdorium_ore": "Verdorium Ore",
       "block.eldorado_core.obscurite_ore": "Obscurite Ore",
-      "item.eldorado_core.verdorium_ingot": "Verdorium",
       "item.eldorado_core.eldonium_ingot": "Eldonium Ingot",
       "item.eldorado_core.obscutanium_havoc_ingot": "Obscutanium Havoc Ingot",
       "item.eldorado_core.obscutanium_shovel": "Obscutanium Shovel",
-      "block.eldorado_core.eldoradium_ore": "Eldoradium Ore",
       "item.eldorado_core.obscutanium_axe": "Obscutanium Axe",
+      "block.eldorado_core.eldoradium_ore": "Eldoradium Ore",
       "item.eldorado_core.verdorium_ore_chunk": "Verdorium Ore Chunk",
-      "item.eldorado_core.raw_unoctanium": "Raw Unoctanium",
-      "item.eldorado_core.unoctanium_ore_chunk": "Unoctanium Ore Chunk",
       "block.eldorado_core.eldoradium_gem_ore": "EldoradiumGem Ore",
       "item.eldorado_core.unoctanium_ingot": "Unoctanium",
       "item.eldorado_core.obscutanium_basilisk_ingot": "Obscutanium Basilisk Ingot",
       "item.eldorado_core.zultium_ore_chunk": "Zultium Ore Chunk",
-      "block.eldorado_core.zultium_ore": "Zultium Ore",
       "block.eldorado_core.verdorium_block": "Block of Verdorium",
-      "block.eldorado_core.unoctanium_block": "Block of Unoctanium",
       "item_group.eldorado_core.eldorado_core": "Eldorado Core",
-      "item.eldorado_core.eldoradium_ore_chunk": "Eldoradium Ore Chunk",
       "block.eldorado_core.eldoradium_gem_block": "Block of Eldoradium Gem",
-      "item.eldorado_core.obscurite_ingot": "Obscurite",
       "block.eldorado_core.eldoradium_block": "Block of Eldoradium",
       "item.eldorado_core.ultomathium_bar": "Ultomathium Bar",
       "item.eldorado_core.obscutanium_pickaxe": "Obscutanium Pickaxe",
       "item.eldorado_core.obscutanium_dread_ingot": "Obscutanium Dread Ingot",
-      "item.eldorado_core.zultium_ingot": "Zultium",
-      "block.eldorado_core.zultium_block": "Block of Zultium",
       "item.eldorado_core.unoctanium_dust": "Unoctanium Dust",
-      "item.eldorado_core.raw_obscurite": "Raw Obscurite",
-      "block.eldorado_core.unoctanium_ore": "Unoctanium Ore",
-      "item.eldorado_core.eldoradium_dust": "Eldoradium Dust",
       "item.eldorado_core.obscutanium_ember_ingot": "Obscutanium Ember Ingot",
-      "item.eldorado_core.raw_verdorium": "Raw Verdorium",
       "item.eldorado_core.obscurite_dust": "Obscurite Dust",
-      "item.eldorado_core.obscutanium_crimson_ingot": "Obscutanium Crimson Ingot",
       "item.eldorado_core.obscutanium_alpha_ingot": "Obscutanium Alpha Ingot",
       "item.eldorado_core.raw_eldoradium": "Raw Eldoradium",
       "item.eldorado_core.obscutanium_flux_ingot": "Obscutanium Flux Ingot",
       "item.eldorado_core.raw_zultium": "Raw Zultium",
-      "item.eldorado_core.obscutanium_sword": "Obscutanium Sword",
       "item.eldorado_core.obscurite_ore_chunk": "Obscurite Ore Chunk",
-      "item.eldorado_core.eldoradium_gem": "EldoradiumGem",
       "item.eldorado_core.vibranium_ingot": "Vibranium Ingot",
       "block.eldorado_core.obscurite_block": "Block of Obscurite",
-      "item.eldorado_core.obscutanium_hoe": "Obscutanium Hoe"
+      "item.eldorado_core.obscutanium_hoe": "Obscutanium Hoe",
+      "item.eldorado_core.eldoradium_ingot": "Eldoradium",
+      "item.eldorado_core.verdorium_ingot": "Verdorium",
+      "item.eldorado_core.raw_unoctanium": "Raw Unoctanium",
+      "item.eldorado_core.unoctanium_ore_chunk": "Unoctanium Ore Chunk",
+      "block.eldorado_core.zultium_ore": "Zultium Ore",
+      "block.eldorado_core.unoctanium_block": "Block of Unoctanium",
+      "item.eldorado_core.eldoradium_ore_chunk": "Eldoradium Ore Chunk",
+      "item.eldorado_core.veldordium": "Veldordium",
+      "item.eldorado_core.obscurite_ingot": "Obscurite",
+      "item.eldorado_core.zultium_ingot": "Zultium",
+      "block.eldorado_core.zultium_block": "Block of Zultium",
+      "item.eldorado_core.raw_obscurite": "Raw Obscurite",
+      "item.eldorado_core.eldoradium_dust": "Eldoradium Dust",
+      "block.eldorado_core.unoctanium_ore": "Unoctanium Ore",
+      "item.eldorado_core.raw_verdorium": "Raw Verdorium",
+      "item.eldorado_core.obscutanium_crimson_ingot": "Obscutanium Crimson Ingot",
+      "item.eldorado_core.obscutanium_sword": "Obscutanium Sword",
+      "item.eldorado_core.eldoradium_gem": "EldoradiumGem"
     }
   },
   "foldersRoot": {
@@ -1232,6 +1364,23 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Biomes",
+        "children": [
+          {
+            "name": "Eldorado",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Tags",
+        "children": []
       }
     ]
   },
@@ -1242,15 +1391,13 @@
     "author": "lasto, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
-    "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "modElementsPackage": "net.mcreator.eldoradocore",
-    "lockBaseModFiles": false
+    "modElementsPackage": "net.mcreator.eldoradocore"
   },
-  "mcreatorVersion": 202300452316
+  "mcreatorVersion": 202400118518
 }
