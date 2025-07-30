@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "eldorado_core:block/eldorado_sandstone_refined",
+    "up": "eldorado_core:block/eldorado_sandstone_refined",
+    "north": "eldorado_core:block/eldorado_sandstone_refined",
+    "east": "eldorado_core:block/eldorado_sandstone_refined",
+    "south": "eldorado_core:block/eldorado_sandstone_refined",
+    "west": "eldorado_core:block/eldorado_sandstone_refined",
+    "particle": "eldorado_core:block/eldorado_sandstone_refined"
+  },
+  "render_type": "solid"
+}

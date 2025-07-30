@@ -61,8 +61,40 @@ public class EldoradoCoreModTabs {
 				tabData.accept(EldoradoCoreModItems.VIBRANIUM_INGOT.get());
 				tabData.accept(EldoradoCoreModItems.ELDONIUM_INGOT.get());
 				tabData.accept(EldoradoCoreModItems.ULTOMATHIUM_BAR.get());
+				tabData.accept(EldoradoCoreModItems.OBSCUTANIUM_AXE.get());
 				tabData.accept(EldoradoCoreModItems.OBSCUTANIUM_PICKAXE.get());
+				tabData.accept(EldoradoCoreModItems.OBSCUTANIUM_SWORD.get());
+				tabData.accept(EldoradoCoreModItems.OBSCUTANIUM_SHOVEL.get());
+				tabData.accept(EldoradoCoreModItems.OBSCUTANIUM_HOE.get());
 				tabData.accept(EldoradoCoreModItems.VELDORDIUM.get());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SAND_STONE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SAND.get().asItem());
+				tabData.accept(EldoradoCoreModItems.ABYSSALIUM_INGOT.get());
+				tabData.accept(EldoradoCoreModBlocks.ABYSSALIUM_ORE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ABYSSALIUM_BLOCK.get().asItem());
+				tabData.accept(EldoradoCoreModItems.RAW_ABYSSALIUM.get());
+				tabData.accept(EldoradoCoreModItems.PURE_UNOCTANIUM_INGOT.get());
+				tabData.accept(EldoradoCoreModBlocks.PURE_UNOCTANIUM_ORE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.PURE_UNOCTANIUM_BLOCK.get().asItem());
+				tabData.accept(EldoradoCoreModItems.RAW_PURE_UNOCTANIUM.get());
+				tabData.accept(EldoradoCoreModItems.PURE_UNOCTANIUM_ORE_CHUNK.get());
+				tabData.accept(EldoradoCoreModItems.PURE_UNOCTANIUM_DUST.get());
+				tabData.accept(EldoradoCoreModBlocks.KYBURN_ORE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.KYBURN_BLOCK.get().asItem());
+				tabData.accept(EldoradoCoreModItems.RAW_KYBURN.get());
+				tabData.accept(EldoradoCoreModItems.KYBURN_ORE_CHUNK.get());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_STONE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SANDSTONE_REFINED.get().asItem());
+				tabData.accept(EldoradoCoreModItems.ABYSSALIUM_AZURE_INGOT.get());
+				tabData.accept(EldoradoCoreModItems.ELDORADIUM_AXE.get());
+				tabData.accept(EldoradoCoreModItems.ABYSSALIUM_PICKAXE.get());
+				tabData.accept(EldoradoCoreModItems.ABYSSALIUM_AXE.get());
+				tabData.accept(EldoradoCoreModItems.ABYSSALIUM_SWORD.get());
+				tabData.accept(EldoradoCoreModItems.ABYSSALIUM_SHOVEL.get());
+				tabData.accept(EldoradoCoreModItems.ABYSSALIUM_HOE.get());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_COBBLESTONE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_COBBLESTONE.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -71,13 +103,24 @@ public class EldoradoCoreModTabs {
 			tabData.accept(EldoradoCoreModBlocks.ZULTIUM_ORE.get().asItem());
 			tabData.accept(EldoradoCoreModBlocks.ZULTIUM_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(EldoradoCoreModItems.OBSCUTANIUM_SWORD.get());
+			tabData.accept(EldoradoCoreModItems.ELDORADIUM_SWORD.get());
+			tabData.accept(EldoradoCoreModItems.OBSCURITE_SWORD.get());
+			tabData.accept(EldoradoCoreModItems.VIBRANT_UNOCTANIUM_SWORD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(EldoradoCoreModItems.ZULTIUM_INGOT.get());
+			tabData.accept(EldoradoCoreModItems.KYBURN_INGOT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(EldoradoCoreModItems.OBSCUTANIUM_AXE.get());
-			tabData.accept(EldoradoCoreModItems.OBSCUTANIUM_SHOVEL.get());
-			tabData.accept(EldoradoCoreModItems.OBSCUTANIUM_HOE.get());
+			tabData.accept(EldoradoCoreModItems.ELDORADIUM_PICKAXE.get());
+			tabData.accept(EldoradoCoreModItems.ELDORADIUM_SHOVEL.get());
+			tabData.accept(EldoradoCoreModItems.ELDORADIUM_HOE.get());
+			tabData.accept(EldoradoCoreModItems.OBSCURITE_PICKAXE.get());
+			tabData.accept(EldoradoCoreModItems.OBSCURITE_AXE.get());
+			tabData.accept(EldoradoCoreModItems.OBSCURITE_SHOVEL.get());
+			tabData.accept(EldoradoCoreModItems.OBSCURITE_HOE.get());
+			tabData.accept(EldoradoCoreModItems.VIBRANT_UNOCTANIUM_PICKAXE.get());
+			tabData.accept(EldoradoCoreModItems.VIBRANT_UNOCTANIUM_AXE.get());
+			tabData.accept(EldoradoCoreModItems.VIBRANT_UNOCTANIUM_SHOVEL.get());
+			tabData.accept(EldoradoCoreModItems.VIBRANT_UNOCTANIUM_HOE.get());
 		}
 	}
 }

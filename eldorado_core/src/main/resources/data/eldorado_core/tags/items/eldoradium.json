@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "eldorado_core:eldoradium_gem",
+    "eldorado_core:eldoradium_gem_ore",
+    "eldorado_core:eldoradium_gem_block",
+    "eldorado_core:eldoradium_ingot",
+    "eldorado_core:eldoradium_ore",
+    "eldorado_core:eldoradium_block",
+    "eldorado_core:raw_eldoradium",
+    "eldorado_core:eldoradium_ore_chunk",
+    "eldorado_core:eldoradium_dust"
+  ]
+}

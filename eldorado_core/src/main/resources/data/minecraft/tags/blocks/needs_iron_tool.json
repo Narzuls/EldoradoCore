@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "eldorado_core:kyburn_block",
+    "eldorado_core:kyburn_ore",
+    "eldorado_core:pure_unoctanium_block",
+    "eldorado_core:pure_unoctanium_ore",
+    "eldorado_core:abyssalium_block",
+    "eldorado_core:abyssalium_ore",
     "eldorado_core:zultium_block",
     "eldorado_core:zultium_ore",
     "eldorado_core:verdorium_block",

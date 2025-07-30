@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "eldorado_core:block/eldorado_stone",
+    "up": "eldorado_core:block/eldorado_stone",
+    "north": "eldorado_core:block/eldorado_stone",
+    "east": "eldorado_core:block/eldorado_stone",
+    "south": "eldorado_core:block/eldorado_stone",
+    "west": "eldorado_core:block/eldorado_stone",
+    "particle": "eldorado_core:block/eldorado_stone"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "eldorado_core:obscutanium_basilisk_ingot",
+    "eldorado_core:obscutanium_alpha_ingot",
+    "eldorado_core:obscutanium_crimson_ingot",
+    "eldorado_core:obscutanium_dread_ingot",
+    "eldorado_core:obscutanium_ember_ingot",
+    "eldorado_core:obscutanium_flux_ingot",
+    "eldorado_core:obscutanium_havoc_ingot"
+  ]
+}

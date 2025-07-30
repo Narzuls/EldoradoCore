@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "eldorado_core:block/verdorium_ore_block",
-    "particle": "eldorado_core:block/verdorium_ore_block"
+    "all": "eldorado_core:block/verdorium_block",
+    "particle": "eldorado_core:block/verdorium_block"
   },
   "render_type": "solid"
 }

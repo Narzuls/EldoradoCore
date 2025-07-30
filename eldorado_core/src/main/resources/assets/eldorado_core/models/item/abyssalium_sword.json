@@ -1,0 +1,7 @@
+{
+  "parent": "eldorado_core:custom/vibrantunoctanium",
+  "textures": {
+    "0": "eldorado_core:block/abyssalium_sword",
+    "particle": "eldorado_core:item/abyssalium_sword"
+  }
+}

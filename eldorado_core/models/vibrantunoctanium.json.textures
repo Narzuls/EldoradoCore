@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "vibrant_unoctanium_sword"
+      },
+      "name": "default"
+    },
+    "abyssaliumsword": {
+      "map": {
+        "0": "abyssalium_sword"
+      },
+      "name": "abyssaliumsword"
+    }
+  }
+}

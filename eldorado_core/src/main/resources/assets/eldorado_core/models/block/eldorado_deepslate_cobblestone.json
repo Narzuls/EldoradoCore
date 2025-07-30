@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "eldorado_core:block/eldorado_deepslate_cobble",
+    "up": "eldorado_core:block/eldorado_deepslate_cobble",
+    "north": "eldorado_core:block/eldorado_deepslate_cobble",
+    "east": "eldorado_core:block/eldorado_deepslate_cobble",
+    "south": "eldorado_core:block/eldorado_deepslate_cobble",
+    "west": "eldorado_core:block/eldorado_deepslate_cobble",
+    "particle": "eldorado_core:block/eldorado_deepslate_cobble"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "eldorado_core:eldoradium_ore_chunk",
+    "eldorado_core:obscurite_ore_chunk",
+    "eldorado_core:unoctanium_ore_chunk",
+    "eldorado_core:verdorium_ore_chunk",
+    "eldorado_core:zultium_ore_chunk"
+  ]
+}
