@@ -78,6 +78,7 @@ import net.mcreator.eldoradocore.item.EldoniumIngotItem;
 import net.mcreator.eldoradocore.item.AbyssaliumSwordItem;
 import net.mcreator.eldoradocore.item.AbyssaliumShovelItem;
 import net.mcreator.eldoradocore.item.AbyssaliumPickaxeItem;
+import net.mcreator.eldoradocore.item.AbyssaliumOreChunkItem;
 import net.mcreator.eldoradocore.item.AbyssaliumIngotItem;
 import net.mcreator.eldoradocore.item.AbyssaliumHoeItem;
 import net.mcreator.eldoradocore.item.AbyssaliumAzureIngotItem;
@@ -183,6 +184,7 @@ public class EldoradoCoreModItems {
 	public static final RegistryObject<Item> ELDORADO_DUST = block(EldoradoCoreModBlocks.ELDORADO_DUST);
 	public static final RegistryObject<Item> ELDORADO_GRAVEL = block(EldoradoCoreModBlocks.ELDORADO_GRAVEL);
 	public static final RegistryObject<Item> VELDORDIUM_INGOT = REGISTRY.register("veldordium_ingot", () -> new VeldordiumIngotItem());
+	public static final RegistryObject<Item> ABYSSALIUM_ORE_CHUNK = REGISTRY.register("abyssalium_ore_chunk", () -> new AbyssaliumOreChunkItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

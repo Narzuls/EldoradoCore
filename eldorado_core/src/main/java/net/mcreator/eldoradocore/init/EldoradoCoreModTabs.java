@@ -115,5 +115,6 @@ public class EldoradoCoreModTabs {
 				tabData.accept(EldoradoCoreModBlocks.ELDORADO_DUST.get().asItem());
 				tabData.accept(EldoradoCoreModBlocks.ELDORADO_GRAVEL.get().asItem());
 				tabData.accept(EldoradoCoreModItems.VELDORDIUM_INGOT.get());
+				tabData.accept(EldoradoCoreModItems.ABYSSALIUM_ORE_CHUNK.get());
 			}).withSearchBar().build());
 }

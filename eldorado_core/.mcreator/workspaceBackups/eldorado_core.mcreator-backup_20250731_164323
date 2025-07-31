@@ -2051,6 +2051,21 @@
         ]
       },
       "path": "~/Resources/Ingots"
+    },
+    {
+      "name": "AbyssaliumOreChunk",
+      "type": "item",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssalium_ore_chunk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/item/AbyssaliumOreChunkItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/abyssalium_ore_chunk.json"
+        ]
+      },
+      "path": "~/Resources/Abyssalium"
     }
   ],
   "variable_elements": [],
@@ -2268,6 +2283,7 @@
       "block.eldorado_core.zultium_block": "Block of Zultium",
       "block.eldorado_core.eldorado_sandstone_refined": "Eldorado Sandstone Refined",
       "item.eldorado_core.raw_obscurite": "Raw Obscurite",
+      "item.eldorado_core.abyssalium_ore_chunk": "Abyssalium Ore Chunk",
       "item.eldorado_core.eldoradium_dust": "Eldoradium Dust",
       "item.eldorado_core.raw_verdorium": "Raw Verdorium",
       "item.eldorado_core.obscutanium_crimson_ingot": "Obscutanium Crimson Ingot",
