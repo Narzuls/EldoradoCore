@@ -7,10 +7,10 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Kyburn",
-    "rarity": "COMMON",
+    "name": "Kyburn Ingot",
+    "rarity": "EPIC",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:EldoradoCore"
     },
     "stackSize": 64,
     "enchantability": 0,

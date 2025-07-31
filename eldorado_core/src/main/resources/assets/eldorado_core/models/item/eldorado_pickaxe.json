@@ -1,0 +1,7 @@
+{
+  "parent": "eldorado_core:custom/eldorado_pickaxe",
+  "textures": {
+    "2": "eldorado_core:block/eldorado_pickaxe",
+    "particle": "eldorado_core:item/eldorado_pickaxe"
+  }
+}

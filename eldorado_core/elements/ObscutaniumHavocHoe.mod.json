@@ -1,0 +1,33 @@
+{
+  "_fv": 60,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "obscutanium_havoc_hoe",
+    "customModelName": "obscutanium_havoc_hoe:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Obscutanium Havoc Hoe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:EldoradoCore"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

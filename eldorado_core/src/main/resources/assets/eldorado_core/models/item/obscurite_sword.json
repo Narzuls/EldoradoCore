@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "eldorado_core:custom/obscurite_sword",
   "textures": {
-    "layer0": "eldorado_core:item/obscurite_sword"
+    "1": "eldorado_core:block/obscurite_sword",
+    "particle": "eldorado_core:item/obscurite_sword"
   }
 }

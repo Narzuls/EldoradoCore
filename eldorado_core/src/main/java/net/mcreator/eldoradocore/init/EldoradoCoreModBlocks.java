@@ -26,6 +26,8 @@ import net.mcreator.eldoradocore.block.EldoradoStoneBlock;
 import net.mcreator.eldoradocore.block.EldoradoSandstoneRefinedBlock;
 import net.mcreator.eldoradocore.block.EldoradoSandStoneBlock;
 import net.mcreator.eldoradocore.block.EldoradoSandBlock;
+import net.mcreator.eldoradocore.block.EldoradoGravelBlock;
+import net.mcreator.eldoradocore.block.EldoradoDustBlock;
 import net.mcreator.eldoradocore.block.EldoradoDeepslateCobblestoneBlock;
 import net.mcreator.eldoradocore.block.EldoradoDeepslateBlock;
 import net.mcreator.eldoradocore.block.EldoradoCobblestoneBlock;
@@ -64,6 +66,8 @@ public class EldoradoCoreModBlocks {
 	public static final RegistryObject<Block> ELDORADO_SANDSTONE_REFINED = REGISTRY.register("eldorado_sandstone_refined", () -> new EldoradoSandstoneRefinedBlock());
 	public static final RegistryObject<Block> ELDORADO_COBBLESTONE = REGISTRY.register("eldorado_cobblestone", () -> new EldoradoCobblestoneBlock());
 	public static final RegistryObject<Block> ELDORADO_DEEPSLATE_COBBLESTONE = REGISTRY.register("eldorado_deepslate_cobblestone", () -> new EldoradoDeepslateCobblestoneBlock());
+	public static final RegistryObject<Block> ELDORADO_DUST = REGISTRY.register("eldorado_dust", () -> new EldoradoDustBlock());
+	public static final RegistryObject<Block> ELDORADO_GRAVEL = REGISTRY.register("eldorado_gravel", () -> new EldoradoGravelBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

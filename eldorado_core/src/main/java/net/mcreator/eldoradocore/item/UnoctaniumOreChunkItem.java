@@ -6,6 +6,6 @@ import net.minecraft.world.item.Item;
 
 public class UnoctaniumOreChunkItem extends Item {
 	public UnoctaniumOreChunkItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.EPIC));
 	}
 }

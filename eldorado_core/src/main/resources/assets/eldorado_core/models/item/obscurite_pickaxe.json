@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "eldorado_core:custom/obscurite_pickaxe",
   "textures": {
-    "layer0": "eldorado_core:item/obscurite_pickaxe"
+    "1": "eldorado_core:block/obscurite_pickaxe",
+    "particle": "eldorado_core:item/obscurite_pickaxe"
   }
 }

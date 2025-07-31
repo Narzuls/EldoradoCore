@@ -4,20 +4,17 @@ package net.mcreator.eldoradocore.item;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-
-import net.mcreator.eldoradocore.init.EldoradoCoreModItems;
 
 public class VibrantUnoctaniumPickaxeItem extends PickaxeItem {
 	public VibrantUnoctaniumPickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 100;
 			}
 
 			public float getSpeed() {
-				return 6f;
+				return 4f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -25,15 +22,15 @@ public class VibrantUnoctaniumPickaxeItem extends PickaxeItem {
 			}
 
 			public int getLevel() {
-				return 2;
+				return 1;
 			}
 
 			public int getEnchantmentValue() {
-				return 14;
+				return 2;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(EldoradoCoreModItems.OBSCURITE_HOE.get()));
+				return Ingredient.of();
 			}
 		}, 1, -3f, new Item.Properties());
 	}

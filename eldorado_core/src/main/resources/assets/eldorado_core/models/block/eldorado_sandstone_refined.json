@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "eldorado_core:block/eldorado_sandstone_refined",
-    "up": "eldorado_core:block/eldorado_sandstone_refined",
-    "north": "eldorado_core:block/eldorado_sandstone_refined",
-    "east": "eldorado_core:block/eldorado_sandstone_refined",
-    "south": "eldorado_core:block/eldorado_sandstone_refined",
-    "west": "eldorado_core:block/eldorado_sandstone_refined",
-    "particle": "eldorado_core:block/eldorado_sandstone_refined"
+    "down": "eldorado_core:block/eldorado_sandstone_fancy",
+    "up": "eldorado_core:block/eldorado_sandstone_fancy",
+    "north": "eldorado_core:block/eldorado_sandstone_fancy",
+    "east": "eldorado_core:block/eldorado_sandstone_fancy",
+    "south": "eldorado_core:block/eldorado_sandstone_fancy",
+    "west": "eldorado_core:block/eldorado_sandstone_fancy",
+    "particle": "eldorado_core:block/eldorado_sandstone_fancy"
   },
   "render_type": "solid"
 }

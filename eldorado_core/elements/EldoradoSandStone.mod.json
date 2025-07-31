@@ -2,12 +2,12 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "eldorado_sandstone_all_side",
-    "textureTop": "eldorado_sandstone_all_side",
-    "textureLeft": "eldorado_sandstone_all_side",
-    "textureFront": "eldorado_sandstone_all_side",
-    "textureRight": "eldorado_sandstone_all_side",
-    "textureBack": "eldorado_sandstone_all_side",
+    "texture": "eldorado_sandstone",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""

@@ -1,0 +1,7 @@
+{
+  "parent": "eldorado_core:custom/eldorado_shovel",
+  "textures": {
+    "2": "eldorado_core:block/eldorado_shovel",
+    "particle": "eldorado_core:item/eldorado_shovel"
+  }
+}

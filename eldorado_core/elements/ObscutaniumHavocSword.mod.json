@@ -1,0 +1,33 @@
+{
+  "_fv": 60,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "obscutanium_havoc_sword",
+    "customModelName": "obscutanium_havoc_sword:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Obscutanium Havoc Sword",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:EldoradoCore"
+    },
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 4.0,
+    "enchantability": 0,
+    "damageVsEntity": 30.0,
+    "usageCount": 6000,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

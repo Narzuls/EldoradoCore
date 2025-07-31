@@ -4,28 +4,25 @@ package net.mcreator.eldoradocore.item;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-
-import net.mcreator.eldoradocore.init.EldoradoCoreModItems;
 
 public class VibrantUnoctaniumSwordItem extends SwordItem {
 	public VibrantUnoctaniumSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 1000;
 			}
 
 			public float getSpeed() {
-				return 6f;
+				return 0f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 21f;
 			}
 
 			public int getLevel() {
-				return 2;
+				return 0;
 			}
 
 			public int getEnchantmentValue() {
@@ -33,8 +30,8 @@ public class VibrantUnoctaniumSwordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(EldoradoCoreModItems.OBSCURITE_HOE.get()));
+				return Ingredient.of();
 			}
-		}, 3, -2f, new Item.Properties());
+		}, 3, -1f, new Item.Properties());
 	}
 }

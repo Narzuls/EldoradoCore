@@ -3,10 +3,10 @@
   "_type": "tool",
   "definition": {
     "toolType": "Hoe",
-    "renderType": 0,
+    "renderType": 1,
     "blockingRenderType": 0,
     "texture": "abyssalium_hoe",
-    "customModelName": "Normal",
+    "customModelName": "abyssalium_hoe:default",
     "blockingModelName": "Normal blocking",
     "name": "Abyssalium Hoe",
     "specialInformation": {
@@ -15,21 +15,17 @@
     "creativeTab": {
       "value": "CUSTOM:EldoradoCore"
     },
-    "harvestLevel": 2,
-    "efficiency": 6.0,
-    "attackSpeed": 3.0,
-    "enchantability": 14,
-    "damageVsEntity": 1.0,
-    "usageCount": 250,
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [
-      {
-        "value": "Items.NETHERITE_SHOVEL"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

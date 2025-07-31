@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "obscutanium_havoc_sword"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -6,6 +6,6 @@ import net.minecraft.world.item.Item;
 
 public class EldoradiumDustItem extends Item {
 	public EldoradiumDustItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.EPIC));
 	}
 }

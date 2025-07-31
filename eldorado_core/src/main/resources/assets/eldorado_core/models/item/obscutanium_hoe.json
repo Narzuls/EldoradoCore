@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "eldorado_core:custom/obscutanium_hoe",
   "textures": {
-    "layer0": "eldorado_core:item/chatgpt_image_26_juil._2025_18_35_41"
+    "1": "eldorado_core:block/obscutanium_hoe",
+    "particle": "eldorado_core:item/obscutanium_hoe"
   }
 }
