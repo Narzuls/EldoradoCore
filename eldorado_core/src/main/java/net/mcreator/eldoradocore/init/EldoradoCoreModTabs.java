@@ -6,19 +6,14 @@ package net.mcreator.eldoradocore.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.eldoradocore.EldoradoCoreMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class EldoradoCoreModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, EldoradoCoreMod.MODID);
 	public static final RegistryObject<CreativeModeTab> ELDORADO_CORE = REGISTRY.register("eldorado_core",
@@ -102,6 +97,7 @@ public class EldoradoCoreModTabs {
 				tabData.accept(EldoradoCoreModItems.ELDORADO_AXE.get());
 				tabData.accept(EldoradoCoreModItems.ELDORADO_PICKAXE.get());
 				tabData.accept(EldoradoCoreModItems.ELDORADO_SHOVEL.get());
+				tabData.accept(EldoradoCoreModItems.ELDORADO_HOE.get());
 				tabData.accept(EldoradoCoreModItems.ABYSSALIUM_SWORD.get());
 				tabData.accept(EldoradoCoreModItems.ABYSSALIUM_AXE.get());
 				tabData.accept(EldoradoCoreModItems.ABYSSALIUM_PICKAXE.get());
@@ -120,11 +116,4 @@ public class EldoradoCoreModTabs {
 				tabData.accept(EldoradoCoreModBlocks.ELDORADO_GRAVEL.get().asItem());
 				tabData.accept(EldoradoCoreModItems.VELDORDIUM_INGOT.get());
 			}).withSearchBar().build());
-
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(EldoradoCoreModItems.ELDORADO_HOE.get());
-		}
-	}
 }

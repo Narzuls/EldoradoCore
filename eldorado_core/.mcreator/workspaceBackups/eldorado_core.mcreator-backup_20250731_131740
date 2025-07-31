@@ -24,14 +24,14 @@
       "registry_name": "eldoradium_gem_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldoradium_gem_ore.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradiumGemOreBlock.java",
-          "src/main/resources/assets/eldorado_core/models/item/eldoradium_gem_ore.json",
-          "src/main/resources/data/eldorado_core/forge/biome_modifier/eldoradium_gem_ore_biome_modifier.json",
-          "src/main/resources/data/eldorado_core/worldgen/placed_feature/eldoradium_gem_ore.json",
           "src/main/resources/data/eldorado_core/worldgen/configured_feature/eldoradium_gem_ore.json",
+          "src/main/resources/data/eldorado_core/forge/biome_modifier/eldoradium_gem_ore_biome_modifier.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldoradium_gem_ore.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldoradium_gem_ore.json"
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/eldoradium_gem_ore.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldoradium_gem_ore.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldoradium_gem_ore.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldoradium_gem_ore.json"
         ]
       },
       "path": "~/Resources/EdoradiumGem"
@@ -45,11 +45,11 @@
       "registry_name": "eldoradium_gem_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldoradium_gem_block.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldoradium_gem_block.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldoradium_gem_block.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldoradium_gem_block.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradiumGemBlockBlock.java",
-          "src/main/resources/assets/eldorado_core/blockstates/eldoradium_gem_block.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldoradium_gem_block.json"
+          "src/main/resources/assets/eldorado_core/models/block/eldoradium_gem_block.json"
         ]
       },
       "path": "~/Resources/EdoradiumGem"
@@ -106,14 +106,14 @@
       "registry_name": "eldoradium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldoradium_ore.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradiumOreBlock.java",
-          "src/main/resources/data/eldorado_core/forge/biome_modifier/eldoradium_ore_biome_modifier.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldoradium_ore.json",
           "src/main/resources/assets/eldorado_core/models/item/eldoradium_ore.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldoradium_ore.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldoradium_ore.json",
-          "src/main/resources/data/eldorado_core/worldgen/placed_feature/eldoradium_ore.json",
-          "src/main/resources/data/eldorado_core/worldgen/configured_feature/eldoradium_ore.json"
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradiumOreBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldoradium_ore.json",
+          "src/main/resources/data/eldorado_core/forge/biome_modifier/eldoradium_ore_biome_modifier.json",
+          "src/main/resources/data/eldorado_core/worldgen/configured_feature/eldoradium_ore.json",
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/eldoradium_ore.json"
         ]
       },
       "path": "~/Resources/EldoradiumOre"
@@ -127,11 +127,11 @@
       "registry_name": "eldoradium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/eldoradium_block.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldoradium_block.json",
           "src/main/resources/assets/eldorado_core/models/item/eldoradium_block.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradiumBlockBlock.java",
+          "src/main/resources/assets/eldorado_core/blockstates/eldoradium_block.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldoradium_block.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradiumBlockBlock.java"
+          "src/main/resources/assets/eldorado_core/models/block/eldoradium_block.json"
         ]
       },
       "path": "~/Resources/EldoradiumOre"
@@ -258,13 +258,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/eldorado_core/blockstates/obscurite_ore.json",
-          "src/main/java/net/mcreator/eldoradocore/block/ObscuriteOreBlock.java",
-          "src/main/resources/data/eldorado_core/forge/biome_modifier/obscurite_ore_biome_modifier.json",
+          "src/main/resources/assets/eldorado_core/models/item/obscurite_ore.json",
           "src/main/resources/data/eldorado_core/worldgen/placed_feature/obscurite_ore.json",
-          "src/main/resources/assets/eldorado_core/models/block/obscurite_ore.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/obscurite_ore.json",
           "src/main/resources/data/eldorado_core/worldgen/configured_feature/obscurite_ore.json",
-          "src/main/resources/assets/eldorado_core/models/item/obscurite_ore.json"
+          "src/main/resources/assets/eldorado_core/models/block/obscurite_ore.json",
+          "src/main/resources/data/eldorado_core/forge/biome_modifier/obscurite_ore_biome_modifier.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/obscurite_ore.json",
+          "src/main/java/net/mcreator/eldoradocore/block/ObscuriteOreBlock.java"
         ]
       },
       "path": "~/Resources/Obscurite"
@@ -278,10 +278,10 @@
       "registry_name": "obscurite_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/block/ObscuriteBlockBlock.java",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/obscurite_block.json",
           "src/main/resources/assets/eldorado_core/models/block/obscurite_block.json",
           "src/main/resources/assets/eldorado_core/blockstates/obscurite_block.json",
+          "src/main/java/net/mcreator/eldoradocore/block/ObscuriteBlockBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/obscurite_block.json",
           "src/main/resources/assets/eldorado_core/models/item/obscurite_block.json"
         ]
       },
@@ -338,8 +338,8 @@
       "registry_name": "obscurite_ore_chunk",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/ObscuriteOreChunkItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/obscurite_ore_chunk.json"
+          "src/main/resources/assets/eldorado_core/models/item/obscurite_ore_chunk.json",
+          "src/main/java/net/mcreator/eldoradocore/item/ObscuriteOreChunkItem.java"
         ]
       },
       "path": "~/Resources/Obscurite"
@@ -353,8 +353,8 @@
       "registry_name": "raw_obscurite",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/RawObscuriteItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/raw_obscurite.json"
+          "src/main/resources/assets/eldorado_core/models/item/raw_obscurite.json",
+          "src/main/java/net/mcreator/eldoradocore/item/RawObscuriteItem.java"
         ]
       },
       "path": "~/Resources/Obscurite"
@@ -397,14 +397,14 @@
       "registry_name": "unoctanium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/worldgen/placed_feature/unoctanium_ore.json",
-          "src/main/resources/assets/eldorado_core/models/item/unoctanium_ore.json",
-          "src/main/resources/assets/eldorado_core/blockstates/unoctanium_ore.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/unoctanium_ore.json",
-          "src/main/resources/assets/eldorado_core/models/block/unoctanium_ore.json",
           "src/main/resources/data/eldorado_core/forge/biome_modifier/unoctanium_ore_biome_modifier.json",
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/unoctanium_ore.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/unoctanium_ore.json",
+          "src/main/resources/assets/eldorado_core/models/item/unoctanium_ore.json",
+          "src/main/resources/data/eldorado_core/worldgen/configured_feature/unoctanium_ore.json",
+          "src/main/resources/assets/eldorado_core/blockstates/unoctanium_ore.json",
           "src/main/java/net/mcreator/eldoradocore/block/UnoctaniumOreBlock.java",
-          "src/main/resources/data/eldorado_core/worldgen/configured_feature/unoctanium_ore.json"
+          "src/main/resources/assets/eldorado_core/models/block/unoctanium_ore.json"
         ]
       },
       "path": "~/Resources/Unoctanium"
@@ -418,10 +418,10 @@
       "registry_name": "unoctanium_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/unoctanium_block.json",
-          "src/main/resources/assets/eldorado_core/models/item/unoctanium_block.json",
           "src/main/java/net/mcreator/eldoradocore/block/UnoctaniumBlockBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/unoctanium_block.json",
+          "src/main/resources/assets/eldorado_core/models/item/unoctanium_block.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/unoctanium_block.json",
           "src/main/resources/assets/eldorado_core/blockstates/unoctanium_block.json"
         ]
       },
@@ -493,8 +493,8 @@
       "registry_name": "unoctanium_ore_chunk",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/UnoctaniumOreChunkItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/unoctanium_ore_chunk.json"
+          "src/main/resources/assets/eldorado_core/models/item/unoctanium_ore_chunk.json",
+          "src/main/java/net/mcreator/eldoradocore/item/UnoctaniumOreChunkItem.java"
         ]
       },
       "path": "~/Resources/Unoctanium"
@@ -537,8 +537,8 @@
       "registry_name": "obscurite_dust",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/obscurite_dust.json",
-          "src/main/java/net/mcreator/eldoradocore/item/ObscuriteDustItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/ObscuriteDustItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/obscurite_dust.json"
         ]
       },
       "path": "~/Resources/Obscurite"
@@ -567,8 +567,8 @@
       "registry_name": "raw_verdorium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/RawVerdoriumItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/raw_verdorium.json"
+          "src/main/resources/assets/eldorado_core/models/item/raw_verdorium.json",
+          "src/main/java/net/mcreator/eldoradocore/item/RawVerdoriumItem.java"
         ]
       },
       "path": "~/Resources/Verdorium"
@@ -597,8 +597,8 @@
       "registry_name": "verdorium_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/VerdoriumIngotItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/verdorium_ingot.json"
+          "src/main/resources/assets/eldorado_core/models/item/verdorium_ingot.json",
+          "src/main/java/net/mcreator/eldoradocore/item/VerdoriumIngotItem.java"
         ]
       },
       "path": "~/Resources/Verdorium"
@@ -612,14 +612,14 @@
       "registry_name": "verdorium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/worldgen/configured_feature/verdorium_ore.json",
-          "src/main/resources/assets/eldorado_core/models/item/verdorium_ore.json",
           "src/main/java/net/mcreator/eldoradocore/block/VerdoriumOreBlock.java",
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/verdorium_ore.json",
+          "src/main/resources/assets/eldorado_core/models/block/verdorium_ore.json",
+          "src/main/resources/assets/eldorado_core/models/item/verdorium_ore.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/verdorium_ore.json",
           "src/main/resources/assets/eldorado_core/blockstates/verdorium_ore.json",
           "src/main/resources/data/eldorado_core/forge/biome_modifier/verdorium_ore_biome_modifier.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/verdorium_ore.json",
-          "src/main/resources/data/eldorado_core/worldgen/placed_feature/verdorium_ore.json",
-          "src/main/resources/assets/eldorado_core/models/block/verdorium_ore.json"
+          "src/main/resources/data/eldorado_core/worldgen/configured_feature/verdorium_ore.json"
         ]
       },
       "path": "~/Resources/Verdorium"
@@ -633,10 +633,10 @@
       "registry_name": "verdorium_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/block/VerdoriumBlockBlock.java",
-          "src/main/resources/assets/eldorado_core/models/item/verdorium_block.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/verdorium_block.json",
+          "src/main/resources/assets/eldorado_core/models/item/verdorium_block.json",
           "src/main/resources/assets/eldorado_core/blockstates/verdorium_block.json",
+          "src/main/java/net/mcreator/eldoradocore/block/VerdoriumBlockBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/verdorium_block.json"
         ]
       },
@@ -707,8 +707,8 @@
       "registry_name": "zultium_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/zultium_ingot.json",
-          "src/main/java/net/mcreator/eldoradocore/item/ZultiumIngotItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/ZultiumIngotItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/zultium_ingot.json"
         ]
       },
       "path": "~/Resources/Zultium"
@@ -723,13 +723,13 @@
       "metadata": {
         "files": [
           "src/main/resources/data/eldorado_core/forge/biome_modifier/zultium_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/eldoradocore/block/ZultiumOreBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/zultium_ore.json",
-          "src/main/resources/data/eldorado_core/worldgen/placed_feature/zultium_ore.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/zultium_ore.json",
           "src/main/resources/assets/eldorado_core/models/item/zultium_ore.json",
+          "src/main/java/net/mcreator/eldoradocore/block/ZultiumOreBlock.java",
+          "src/main/resources/assets/eldorado_core/blockstates/zultium_ore.json",
           "src/main/resources/data/eldorado_core/worldgen/configured_feature/zultium_ore.json",
-          "src/main/resources/assets/eldorado_core/blockstates/zultium_ore.json"
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/zultium_ore.json"
         ]
       },
       "path": "~/Resources/Zultium"
@@ -743,11 +743,11 @@
       "registry_name": "zultium_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/eldorado_core/models/block/zultium_block.json",
           "src/main/java/net/mcreator/eldoradocore/block/ZultiumBlockBlock.java",
-          "src/main/resources/assets/eldorado_core/models/item/zultium_block.json",
-          "src/main/resources/assets/eldorado_core/blockstates/zultium_block.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/zultium_block.json",
-          "src/main/resources/assets/eldorado_core/models/block/zultium_block.json"
+          "src/main/resources/assets/eldorado_core/models/item/zultium_block.json",
+          "src/main/resources/assets/eldorado_core/blockstates/zultium_block.json"
         ]
       },
       "path": "~/Resources/Zultium"
@@ -803,8 +803,8 @@
       "registry_name": "zultium_ore_chunk",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/zultium_ore_chunk.json",
-          "src/main/java/net/mcreator/eldoradocore/item/ZultiumOreChunkItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/ZultiumOreChunkItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/zultium_ore_chunk.json"
         ]
       },
       "path": "~/Resources/Zultium"
@@ -862,8 +862,8 @@
       "registry_name": "obscutanium_alpha_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumAlphaIngotItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/obscutanium_alpha_ingot.json"
+          "src/main/resources/assets/eldorado_core/models/item/obscutanium_alpha_ingot.json",
+          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumAlphaIngotItem.java"
         ]
       },
       "path": "~/Resources/Ingots/Obscutanium"
@@ -907,8 +907,8 @@
       "registry_name": "obscutanium_ember_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/obscutanium_ember_ingot.json",
-          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumEmberIngotItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumEmberIngotItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/obscutanium_ember_ingot.json"
         ]
       },
       "path": "~/Resources/Ingots/Obscutanium"
@@ -922,8 +922,8 @@
       "registry_name": "obscutanium_flux_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/obscutanium_flux_ingot.json",
-          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumFluxIngotItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumFluxIngotItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/obscutanium_flux_ingot.json"
         ]
       },
       "path": "~/Resources/Ingots/Obscutanium"
@@ -937,8 +937,8 @@
       "registry_name": "obscutanium_havoc_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumHavocIngotItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/obscutanium_havoc_ingot.json"
+          "src/main/resources/assets/eldorado_core/models/item/obscutanium_havoc_ingot.json",
+          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumHavocIngotItem.java"
         ]
       },
       "path": "~/Resources/Ingots/Obscutanium"
@@ -982,26 +982,11 @@
       "registry_name": "ultomathium_bar",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/UltomathiumBarItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/ultomathium_bar.json"
+          "src/main/resources/assets/eldorado_core/models/item/ultomathium_bar.json",
+          "src/main/java/net/mcreator/eldoradocore/item/UltomathiumBarItem.java"
         ]
       },
       "path": "~/Resources/Bars"
-    },
-    {
-      "name": "Veldordium",
-      "type": "item",
-      "sortid": 83,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "veldordium",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/VeldordiumItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/veldordium.json"
-        ]
-      },
-      "path": "~/Resources/Ingots"
     },
     {
       "name": "EldoradoSandStone",
@@ -1012,11 +997,11 @@
       "registry_name": "eldorado_sand_stone",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sand_stone.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sand_stone.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandStoneBlock.java",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sand_stone.json"
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sand_stone.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sand_stone.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sand_stone.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -1030,11 +1015,11 @@
       "registry_name": "eldorado_sand",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_sand.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sand.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sand.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandBlock.java",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sand.json"
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sand.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -1079,14 +1064,14 @@
       "registry_name": "abyssalium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/abyssalium_ore.json",
-          "src/main/resources/data/eldorado_core/forge/biome_modifier/abyssalium_ore_biome_modifier.json",
-          "src/main/resources/assets/eldorado_core/models/block/abyssalium_ore.json",
           "src/main/resources/data/eldorado_core/worldgen/configured_feature/abyssalium_ore.json",
-          "src/main/java/net/mcreator/eldoradocore/block/AbyssaliumOreBlock.java",
           "src/main/resources/assets/eldorado_core/models/item/abyssalium_ore.json",
-          "src/main/resources/data/eldorado_core/worldgen/placed_feature/abyssalium_ore.json",
-          "src/main/resources/assets/eldorado_core/blockstates/abyssalium_ore.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/abyssalium_ore.json",
+          "src/main/resources/assets/eldorado_core/models/block/abyssalium_ore.json",
+          "src/main/resources/data/eldorado_core/forge/biome_modifier/abyssalium_ore_biome_modifier.json",
+          "src/main/resources/assets/eldorado_core/blockstates/abyssalium_ore.json",
+          "src/main/java/net/mcreator/eldoradocore/block/AbyssaliumOreBlock.java",
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/abyssalium_ore.json"
         ]
       },
       "path": "~/Resources/Abyssalium"
@@ -1100,11 +1085,11 @@
       "registry_name": "abyssalium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/abyssalium_block.json",
-          "src/main/resources/assets/eldorado_core/models/block/abyssalium_block.json",
           "src/main/resources/assets/eldorado_core/models/item/abyssalium_block.json",
+          "src/main/resources/assets/eldorado_core/blockstates/abyssalium_block.json",
+          "src/main/java/net/mcreator/eldoradocore/block/AbyssaliumBlockBlock.java",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/abyssalium_block.json",
-          "src/main/java/net/mcreator/eldoradocore/block/AbyssaliumBlockBlock.java"
+          "src/main/resources/assets/eldorado_core/models/block/abyssalium_block.json"
         ]
       },
       "path": "~/Resources/Abyssalium"
@@ -1190,14 +1175,14 @@
       "registry_name": "pure_unoctanium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/worldgen/configured_feature/pure_unoctanium_ore.json",
-          "src/main/resources/assets/eldorado_core/blockstates/pure_unoctanium_ore.json",
-          "src/main/resources/data/eldorado_core/forge/biome_modifier/pure_unoctanium_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/eldoradocore/block/PureUnoctaniumOreBlock.java",
           "src/main/resources/data/eldorado_core/worldgen/placed_feature/pure_unoctanium_ore.json",
+          "src/main/resources/assets/eldorado_core/blockstates/pure_unoctanium_ore.json",
+          "src/main/java/net/mcreator/eldoradocore/block/PureUnoctaniumOreBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/pure_unoctanium_ore.json",
+          "src/main/resources/data/eldorado_core/worldgen/configured_feature/pure_unoctanium_ore.json",
+          "src/main/resources/data/eldorado_core/forge/biome_modifier/pure_unoctanium_ore_biome_modifier.json",
           "src/main/resources/assets/eldorado_core/models/block/pure_unoctanium_ore.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/pure_unoctanium_ore.json",
-          "src/main/resources/assets/eldorado_core/models/item/pure_unoctanium_ore.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/pure_unoctanium_ore.json"
         ]
       },
       "path": "~/Resources/PureUnoctanium"
@@ -1211,11 +1196,11 @@
       "registry_name": "pure_unoctanium_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/eldorado_core/blockstates/pure_unoctanium_block.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/pure_unoctanium_block.json",
-          "src/main/resources/assets/eldorado_core/models/item/pure_unoctanium_block.json",
-          "src/main/resources/assets/eldorado_core/models/block/pure_unoctanium_block.json",
           "src/main/java/net/mcreator/eldoradocore/block/PureUnoctaniumBlockBlock.java",
-          "src/main/resources/assets/eldorado_core/blockstates/pure_unoctanium_block.json"
+          "src/main/resources/assets/eldorado_core/models/item/pure_unoctanium_block.json",
+          "src/main/resources/assets/eldorado_core/models/block/pure_unoctanium_block.json"
         ]
       },
       "path": "~/Resources/PureUnoctanium"
@@ -1271,8 +1256,8 @@
       "registry_name": "raw_pure_unoctanium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/RawPureUnoctaniumItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/raw_pure_unoctanium.json"
+          "src/main/resources/assets/eldorado_core/models/item/raw_pure_unoctanium.json",
+          "src/main/java/net/mcreator/eldoradocore/item/RawPureUnoctaniumItem.java"
         ]
       },
       "path": "~/Resources/PureUnoctanium"
@@ -1301,8 +1286,8 @@
       "registry_name": "pure_unoctanium_dust",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/PureUnoctaniumDustItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/pure_unoctanium_dust.json"
+          "src/main/resources/assets/eldorado_core/models/item/pure_unoctanium_dust.json",
+          "src/main/java/net/mcreator/eldoradocore/item/PureUnoctaniumDustItem.java"
         ]
       },
       "path": "~/Resources/PureUnoctanium"
@@ -1346,13 +1331,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/eldorado_core/models/item/kyburn_ore.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/kyburn_ore.json",
+          "src/main/resources/data/eldorado_core/forge/biome_modifier/kyburn_ore_biome_modifier.json",
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/kyburn_ore.json",
+          "src/main/resources/assets/eldorado_core/blockstates/kyburn_ore.json",
           "src/main/resources/assets/eldorado_core/models/block/kyburn_ore.json",
           "src/main/java/net/mcreator/eldoradocore/block/KyburnOreBlock.java",
-          "src/main/resources/data/eldorado_core/worldgen/placed_feature/kyburn_ore.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/kyburn_ore.json",
-          "src/main/resources/data/eldorado_core/worldgen/configured_feature/kyburn_ore.json",
-          "src/main/resources/assets/eldorado_core/blockstates/kyburn_ore.json",
-          "src/main/resources/data/eldorado_core/forge/biome_modifier/kyburn_ore_biome_modifier.json"
+          "src/main/resources/data/eldorado_core/worldgen/configured_feature/kyburn_ore.json"
         ]
       },
       "path": "~/Resources/Kyburn"
@@ -1366,9 +1351,9 @@
       "registry_name": "kyburn_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/eldorado_core/blockstates/kyburn_block.json",
           "src/main/java/net/mcreator/eldoradocore/block/KyburnBlockBlock.java",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/kyburn_block.json",
-          "src/main/resources/assets/eldorado_core/blockstates/kyburn_block.json",
           "src/main/resources/assets/eldorado_core/models/block/kyburn_block.json",
           "src/main/resources/assets/eldorado_core/models/item/kyburn_block.json"
         ]
@@ -1441,8 +1426,8 @@
       "registry_name": "kyburn_ore_chunk",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/kyburn_ore_chunk.json",
-          "src/main/java/net/mcreator/eldoradocore/item/KyburnOreChunkItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/KyburnOreChunkItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/kyburn_ore_chunk.json"
         ]
       },
       "path": "~/Resources/Kyburn"
@@ -1470,11 +1455,11 @@
       "registry_name": "eldorado_stone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneBlock.java",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_stone.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone.json"
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneBlock.java"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -1489,10 +1474,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateBlock.java",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -1506,11 +1491,11 @@
       "registry_name": "eldorado_sandstone_refined",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_refined.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_refined.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_refined.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneRefinedBlock.java"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_refined.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneRefinedBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_refined.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_refined.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -1539,11 +1524,11 @@
       "registry_name": "eldorado_cobblestone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_cobblestone.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_cobblestone.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_cobblestone.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoCobblestoneBlock.java"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_cobblestone.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoCobblestoneBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_cobblestone.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -2015,6 +2000,57 @@
         ]
       },
       "path": "~/Tools/VibrantUnoctanium"
+    },
+    {
+      "name": "EldoradoDust",
+      "type": "block",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_dust.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_dust.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_dust.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoDustBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_dust.json"
+        ]
+      },
+      "path": "~/Resources/Blocks"
+    },
+    {
+      "name": "EldoradoGravel",
+      "type": "block",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_gravel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_gravel.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_gravel.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoGravelBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_gravel.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_gravel.json"
+        ]
+      },
+      "path": "~/Resources/Blocks"
+    },
+    {
+      "name": "VeldordiumIngot",
+      "type": "item",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "veldordium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/item/veldordium_ingot.json",
+          "src/main/java/net/mcreator/eldoradocore/item/VeldordiumIngotItem.java"
+        ]
+      },
+      "path": "~/Resources/Ingots"
     }
   ],
   "variable_elements": [],
@@ -2140,32 +2176,33 @@
       "item.eldorado_core.vibrant_unoctanium_hoe": "Vibrant Unoctanium Hoe",
       "block.eldorado_core.eldorado_stone": "Eldorado Stone",
       "block.eldorado_core.eldorado_sand_stone": "Eldorado Sand Stone",
-      "item.eldorado_core.obscurite_hoe": "Obscurite Hoe",
       "item.eldorado_core.obscutanium_havoc_shovel": "Obscutanium Havoc Shovel",
+      "item.eldorado_core.obscurite_hoe": "Obscurite Hoe",
       "item.eldorado_core.eldonium_ingot": "Eldonium Ingot",
-      "item.eldorado_core.obscutanium_shovel": "Obscutanium Shovel",
       "item.eldorado_core.obscutanium_havoc_ingot": "Obscutanium Havoc Ingot",
+      "item.eldorado_core.obscutanium_shovel": "Obscutanium Shovel",
       "block.eldorado_core.eldoradium_ore": "Eldoradium Ore",
       "item.eldorado_core.obscutanium_axe": "Obscutanium Axe",
       "item.eldorado_core.vibrant_unoctanium_shovel": "Vibrant Unoctanium Shovel",
-      "block.eldorado_core.eldoradium_gem_ore": "EldoradiumGem Ore",
+      "block.eldorado_core.eldoradium_gem_ore": "Eldoradium Gem Ore",
       "item.eldorado_core.zultium_ore_chunk": "Zultium Ore Chunk",
       "block.eldorado_core.verdorium_block": "Block of Verdorium",
       "biome.eldorado_core.el_dorado": "El Dorado",
-      "block.eldorado_core.pure_unoctanium_block": "Block of PureUnoctanium",
-      "item.eldorado_core.kyburn_ingot": "Kyburn",
+      "block.eldorado_core.pure_unoctanium_block": "Block of Pure Unoctanium",
+      "item.eldorado_core.kyburn_ingot": "Kyburn Ingot",
       "item.eldorado_core.obscutanium_havoc_hoe": "Obscutanium Havoc Hoe",
+      "item.eldorado_core.veldordium_ingot": "Veldordium Ingot",
       "item.eldorado_core.obscutanium_ember_ingot": "Obscutanium Ember Ingot",
       "item.eldorado_core.obscurite_dust": "Obscurite Dust",
-      "item.eldorado_core.obscutanium_alpha_ingot": "Obscutanium Alpha Ingot",
       "block.eldorado_core.eldorado_deepslate_cobblestone": "Eldorado Deepslate Cobblestone",
+      "item.eldorado_core.obscutanium_alpha_ingot": "Obscutanium Alpha Ingot",
       "item.eldorado_core.raw_eldoradium": "Raw Eldoradium",
       "item.eldorado_core.obscutanium_flux_ingot": "Obscutanium Flux Ingot",
       "item.eldorado_core.obscurite_ore_chunk": "Obscurite Ore Chunk",
-      "item.eldorado_core.obscurite_sword": "Obscurite Sword",
       "item.eldorado_core.obscutanium_havoc_sword": "Obscutanium Havoc Sword",
+      "item.eldorado_core.obscurite_sword": "Obscurite Sword",
       "item.eldorado_core.obscutanium_hoe": "Obscutanium Hoe",
-      "item.eldorado_core.abyssalium_ingot": "Abyssalium",
+      "item.eldorado_core.abyssalium_ingot": "Abyssalium Ingot",
       "item.eldorado_core.kyburn_ore_chunk": "Kyburn Ore Chunk",
       "block.eldorado_core.kyburn_block": "Block of Kyburn",
       "item.eldorado_core.abyssalium_shovel": "Abyssalium Shovel",
@@ -2173,14 +2210,15 @@
       "item.eldorado_core.pure_unoctanium_ingot": "Pure Unoctanium Ingot",
       "item.eldorado_core.pure_unoctanium_dust": "Pure Unoctanium Dust",
       "item.eldorado_core.eldorado_hoe": "Eldorado Hoe",
+      "block.eldorado_core.eldorado_gravel": "Eldorado Gravel",
       "item.eldorado_core.eldoradium_ore_chunk": "Eldoradium Ore Chunk",
-      "item.eldorado_core.obscurite_ingot": "Obscurite",
+      "item.eldorado_core.obscurite_ingot": "Obscurite Ingot",
       "block.eldorado_core.kyburn_ore": "Kyburn Ore",
       "item.eldorado_core.raw_kyburn": "Raw Kyburn",
       "block.eldorado_core.unoctanium_ore": "Unoctanium Ore",
       "item.eldorado_core.obscutanium_sword": "Obscutanium Sword",
       "item.eldorado_core.abyssalium_pickaxe": "Abyssalium Pickaxe",
-      "item.eldorado_core.eldoradium_gem": "EldoradiumGem",
+      "item.eldorado_core.eldoradium_gem": "Eldoradium Gem",
       "item.eldorado_core.obscutanium_havoc_axe": "Obscutanium Havoc Axe",
       "item.eldorado_core.pure_unoctanium_ore_chunk": "Pure Unoctanium Ore Chunk",
       "block.eldorado_core.verdorium_ore": "Verdorium Ore",
@@ -2190,7 +2228,7 @@
       "item.eldorado_core.obscutanium_havoc_pickaxe": "Obscutanium Havoc Pickaxe",
       "block.eldorado_core.abyssalium_ore": "Abyssalium Ore",
       "item.eldorado_core.verdorium_ore_chunk": "Verdorium Ore Chunk",
-      "item.eldorado_core.unoctanium_ingot": "Unoctanium",
+      "item.eldorado_core.unoctanium_ingot": "Unoctanium Ingot",
       "item.eldorado_core.obscutanium_basilisk_ingot": "Obscutanium Basilisk Ingot",
       "item.eldorado_core.obscurite_shovel": "Obscurite Shovel",
       "item.eldorado_core.eldorado_sword": "Eldorado Sword",
@@ -2212,21 +2250,21 @@
       "item.eldorado_core.vibranium_ingot": "Vibranium Ingot",
       "item.eldorado_core.vibrant_unoctanium_sword": "Vibrant Unoctanium Sword",
       "block.eldorado_core.obscurite_block": "Block of Obscurite",
-      "item.eldorado_core.eldoradium_ingot": "Eldoradium",
-      "item.eldorado_core.verdorium_ingot": "Verdorium",
+      "item.eldorado_core.eldoradium_ingot": "Eldoradium Ingot",
+      "item.eldorado_core.verdorium_ingot": "Verdorium Ingot",
       "block.eldorado_core.eldorado_cobblestone": "Eldorado Cobblestone",
       "item.eldorado_core.unoctanium_ore_chunk": "Unoctanium Ore Chunk",
       "item.eldorado_core.obscurite_axe": "Obscurite Axe",
       "block.eldorado_core.zultium_ore": "Zultium Ore",
-      "block.eldorado_core.pure_unoctanium_ore": "PureUnoctanium Ore",
+      "block.eldorado_core.pure_unoctanium_ore": "Pure Unoctanium Ore",
       "block.eldorado_core.unoctanium_block": "Block of Unoctanium",
       "item.eldorado_core.raw_pure_unoctanium": "Raw Pure Unoctanium",
       "item.eldorado_core.eldorado_pickaxe": "Eldorado Pickaxe",
       "item.eldorado_core.raw_abyssalium": "Raw Abyssalium",
-      "item.eldorado_core.veldordium": "Veldordium",
+      "block.eldorado_core.eldorado_dust": "Eldorado Dust",
       "block.eldorado_core.abyssalium_block": "Block of Abyssalium",
       "item.eldorado_core.abyssalium_sword": "Abyssalium Sword",
-      "item.eldorado_core.zultium_ingot": "Zultium",
+      "item.eldorado_core.zultium_ingot": "Zultium Ingot",
       "block.eldorado_core.zultium_block": "Block of Zultium",
       "block.eldorado_core.eldorado_sandstone_refined": "Eldorado Sandstone Refined",
       "item.eldorado_core.raw_obscurite": "Raw Obscurite",
