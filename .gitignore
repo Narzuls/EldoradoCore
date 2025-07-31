@@ -57,6 +57,16 @@ classes/
 eldorado_core/out/
 eldorado_core/classes/
 
+# Language files (personal preferences)
+eldorado_core/src/main/resources/assets/*/lang/en_us.json
+*.java
+
+# MCreator workspace file (can cause conflicts)
+eldorado_core/eldorado_core.mcreator
+
+# All backup files
+eldorado_core/.mcreator/workspaceBackups/
+
 # Keep these important files
 !.gitignore
 !eldorado_core/*.mcreator
@@ -69,3 +79,6 @@ eldorado_core/classes/
 !eldorado_core/structures/
 !LICENSE
 !README.md
+eldorado_core/eldorado_core.mcreator
+
+*.mcreator

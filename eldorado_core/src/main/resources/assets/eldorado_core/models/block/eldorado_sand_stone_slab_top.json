@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "eldorado_core:block/eldorado_sandstone",
+    "top": "eldorado_core:block/eldorado_sandstone",
+    "side": "eldorado_core:block/eldorado_sandstone"
+  },
+  "render_type": "solid"
+}

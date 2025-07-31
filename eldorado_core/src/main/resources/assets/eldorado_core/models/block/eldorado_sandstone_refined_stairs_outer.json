@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "eldorado_core:block/eldorado_sandstone_fancy",
+    "top": "eldorado_core:block/eldorado_sandstone_fancy",
+    "side": "eldorado_core:block/eldorado_sandstone_fancy"
+  },
+  "render_type": "solid"
+}

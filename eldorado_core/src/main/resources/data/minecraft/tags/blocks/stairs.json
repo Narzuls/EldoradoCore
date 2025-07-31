@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "eldorado_core:eldorado_sandstone_refined_stairs",
+    "eldorado_core:eldorado_deepslate_cobble_stairs",
+    "eldorado_core:eldorado_deepslate_stairs",
+    "eldorado_core:eldorado_stone_stairs",
+    "eldorado_core:eldorado_sandstone_stairs",
+    "eldorado_core:eldorado_cobblestone_stairs"
+  ]
+}

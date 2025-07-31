@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "eldorado_core:eldorado_deepslate_cobble_wall",
+    "eldorado_core:eldorado_cobblestone_wall",
+    "eldorado_core:eldorado_sandstone_refined_wall",
+    "eldorado_core:eldorado_deepslate_wall",
+    "eldorado_core:eldorado_stone_wall",
+    "eldorado_core:eldorado_sand_stone_wall"
+  ]
+}

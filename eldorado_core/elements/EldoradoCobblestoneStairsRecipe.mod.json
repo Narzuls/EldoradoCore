@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EldoradoCobblestone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EldoradoCobblestone"
+      },
+      {
+        "value": "CUSTOM:EldoradoCobblestone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EldoradoCobblestone"
+      },
+      {
+        "value": "CUSTOM:EldoradoCobblestone"
+      },
+      {
+        "value": "CUSTOM:EldoradoCobblestone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EldoradoCobblestoneStairs"
+    },
+    "name": "eldorado_cobblestone_stairs_recipe",
+    "namespace": "mod"
+  }
+}

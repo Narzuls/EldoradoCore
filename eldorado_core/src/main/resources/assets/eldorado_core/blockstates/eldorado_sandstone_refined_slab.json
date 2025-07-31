@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "eldorado_core:block/eldorado_sandstone_refined_slab"
+    },
+    "type=top": {
+      "model": "eldorado_core:block/eldorado_sandstone_refined_slab_top"
+    },
+    "type=double": {
+      "model": "eldorado_core:block/eldorado_sandstone_refined_slab_full"
+    }
+  }
+}
