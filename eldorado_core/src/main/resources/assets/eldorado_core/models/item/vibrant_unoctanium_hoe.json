@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "eldorado_core:custom/vibrant_unoctanium_hoe",
   "textures": {
-    "layer0": "eldorado_core:item/vibrant_unoctanium_hoe"
+    "2": "eldorado_core:block/vibrant_unoctanium_hoe",
+    "particle": "eldorado_core:item/vibrant_unoctanium_hoe"
   }
 }

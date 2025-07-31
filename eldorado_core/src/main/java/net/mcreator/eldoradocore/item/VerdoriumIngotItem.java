@@ -6,6 +6,6 @@ import net.minecraft.world.item.Item;
 
 public class VerdoriumIngotItem extends Item {
 	public VerdoriumIngotItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.EPIC));
 	}
 }

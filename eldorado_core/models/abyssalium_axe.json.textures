@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "abyssalium_axe"
+      },
+      "name": "default"
+    }
+  }
+}

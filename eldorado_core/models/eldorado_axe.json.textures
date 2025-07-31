@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "eldorado_axe"
+      },
+      "name": "default"
+    }
+  }
+}

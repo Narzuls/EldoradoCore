@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "vibrant_unoctanium_axe"
+      },
+      "name": "default"
+    }
+  }
+}

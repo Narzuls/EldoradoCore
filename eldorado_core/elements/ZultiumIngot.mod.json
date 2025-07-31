@@ -7,10 +7,10 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Zultium",
-    "rarity": "COMMON",
+    "name": "Zultium Ingot",
+    "rarity": "EPIC",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:EldoradoCore"
     },
     "stackSize": 64,
     "enchantability": 0,

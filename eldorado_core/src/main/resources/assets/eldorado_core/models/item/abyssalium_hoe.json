@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "eldorado_core:custom/abyssalium_hoe",
   "textures": {
-    "layer0": "eldorado_core:item/abyssalium_hoe"
+    "0": "eldorado_core:block/abyssalium_hoe",
+    "particle": "eldorado_core:item/abyssalium_hoe"
   }
 }

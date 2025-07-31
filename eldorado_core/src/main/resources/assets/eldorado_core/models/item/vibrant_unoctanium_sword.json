@@ -1,7 +1,7 @@
 {
-  "parent": "eldorado_core:custom/vibrantunoctanium",
+  "parent": "eldorado_core:custom/vibrant_unoctanium_sword",
   "textures": {
-    "0": "eldorado_core:block/",
+    "2": "eldorado_core:block/vibrant_unoctanium_sword",
     "particle": "eldorado_core:item/vibrant_unoctanium_sword"
   }
 }

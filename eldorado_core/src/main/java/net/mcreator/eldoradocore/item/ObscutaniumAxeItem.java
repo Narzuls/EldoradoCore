@@ -3,8 +3,6 @@ package net.mcreator.eldoradocore.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.AxeItem;
 
@@ -12,27 +10,27 @@ public class ObscutaniumAxeItem extends AxeItem {
 	public ObscutaniumAxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 100;
 			}
 
 			public float getSpeed() {
-				return 6f;
+				return 4f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 7f;
+				return 2f;
 			}
 
 			public int getLevel() {
-				return 2;
+				return 1;
 			}
 
 			public int getEnchantmentValue() {
-				return 14;
+				return 2;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Items.NETHERITE_PICKAXE));
+				return Ingredient.of();
 			}
 		}, 1, -3f, new Item.Properties());
 	}

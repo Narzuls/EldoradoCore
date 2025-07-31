@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "eldorado_core:custom/obscurite_hoe",
   "textures": {
-    "layer0": "eldorado_core:item/obscurite_hoe"
+    "1": "eldorado_core:block/obscurite_hoe",
+    "particle": "eldorado_core:item/obscurite_hoe"
   }
 }

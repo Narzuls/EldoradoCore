@@ -1,0 +1,7 @@
+{
+  "parent": "eldorado_core:custom/eldorado_hoe",
+  "textures": {
+    "2": "eldorado_core:block/eldorado_hoe",
+    "particle": "eldorado_core:item/eldorado_hoe"
+  }
+}

@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "eldorado_core:custom/obscurite_shovel",
   "textures": {
-    "layer0": "eldorado_core:item/obscurite_shovel"
+    "1": "eldorado_core:block/obscurite_shovel",
+    "particle": "eldorado_core:item/obscurite_shovel"
   }
 }

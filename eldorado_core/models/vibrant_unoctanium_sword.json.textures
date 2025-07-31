@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "vibrant_unoctanium_sword"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "eldorado_core:custom/vibrant_unoctanium_shovel",
   "textures": {
-    "layer0": "eldorado_core:item/vibrant_unoctanium_shovel"
+    "2": "eldorado_core:block/vibrant_unoctanium_shovel",
+    "particle": "eldorado_core:item/vibrant_unoctanium_shovel"
   }
 }

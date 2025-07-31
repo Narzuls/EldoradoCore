@@ -1,0 +1,7 @@
+{
+  "parent": "eldorado_core:custom/obscutanium_havoc_axe",
+  "textures": {
+    "0": "eldorado_core:block/obscutanium_havoc_axe",
+    "particle": "eldorado_core:item/obscutanium_havoc_axe"
+  }
+}

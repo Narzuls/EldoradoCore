@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "eldorado_core:custom/abyssalium_pickaxe",
   "textures": {
-    "layer0": "eldorado_core:item/abyssalium_pickaxe"
+    "1": "eldorado_core:block/abyssalium_pickaxe",
+    "particle": "eldorado_core:item/abyssalium_pickaxe"
   }
 }

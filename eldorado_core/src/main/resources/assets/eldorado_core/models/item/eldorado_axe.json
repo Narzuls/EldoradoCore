@@ -1,0 +1,7 @@
+{
+  "parent": "eldorado_core:custom/eldorado_axe",
+  "textures": {
+    "0": "eldorado_core:block/eldorado_axe",
+    "particle": "eldorado_core:item/eldorado_axe"
+  }
+}

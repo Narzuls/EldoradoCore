@@ -6,6 +6,6 @@ import net.minecraft.world.item.Item;
 
 public class KyburnIngotItem extends Item {
 	public KyburnIngotItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.EPIC));
 	}
 }

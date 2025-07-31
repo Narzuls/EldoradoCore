@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "eldorado_core:custom/obscurite_axe",
   "textures": {
-    "layer0": "eldorado_core:item/obscurite_axe"
+    "0": "eldorado_core:block/obscurite_axe",
+    "particle": "eldorado_core:item/obscurite_axe"
   }
 }

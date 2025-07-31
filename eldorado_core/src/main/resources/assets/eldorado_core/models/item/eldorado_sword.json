@@ -1,0 +1,7 @@
+{
+  "parent": "eldorado_core:custom/eldorado_sword",
+  "textures": {
+    "2": "eldorado_core:block/eldorado_sword",
+    "particle": "eldorado_core:item/eldorado_sword"
+  }
+}
