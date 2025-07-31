@@ -80,3 +80,5 @@ eldorado_core/.mcreator/workspaceBackups/
 !LICENSE
 !README.md
 eldorado_core/eldorado_core.mcreator
+
+*.mcreator
