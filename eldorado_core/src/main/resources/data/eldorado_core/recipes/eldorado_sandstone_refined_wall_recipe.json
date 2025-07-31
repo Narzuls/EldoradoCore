@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "eldorado_core:eldorado_sandstone_refined"
+    }
+  },
+  "result": {
+    "item": "eldorado_core:eldorado_sandstone_refined_wall",
+    "count": 6
+  }
+}

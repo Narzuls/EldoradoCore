@@ -115,5 +115,24 @@ public class EldoradoCoreModTabs {
 				tabData.accept(EldoradoCoreModBlocks.ELDORADO_DUST.get().asItem());
 				tabData.accept(EldoradoCoreModBlocks.ELDORADO_GRAVEL.get().asItem());
 				tabData.accept(EldoradoCoreModItems.VELDORDIUM_INGOT.get());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_COBBLESTONE_STAIRS.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SANDSTONE_STAIRS.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_STONE_STAIRS.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_STAIRS.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_COBBLE_STAIRS.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SANDSTONE_REFINED_STAIRS.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SAND_STONE_SLAB.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_STONE_SLAB.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SANDSTONE_REFINED_SLAB.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_COBBLESTONE_SLAB.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_COBBLE_SLAB.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_SLAB.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SAND_STONE_WALL.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_STONE_WALL.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_WALL.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SANDSTONE_REFINED_WALL.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_COBBLESTONE_WALL.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_COBBLE_WALL.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SAND_STONE_BUTTON.get().asItem());
 			}).withSearchBar().build());
 }

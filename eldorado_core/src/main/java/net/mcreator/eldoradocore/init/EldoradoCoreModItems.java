@@ -183,6 +183,25 @@ public class EldoradoCoreModItems {
 	public static final RegistryObject<Item> ELDORADO_DUST = block(EldoradoCoreModBlocks.ELDORADO_DUST);
 	public static final RegistryObject<Item> ELDORADO_GRAVEL = block(EldoradoCoreModBlocks.ELDORADO_GRAVEL);
 	public static final RegistryObject<Item> VELDORDIUM_INGOT = REGISTRY.register("veldordium_ingot", () -> new VeldordiumIngotItem());
+	public static final RegistryObject<Item> ELDORADO_COBBLESTONE_STAIRS = block(EldoradoCoreModBlocks.ELDORADO_COBBLESTONE_STAIRS);
+	public static final RegistryObject<Item> ELDORADO_SANDSTONE_STAIRS = block(EldoradoCoreModBlocks.ELDORADO_SANDSTONE_STAIRS);
+	public static final RegistryObject<Item> ELDORADO_STONE_STAIRS = block(EldoradoCoreModBlocks.ELDORADO_STONE_STAIRS);
+	public static final RegistryObject<Item> ELDORADO_DEEPSLATE_STAIRS = block(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_STAIRS);
+	public static final RegistryObject<Item> ELDORADO_DEEPSLATE_COBBLE_STAIRS = block(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_COBBLE_STAIRS);
+	public static final RegistryObject<Item> ELDORADO_SANDSTONE_REFINED_STAIRS = block(EldoradoCoreModBlocks.ELDORADO_SANDSTONE_REFINED_STAIRS);
+	public static final RegistryObject<Item> ELDORADO_SAND_STONE_SLAB = block(EldoradoCoreModBlocks.ELDORADO_SAND_STONE_SLAB);
+	public static final RegistryObject<Item> ELDORADO_STONE_SLAB = block(EldoradoCoreModBlocks.ELDORADO_STONE_SLAB);
+	public static final RegistryObject<Item> ELDORADO_SANDSTONE_REFINED_SLAB = block(EldoradoCoreModBlocks.ELDORADO_SANDSTONE_REFINED_SLAB);
+	public static final RegistryObject<Item> ELDORADO_COBBLESTONE_SLAB = block(EldoradoCoreModBlocks.ELDORADO_COBBLESTONE_SLAB);
+	public static final RegistryObject<Item> ELDORADO_DEEPSLATE_COBBLE_SLAB = block(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_COBBLE_SLAB);
+	public static final RegistryObject<Item> ELDORADO_DEEPSLATE_SLAB = block(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_SLAB);
+	public static final RegistryObject<Item> ELDORADO_SAND_STONE_WALL = block(EldoradoCoreModBlocks.ELDORADO_SAND_STONE_WALL);
+	public static final RegistryObject<Item> ELDORADO_STONE_WALL = block(EldoradoCoreModBlocks.ELDORADO_STONE_WALL);
+	public static final RegistryObject<Item> ELDORADO_DEEPSLATE_WALL = block(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_WALL);
+	public static final RegistryObject<Item> ELDORADO_SANDSTONE_REFINED_WALL = block(EldoradoCoreModBlocks.ELDORADO_SANDSTONE_REFINED_WALL);
+	public static final RegistryObject<Item> ELDORADO_COBBLESTONE_WALL = block(EldoradoCoreModBlocks.ELDORADO_COBBLESTONE_WALL);
+	public static final RegistryObject<Item> ELDORADO_DEEPSLATE_COBBLE_WALL = block(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_COBBLE_WALL);
+	public static final RegistryObject<Item> ELDORADO_SAND_STONE_BUTTON = block(EldoradoCoreModBlocks.ELDORADO_SAND_STONE_BUTTON);
 
 	// Start of user code block custom items
 	// End of user code block custom items

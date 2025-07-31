@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "eldorado_core:block/eldorado_stone",
+    "particle": "eldorado_core:block/eldorado_stone"
+  },
+  "render_type": "solid"
+}
