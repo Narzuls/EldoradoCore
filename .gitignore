@@ -57,9 +57,6 @@ classes/
 eldorado_core/out/
 eldorado_core/classes/
 
-*.java
-
-
 # All backup files
 eldorado_core/.mcreator/workspaceBackups/
 
@@ -77,3 +74,5 @@ eldorado_core/.mcreator/workspaceBackups/
 !LICENSE
 !README.md
 
+
+eldorado_core/eldorado_core.mcreator
