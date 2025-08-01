@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "eldorado_core:block/eldorado_wood_plank",
+    "particle": "eldorado_core:block/eldorado_wood_plank"
+  },
+  "render_type": "solid"
+}

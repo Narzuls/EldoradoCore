@@ -24,14 +24,14 @@
       "registry_name": "eldoradium_gem_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldoradium_gem_ore.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradiumGemOreBlock.java",
-          "src/main/resources/data/eldorado_core/worldgen/configured_feature/eldoradium_gem_ore.json",
-          "src/main/resources/data/eldorado_core/forge/biome_modifier/eldoradium_gem_ore_biome_modifier.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldoradium_gem_ore.json",
-          "src/main/resources/data/eldorado_core/worldgen/placed_feature/eldoradium_gem_ore.json",
           "src/main/resources/assets/eldorado_core/models/item/eldoradium_gem_ore.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldoradium_gem_ore.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldoradium_gem_ore.json"
+          "src/main/resources/data/eldorado_core/forge/biome_modifier/eldoradium_gem_ore_biome_modifier.json",
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/eldoradium_gem_ore.json",
+          "src/main/resources/data/eldorado_core/worldgen/configured_feature/eldoradium_gem_ore.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldoradium_gem_ore.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldoradium_gem_ore.json"
         ]
       },
       "path": "~/Resources/EdoradiumGem"
@@ -45,11 +45,11 @@
       "registry_name": "eldoradium_gem_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/eldoradium_gem_block.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldoradium_gem_block.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldoradium_gem_block.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldoradium_gem_block.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradiumGemBlockBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldoradium_gem_block.json"
+          "src/main/resources/assets/eldorado_core/blockstates/eldoradium_gem_block.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldoradium_gem_block.json"
         ]
       },
       "path": "~/Resources/EdoradiumGem"
@@ -106,14 +106,14 @@
       "registry_name": "eldoradium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/eldoradium_ore.json",
           "src/main/resources/assets/eldorado_core/models/block/eldoradium_ore.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldoradium_ore.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradiumOreBlock.java",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldoradium_ore.json",
           "src/main/resources/data/eldorado_core/forge/biome_modifier/eldoradium_ore_biome_modifier.json",
-          "src/main/resources/data/eldorado_core/worldgen/configured_feature/eldoradium_ore.json",
-          "src/main/resources/data/eldorado_core/worldgen/placed_feature/eldoradium_ore.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldoradium_ore.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldoradium_ore.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldoradium_ore.json",
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/eldoradium_ore.json",
+          "src/main/resources/data/eldorado_core/worldgen/configured_feature/eldoradium_ore.json"
         ]
       },
       "path": "~/Resources/EldoradiumOre"
@@ -127,11 +127,11 @@
       "registry_name": "eldoradium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/eldoradium_block.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradiumBlockBlock.java",
           "src/main/resources/assets/eldorado_core/blockstates/eldoradium_block.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldoradium_block.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldoradium_block.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldoradium_block.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldoradium_block.json"
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradiumBlockBlock.java"
         ]
       },
       "path": "~/Resources/EldoradiumOre"
@@ -258,13 +258,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/eldorado_core/blockstates/obscurite_ore.json",
-          "src/main/resources/assets/eldorado_core/models/item/obscurite_ore.json",
-          "src/main/resources/data/eldorado_core/worldgen/placed_feature/obscurite_ore.json",
-          "src/main/resources/data/eldorado_core/worldgen/configured_feature/obscurite_ore.json",
-          "src/main/resources/assets/eldorado_core/models/block/obscurite_ore.json",
+          "src/main/java/net/mcreator/eldoradocore/block/ObscuriteOreBlock.java",
           "src/main/resources/data/eldorado_core/forge/biome_modifier/obscurite_ore_biome_modifier.json",
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/obscurite_ore.json",
+          "src/main/resources/assets/eldorado_core/models/block/obscurite_ore.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/obscurite_ore.json",
-          "src/main/java/net/mcreator/eldoradocore/block/ObscuriteOreBlock.java"
+          "src/main/resources/data/eldorado_core/worldgen/configured_feature/obscurite_ore.json",
+          "src/main/resources/assets/eldorado_core/models/item/obscurite_ore.json"
         ]
       },
       "path": "~/Resources/Obscurite"
@@ -278,10 +278,10 @@
       "registry_name": "obscurite_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/obscurite_block.json",
-          "src/main/resources/assets/eldorado_core/blockstates/obscurite_block.json",
           "src/main/java/net/mcreator/eldoradocore/block/ObscuriteBlockBlock.java",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/obscurite_block.json",
+          "src/main/resources/assets/eldorado_core/models/block/obscurite_block.json",
+          "src/main/resources/assets/eldorado_core/blockstates/obscurite_block.json",
           "src/main/resources/assets/eldorado_core/models/item/obscurite_block.json"
         ]
       },
@@ -338,8 +338,8 @@
       "registry_name": "obscurite_ore_chunk",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/obscurite_ore_chunk.json",
-          "src/main/java/net/mcreator/eldoradocore/item/ObscuriteOreChunkItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/ObscuriteOreChunkItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/obscurite_ore_chunk.json"
         ]
       },
       "path": "~/Resources/Obscurite"
@@ -353,8 +353,8 @@
       "registry_name": "raw_obscurite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/raw_obscurite.json",
-          "src/main/java/net/mcreator/eldoradocore/item/RawObscuriteItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/RawObscuriteItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/raw_obscurite.json"
         ]
       },
       "path": "~/Resources/Obscurite"
@@ -397,14 +397,14 @@
       "registry_name": "unoctanium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/forge/biome_modifier/unoctanium_ore_biome_modifier.json",
           "src/main/resources/data/eldorado_core/worldgen/placed_feature/unoctanium_ore.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/unoctanium_ore.json",
           "src/main/resources/assets/eldorado_core/models/item/unoctanium_ore.json",
-          "src/main/resources/data/eldorado_core/worldgen/configured_feature/unoctanium_ore.json",
           "src/main/resources/assets/eldorado_core/blockstates/unoctanium_ore.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/unoctanium_ore.json",
+          "src/main/resources/assets/eldorado_core/models/block/unoctanium_ore.json",
+          "src/main/resources/data/eldorado_core/forge/biome_modifier/unoctanium_ore_biome_modifier.json",
           "src/main/java/net/mcreator/eldoradocore/block/UnoctaniumOreBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/unoctanium_ore.json"
+          "src/main/resources/data/eldorado_core/worldgen/configured_feature/unoctanium_ore.json"
         ]
       },
       "path": "~/Resources/Unoctanium"
@@ -418,10 +418,10 @@
       "registry_name": "unoctanium_block",
       "metadata": {
         "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/unoctanium_block.json",
+          "src/main/resources/assets/eldorado_core/models/item/unoctanium_block.json",
           "src/main/java/net/mcreator/eldoradocore/block/UnoctaniumBlockBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/unoctanium_block.json",
-          "src/main/resources/assets/eldorado_core/models/item/unoctanium_block.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/unoctanium_block.json",
           "src/main/resources/assets/eldorado_core/blockstates/unoctanium_block.json"
         ]
       },
@@ -493,8 +493,8 @@
       "registry_name": "unoctanium_ore_chunk",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/unoctanium_ore_chunk.json",
-          "src/main/java/net/mcreator/eldoradocore/item/UnoctaniumOreChunkItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/UnoctaniumOreChunkItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/unoctanium_ore_chunk.json"
         ]
       },
       "path": "~/Resources/Unoctanium"
@@ -537,8 +537,8 @@
       "registry_name": "obscurite_dust",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/ObscuriteDustItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/obscurite_dust.json"
+          "src/main/resources/assets/eldorado_core/models/item/obscurite_dust.json",
+          "src/main/java/net/mcreator/eldoradocore/item/ObscuriteDustItem.java"
         ]
       },
       "path": "~/Resources/Obscurite"
@@ -567,8 +567,8 @@
       "registry_name": "raw_verdorium",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/raw_verdorium.json",
-          "src/main/java/net/mcreator/eldoradocore/item/RawVerdoriumItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/RawVerdoriumItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/raw_verdorium.json"
         ]
       },
       "path": "~/Resources/Verdorium"
@@ -597,8 +597,8 @@
       "registry_name": "verdorium_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/verdorium_ingot.json",
-          "src/main/java/net/mcreator/eldoradocore/item/VerdoriumIngotItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/VerdoriumIngotItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/verdorium_ingot.json"
         ]
       },
       "path": "~/Resources/Verdorium"
@@ -612,14 +612,14 @@
       "registry_name": "verdorium_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/block/VerdoriumOreBlock.java",
-          "src/main/resources/data/eldorado_core/worldgen/placed_feature/verdorium_ore.json",
-          "src/main/resources/assets/eldorado_core/models/block/verdorium_ore.json",
+          "src/main/resources/data/eldorado_core/worldgen/configured_feature/verdorium_ore.json",
           "src/main/resources/assets/eldorado_core/models/item/verdorium_ore.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/verdorium_ore.json",
+          "src/main/java/net/mcreator/eldoradocore/block/VerdoriumOreBlock.java",
           "src/main/resources/assets/eldorado_core/blockstates/verdorium_ore.json",
           "src/main/resources/data/eldorado_core/forge/biome_modifier/verdorium_ore_biome_modifier.json",
-          "src/main/resources/data/eldorado_core/worldgen/configured_feature/verdorium_ore.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/verdorium_ore.json",
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/verdorium_ore.json",
+          "src/main/resources/assets/eldorado_core/models/block/verdorium_ore.json"
         ]
       },
       "path": "~/Resources/Verdorium"
@@ -633,10 +633,10 @@
       "registry_name": "verdorium_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/verdorium_block.json",
-          "src/main/resources/assets/eldorado_core/models/item/verdorium_block.json",
-          "src/main/resources/assets/eldorado_core/blockstates/verdorium_block.json",
           "src/main/java/net/mcreator/eldoradocore/block/VerdoriumBlockBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/verdorium_block.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/verdorium_block.json",
+          "src/main/resources/assets/eldorado_core/blockstates/verdorium_block.json",
           "src/main/resources/assets/eldorado_core/models/block/verdorium_block.json"
         ]
       },
@@ -707,8 +707,8 @@
       "registry_name": "zultium_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/ZultiumIngotItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/zultium_ingot.json"
+          "src/main/resources/assets/eldorado_core/models/item/zultium_ingot.json",
+          "src/main/java/net/mcreator/eldoradocore/item/ZultiumIngotItem.java"
         ]
       },
       "path": "~/Resources/Zultium"
@@ -723,13 +723,13 @@
       "metadata": {
         "files": [
           "src/main/resources/data/eldorado_core/forge/biome_modifier/zultium_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/eldoradocore/block/ZultiumOreBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/zultium_ore.json",
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/zultium_ore.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/zultium_ore.json",
           "src/main/resources/assets/eldorado_core/models/item/zultium_ore.json",
-          "src/main/java/net/mcreator/eldoradocore/block/ZultiumOreBlock.java",
-          "src/main/resources/assets/eldorado_core/blockstates/zultium_ore.json",
           "src/main/resources/data/eldorado_core/worldgen/configured_feature/zultium_ore.json",
-          "src/main/resources/data/eldorado_core/worldgen/placed_feature/zultium_ore.json"
+          "src/main/resources/assets/eldorado_core/blockstates/zultium_ore.json"
         ]
       },
       "path": "~/Resources/Zultium"
@@ -743,11 +743,11 @@
       "registry_name": "zultium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/zultium_block.json",
           "src/main/java/net/mcreator/eldoradocore/block/ZultiumBlockBlock.java",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/zultium_block.json",
           "src/main/resources/assets/eldorado_core/models/item/zultium_block.json",
-          "src/main/resources/assets/eldorado_core/blockstates/zultium_block.json"
+          "src/main/resources/assets/eldorado_core/blockstates/zultium_block.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/zultium_block.json",
+          "src/main/resources/assets/eldorado_core/models/block/zultium_block.json"
         ]
       },
       "path": "~/Resources/Zultium"
@@ -803,8 +803,8 @@
       "registry_name": "zultium_ore_chunk",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/ZultiumOreChunkItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/zultium_ore_chunk.json"
+          "src/main/resources/assets/eldorado_core/models/item/zultium_ore_chunk.json",
+          "src/main/java/net/mcreator/eldoradocore/item/ZultiumOreChunkItem.java"
         ]
       },
       "path": "~/Resources/Zultium"
@@ -862,8 +862,8 @@
       "registry_name": "obscutanium_alpha_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/obscutanium_alpha_ingot.json",
-          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumAlphaIngotItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumAlphaIngotItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/obscutanium_alpha_ingot.json"
         ]
       },
       "path": "~/Resources/Ingots/Obscutanium"
@@ -907,8 +907,8 @@
       "registry_name": "obscutanium_ember_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumEmberIngotItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/obscutanium_ember_ingot.json"
+          "src/main/resources/assets/eldorado_core/models/item/obscutanium_ember_ingot.json",
+          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumEmberIngotItem.java"
         ]
       },
       "path": "~/Resources/Ingots/Obscutanium"
@@ -922,8 +922,8 @@
       "registry_name": "obscutanium_flux_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumFluxIngotItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/obscutanium_flux_ingot.json"
+          "src/main/resources/assets/eldorado_core/models/item/obscutanium_flux_ingot.json",
+          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumFluxIngotItem.java"
         ]
       },
       "path": "~/Resources/Ingots/Obscutanium"
@@ -937,8 +937,8 @@
       "registry_name": "obscutanium_havoc_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/obscutanium_havoc_ingot.json",
-          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumHavocIngotItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumHavocIngotItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/obscutanium_havoc_ingot.json"
         ]
       },
       "path": "~/Resources/Ingots/Obscutanium"
@@ -982,8 +982,8 @@
       "registry_name": "ultomathium_bar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/ultomathium_bar.json",
-          "src/main/java/net/mcreator/eldoradocore/item/UltomathiumBarItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/UltomathiumBarItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/ultomathium_bar.json"
         ]
       },
       "path": "~/Resources/Bars"
@@ -997,11 +997,11 @@
       "registry_name": "eldorado_sand_stone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandStoneBlock.java",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sand_stone.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sand_stone.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sand_stone.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone.json"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sand_stone.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandStoneBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sand_stone.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -1015,11 +1015,11 @@
       "registry_name": "eldorado_sand",
       "metadata": {
         "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_sand.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sand.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandBlock.java",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_sand.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand.json"
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sand.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -1033,8 +1033,8 @@
       "registry_name": "el_dorado",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/worldgen/configured_feature/el_dorado_tree.json",
           "src/main/resources/data/eldorado_core/worldgen/biome/el_dorado.json",
+          "src/main/resources/data/eldorado_core/worldgen/configured_feature/el_dorado_tree.json",
           "src/main/resources/data/eldorado_core/worldgen/placed_feature/el_dorado_tree.json"
         ]
       },
@@ -1064,14 +1064,14 @@
       "registry_name": "abyssalium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/worldgen/configured_feature/abyssalium_ore.json",
-          "src/main/resources/assets/eldorado_core/models/item/abyssalium_ore.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/abyssalium_ore.json",
-          "src/main/resources/assets/eldorado_core/models/block/abyssalium_ore.json",
           "src/main/resources/data/eldorado_core/forge/biome_modifier/abyssalium_ore_biome_modifier.json",
-          "src/main/resources/assets/eldorado_core/blockstates/abyssalium_ore.json",
+          "src/main/resources/assets/eldorado_core/models/block/abyssalium_ore.json",
+          "src/main/resources/data/eldorado_core/worldgen/configured_feature/abyssalium_ore.json",
           "src/main/java/net/mcreator/eldoradocore/block/AbyssaliumOreBlock.java",
-          "src/main/resources/data/eldorado_core/worldgen/placed_feature/abyssalium_ore.json"
+          "src/main/resources/assets/eldorado_core/models/item/abyssalium_ore.json",
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/abyssalium_ore.json",
+          "src/main/resources/assets/eldorado_core/blockstates/abyssalium_ore.json"
         ]
       },
       "path": "~/Resources/Abyssalium"
@@ -1085,11 +1085,11 @@
       "registry_name": "abyssalium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/abyssalium_block.json",
           "src/main/resources/assets/eldorado_core/blockstates/abyssalium_block.json",
-          "src/main/java/net/mcreator/eldoradocore/block/AbyssaliumBlockBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/abyssalium_block.json",
+          "src/main/resources/assets/eldorado_core/models/item/abyssalium_block.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/abyssalium_block.json",
-          "src/main/resources/assets/eldorado_core/models/block/abyssalium_block.json"
+          "src/main/java/net/mcreator/eldoradocore/block/AbyssaliumBlockBlock.java"
         ]
       },
       "path": "~/Resources/Abyssalium"
@@ -1175,14 +1175,14 @@
       "registry_name": "pure_unoctanium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/worldgen/placed_feature/pure_unoctanium_ore.json",
-          "src/main/resources/assets/eldorado_core/blockstates/pure_unoctanium_ore.json",
-          "src/main/java/net/mcreator/eldoradocore/block/PureUnoctaniumOreBlock.java",
-          "src/main/resources/assets/eldorado_core/models/item/pure_unoctanium_ore.json",
           "src/main/resources/data/eldorado_core/worldgen/configured_feature/pure_unoctanium_ore.json",
+          "src/main/resources/assets/eldorado_core/blockstates/pure_unoctanium_ore.json",
           "src/main/resources/data/eldorado_core/forge/biome_modifier/pure_unoctanium_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/eldoradocore/block/PureUnoctaniumOreBlock.java",
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/pure_unoctanium_ore.json",
           "src/main/resources/assets/eldorado_core/models/block/pure_unoctanium_ore.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/pure_unoctanium_ore.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/pure_unoctanium_ore.json",
+          "src/main/resources/assets/eldorado_core/models/item/pure_unoctanium_ore.json"
         ]
       },
       "path": "~/Resources/PureUnoctanium"
@@ -1196,11 +1196,11 @@
       "registry_name": "pure_unoctanium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/pure_unoctanium_block.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/pure_unoctanium_block.json",
-          "src/main/java/net/mcreator/eldoradocore/block/PureUnoctaniumBlockBlock.java",
           "src/main/resources/assets/eldorado_core/models/item/pure_unoctanium_block.json",
-          "src/main/resources/assets/eldorado_core/models/block/pure_unoctanium_block.json"
+          "src/main/resources/assets/eldorado_core/models/block/pure_unoctanium_block.json",
+          "src/main/java/net/mcreator/eldoradocore/block/PureUnoctaniumBlockBlock.java",
+          "src/main/resources/assets/eldorado_core/blockstates/pure_unoctanium_block.json"
         ]
       },
       "path": "~/Resources/PureUnoctanium"
@@ -1256,8 +1256,8 @@
       "registry_name": "raw_pure_unoctanium",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/raw_pure_unoctanium.json",
-          "src/main/java/net/mcreator/eldoradocore/item/RawPureUnoctaniumItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/RawPureUnoctaniumItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/raw_pure_unoctanium.json"
         ]
       },
       "path": "~/Resources/PureUnoctanium"
@@ -1286,8 +1286,8 @@
       "registry_name": "pure_unoctanium_dust",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/pure_unoctanium_dust.json",
-          "src/main/java/net/mcreator/eldoradocore/item/PureUnoctaniumDustItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/PureUnoctaniumDustItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/pure_unoctanium_dust.json"
         ]
       },
       "path": "~/Resources/PureUnoctanium"
@@ -1331,13 +1331,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/eldorado_core/models/item/kyburn_ore.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/kyburn_ore.json",
-          "src/main/resources/data/eldorado_core/forge/biome_modifier/kyburn_ore_biome_modifier.json",
-          "src/main/resources/data/eldorado_core/worldgen/placed_feature/kyburn_ore.json",
-          "src/main/resources/assets/eldorado_core/blockstates/kyburn_ore.json",
           "src/main/resources/assets/eldorado_core/models/block/kyburn_ore.json",
           "src/main/java/net/mcreator/eldoradocore/block/KyburnOreBlock.java",
-          "src/main/resources/data/eldorado_core/worldgen/configured_feature/kyburn_ore.json"
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/kyburn_ore.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/kyburn_ore.json",
+          "src/main/resources/data/eldorado_core/worldgen/configured_feature/kyburn_ore.json",
+          "src/main/resources/assets/eldorado_core/blockstates/kyburn_ore.json",
+          "src/main/resources/data/eldorado_core/forge/biome_modifier/kyburn_ore_biome_modifier.json"
         ]
       },
       "path": "~/Resources/Kyburn"
@@ -1351,9 +1351,9 @@
       "registry_name": "kyburn_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/kyburn_block.json",
           "src/main/java/net/mcreator/eldoradocore/block/KyburnBlockBlock.java",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/kyburn_block.json",
+          "src/main/resources/assets/eldorado_core/blockstates/kyburn_block.json",
           "src/main/resources/assets/eldorado_core/models/block/kyburn_block.json",
           "src/main/resources/assets/eldorado_core/models/item/kyburn_block.json"
         ]
@@ -1426,8 +1426,8 @@
       "registry_name": "kyburn_ore_chunk",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/KyburnOreChunkItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/kyburn_ore_chunk.json"
+          "src/main/resources/assets/eldorado_core/models/item/kyburn_ore_chunk.json",
+          "src/main/java/net/mcreator/eldoradocore/item/KyburnOreChunkItem.java"
         ]
       },
       "path": "~/Resources/Kyburn"
@@ -1455,11 +1455,11 @@
       "registry_name": "eldorado_stone",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_stone.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneBlock.java",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_stone.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneBlock.java"
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -1474,10 +1474,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateBlock.java",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -1491,11 +1491,11 @@
       "registry_name": "eldorado_sandstone_refined",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_refined.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneRefinedBlock.java",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_refined.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_refined.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_refined.json"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneRefinedBlock.java"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -1524,11 +1524,11 @@
       "registry_name": "eldorado_cobblestone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_cobblestone.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_cobblestone.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoCobblestoneBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_cobblestone.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_cobblestone.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_cobblestone.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_cobblestone.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoCobblestoneBlock.java"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -1542,11 +1542,11 @@
       "registry_name": "eldorado_deepslate_cobblestone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_cobblestone.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobblestone.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_cobblestone.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateCobblestoneBlock.java",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_cobblestone.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_cobblestone.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobblestone.json"
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_cobblestone.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -1650,8 +1650,8 @@
       "registry_name": "obscutanium_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/obscutanium_sword.json",
-          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumSwordItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumSwordItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/obscutanium_sword.json"
         ]
       },
       "path": "~/Tools/Obscutanium"
@@ -1665,8 +1665,8 @@
       "registry_name": "obscutanium_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumAxeItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/obscutanium_axe.json"
+          "src/main/resources/assets/eldorado_core/models/item/obscutanium_axe.json",
+          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumAxeItem.java"
         ]
       },
       "path": "~/Tools/Obscutanium"
@@ -1695,8 +1695,8 @@
       "registry_name": "obscutanium_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/obscutanium_shovel.json",
-          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumShovelItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/ObscutaniumShovelItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/obscutanium_shovel.json"
         ]
       },
       "path": "~/Tools/Obscutanium"
@@ -1725,8 +1725,8 @@
       "registry_name": "eldorado_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/EldoradoSwordItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sword.json"
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sword.json",
+          "src/main/java/net/mcreator/eldoradocore/item/EldoradoSwordItem.java"
         ]
       },
       "path": "~/Tools/Eldoradium"
@@ -1740,8 +1740,8 @@
       "registry_name": "eldorado_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/EldoradoAxeItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_axe.json"
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_axe.json",
+          "src/main/java/net/mcreator/eldoradocore/item/EldoradoAxeItem.java"
         ]
       },
       "path": "~/Tools/Eldoradium"
@@ -1755,8 +1755,8 @@
       "registry_name": "eldorado_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_pickaxe.json",
-          "src/main/java/net/mcreator/eldoradocore/item/EldoradoPickaxeItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/EldoradoPickaxeItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_pickaxe.json"
         ]
       },
       "path": "~/Tools/Eldoradium"
@@ -1770,8 +1770,8 @@
       "registry_name": "eldorado_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_shovel.json",
-          "src/main/java/net/mcreator/eldoradocore/item/EldoradoShovelItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/EldoradoShovelItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_shovel.json"
         ]
       },
       "path": "~/Tools/Eldoradium"
@@ -1785,8 +1785,8 @@
       "registry_name": "eldorado_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/EldoradoHoeItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_hoe.json"
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_hoe.json",
+          "src/main/java/net/mcreator/eldoradocore/item/EldoradoHoeItem.java"
         ]
       },
       "path": "~/Tools/Eldoradium"
@@ -1815,8 +1815,8 @@
       "registry_name": "abyssalium_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/abyssalium_axe.json",
-          "src/main/java/net/mcreator/eldoradocore/item/AbyssaliumAxeItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/AbyssaliumAxeItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/abyssalium_axe.json"
         ]
       },
       "path": "~/Tools/Abyssalium"
@@ -1860,8 +1860,8 @@
       "registry_name": "abyssalium_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/abyssalium_hoe.json",
-          "src/main/java/net/mcreator/eldoradocore/item/AbyssaliumHoeItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/AbyssaliumHoeItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/abyssalium_hoe.json"
         ]
       },
       "path": "~/Tools/Abyssalium"
@@ -1875,8 +1875,8 @@
       "registry_name": "obscurite_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/ObscuriteSwordItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/obscurite_sword.json"
+          "src/main/resources/assets/eldorado_core/models/item/obscurite_sword.json",
+          "src/main/java/net/mcreator/eldoradocore/item/ObscuriteSwordItem.java"
         ]
       },
       "path": "~/Tools/Obscurite"
@@ -1890,8 +1890,8 @@
       "registry_name": "obscurite_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/ObscuriteAxeItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/obscurite_axe.json"
+          "src/main/resources/assets/eldorado_core/models/item/obscurite_axe.json",
+          "src/main/java/net/mcreator/eldoradocore/item/ObscuriteAxeItem.java"
         ]
       },
       "path": "~/Tools/Obscurite"
@@ -1905,8 +1905,8 @@
       "registry_name": "obscurite_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/obscurite_pickaxe.json",
-          "src/main/java/net/mcreator/eldoradocore/item/ObscuritePickaxeItem.java"
+          "src/main/java/net/mcreator/eldoradocore/item/ObscuritePickaxeItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/obscurite_pickaxe.json"
         ]
       },
       "path": "~/Tools/Obscurite"
@@ -1935,8 +1935,8 @@
       "registry_name": "obscurite_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/ObscuriteHoeItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/obscurite_hoe.json"
+          "src/main/resources/assets/eldorado_core/models/item/obscurite_hoe.json",
+          "src/main/java/net/mcreator/eldoradocore/item/ObscuriteHoeItem.java"
         ]
       },
       "path": "~/Tools/Obscurite"
@@ -1995,8 +1995,8 @@
       "registry_name": "vibrant_unoctanium_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/item/VibrantUnoctaniumHoeItem.java",
-          "src/main/resources/assets/eldorado_core/models/item/vibrant_unoctanium_hoe.json"
+          "src/main/resources/assets/eldorado_core/models/item/vibrant_unoctanium_hoe.json",
+          "src/main/java/net/mcreator/eldoradocore/item/VibrantUnoctaniumHoeItem.java"
         ]
       },
       "path": "~/Tools/VibrantUnoctanium"
@@ -2010,11 +2010,11 @@
       "registry_name": "eldorado_dust",
       "metadata": {
         "files": [
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_dust.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_dust.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_dust.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_dust.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoDustBlock.java",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_dust.json"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_dust.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -2903,24 +2903,6 @@
       "path": "~/Resources/Blocks"
     },
     {
-      "name": "EldoradoSunWoodCompressed",
-      "type": "block",
-      "sortid": 247,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_sun_wood_compressed",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_compressed.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodCompressedBlock.java",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_compressed.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_compressed.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed.json"
-        ]
-      },
-      "path": "~/Resources/Blocks"
-    },
-    {
       "name": "EldoradoWoodPlank",
       "type": "block",
       "sortid": 248,
@@ -3108,176 +3090,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/eldorado_core/recipes/eldorado_moon_stone_stair_recipe.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Stairs"
-    },
-    {
-      "name": "EldoradoSunWoodPlankStair",
-      "type": "block",
-      "sortid": 259,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_sun_wood_plank_stair",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_plank_stair.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_plank_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_plank_stair.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodPlankStairBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_plank_stair_outer.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_plank_stair_inner.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_plank_stair.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Stairs"
-    },
-    {
-      "name": "EldoradoSunWoodPlankStairRecipe",
-      "type": "recipe",
-      "sortid": 260,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_sun_wood_plank_stair_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/eldorado_core/recipes/eldorado_sun_wood_plank_stair_recipe.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Stairs"
-    },
-    {
-      "name": "EldoradoSunWoodBleachedPlankStair",
-      "type": "block",
-      "sortid": 261,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_sun_wood_bleached_plank_stair",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_plank_stair_inner.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_bleached_plank_stair.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodBleachedPlankStairBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_plank_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_plank_stair_outer.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_bleached_plank_stair.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_bleached_plank_stair.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Stairs"
-    },
-    {
-      "name": "EldoradoSunWoodBleachedPlankStairRecipe",
-      "type": "recipe",
-      "sortid": 262,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_sun_wood_bleached_plank_stair_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/eldorado_core/recipes/eldorado_sun_wood_bleached_plank_stair_recipe.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Stairs"
-    },
-    {
-      "name": "EldoradoSunWoodCompressedStair",
-      "type": "block",
-      "sortid": 263,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_sun_wood_compressed_stair",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_stair_outer.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_compressed_stair.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_compressed_stair.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodCompressedStairBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_stair_inner.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_compressed_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_stair.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Stairs"
-    },
-    {
-      "name": "EldoradoSunWoodCompressedStairRecipe",
-      "type": "recipe",
-      "sortid": 264,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_sun_wood_compressed_stair_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/eldorado_core/recipes/eldorado_sun_wood_compressed_stair_recipe.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Stairs"
-    },
-    {
-      "name": "EldoradoWoodPlankStair",
-      "type": "block",
-      "sortid": 265,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_wood_plank_stair",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodPlankStairBlock.java",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_plank_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_stair_outer.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_stair_inner.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_plank_stair.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_plank_stair.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Stairs"
-    },
-    {
-      "name": "EldoradoWoodPlankStairRecipe",
-      "type": "recipe",
-      "sortid": 266,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_wood_plank_stair_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/eldorado_core/recipes/eldorado_wood_plank_stair_recipe.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Stairs"
-    },
-    {
-      "name": "EldoradoWoodPlankCompressedStair",
-      "type": "block",
-      "sortid": 267,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_wood_plank_compressed_stair",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodPlankCompressedStairBlock.java",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_plank_compressed_stair.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_plank_compressed_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed_stair_inner.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed_stair.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_plank_compressed_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed_stair_outer.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Stairs"
-    },
-    {
-      "name": "EldoradoWoodPlankCompressedStairRecipe",
-      "type": "recipe",
-      "sortid": 268,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_wood_plank_compressed_stair_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/eldorado_core/recipes/eldorado_wood_plank_compressed_stair_recipe.json"
         ]
       },
       "path": "~/Resources/Blocks/Stairs"
@@ -3487,176 +3299,6 @@
       "path": "~/Resources/Blocks/Slabs"
     },
     {
-      "name": "EldoradoSunWoodPlankSlab",
-      "type": "block",
-      "sortid": 282,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_sun_wood_plank_slab",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_plank_slab.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_plank_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_plank_slab_full.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_plank_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_plank_slab_top.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodPlankSlabBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_plank_slab.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Slabs"
-    },
-    {
-      "name": "EldoradoSunWoodPlankSlabRecipe",
-      "type": "recipe",
-      "sortid": 283,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_sun_wood_plank_slab_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/eldorado_core/recipes/eldorado_sun_wood_plank_slab_recipe.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Slabs"
-    },
-    {
-      "name": "EldoradoSunWoodBleachedPlankSlab",
-      "type": "block",
-      "sortid": 284,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_sun_wood_bleached_plank_slab",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_plank_slab_top.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodBleachedPlankSlabBlock.java",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_bleached_plank_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_plank_slab_full.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_bleached_plank_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_plank_slab.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_bleached_plank_slab.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Slabs"
-    },
-    {
-      "name": "EldoradoSunWoodBleachedPlankSlabRecipe",
-      "type": "recipe",
-      "sortid": 285,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_sun_wood_bleached_plank_slab_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/eldorado_core/recipes/eldorado_sun_wood_bleached_plank_slab_recipe.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Slabs"
-    },
-    {
-      "name": "EldoradoSunWoodCompressedSlab",
-      "type": "block",
-      "sortid": 286,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_sun_wood_compressed_slab",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_compressed_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_slab.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodCompressedSlabBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_slab_full.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_compressed_slab.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_compressed_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_slab_top.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Slabs"
-    },
-    {
-      "name": "EldoradoSunWoodCompressedSlabRecipe",
-      "type": "recipe",
-      "sortid": 287,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_sun_wood_compressed_slab_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/eldorado_core/recipes/eldorado_sun_wood_compressed_slab_recipe.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Slabs"
-    },
-    {
-      "name": "EldoradoWoodPlankSlab",
-      "type": "block",
-      "sortid": 288,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_wood_plank_slab",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_slab_full.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_plank_slab.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_plank_slab.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodPlankSlabBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_slab_top.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_plank_slab.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Slabs"
-    },
-    {
-      "name": "EldoradoWoodPlankSlabRecipe",
-      "type": "recipe",
-      "sortid": 289,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_wood_plank_slab_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/eldorado_core/recipes/eldorado_wood_plank_slab_recipe.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Slabs"
-    },
-    {
-      "name": "EldoradoWoodPlankCompressedSlab",
-      "type": "block",
-      "sortid": 290,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_wood_plank_compressed_slab",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_plank_compressed_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed_slab_full.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_plank_compressed_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed_slab.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodPlankCompressedSlabBlock.java",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_plank_compressed_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed_slab_top.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Slabs"
-    },
-    {
-      "name": "EldoradoWoodPlankCompressedSlabRecipe",
-      "type": "recipe",
-      "sortid": 291,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eldorado_wood_plank_compressed_slab_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/eldorado_core/recipes/eldorado_wood_plank_compressed_slab_recipe.json"
-        ]
-      },
-      "path": "~/Resources/Blocks/Slabs"
-    },
-    {
       "name": "EldoradoSandstoneBrickSlab",
       "type": "block",
       "sortid": 292,
@@ -3689,16 +3331,867 @@
         ]
       },
       "path": "~/Resources/Blocks/Slabs"
+    },
+    {
+      "name": "EldoradoDeepslateBrickSlab",
+      "type": "block",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_deepslate_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_brick_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_slab_full.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_slab_top.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateBrickSlabBlock.java",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_brick_slab.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_brick_slab.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Slabs"
+    },
+    {
+      "name": "EldoradoDeepslateBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_deepslate_brick_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_deepslate_brick_slab_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Slabs"
+    },
+    {
+      "name": "EldoradoStoneBrickSlab",
+      "type": "block",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_stone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone_brick_slab.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_stone_brick_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_brick_slab_full.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone_brick_slab.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneBrickSlabBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_brick_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_brick_slab_top.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Slabs"
+    },
+    {
+      "name": "EldoradoStoneBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_stone_brick_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_stone_brick_slab_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Slabs"
+    },
+    {
+      "name": "EldoradoSunWoodCompressedPlank",
+      "type": "block",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_compressed_plank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_plank.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodCompressedPlankBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_compressed_plank.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_compressed_plank.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_compressed_plank.json"
+        ]
+      },
+      "path": "~/Resources/Blocks"
+    },
+    {
+      "name": "EldoradoSunWoodStair",
+      "type": "block",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_stair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_stair_outer.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodStairBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_stair.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_stair.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_stair_inner.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Stairs"
+    },
+    {
+      "name": "EldoradoSunWoodStairRecipe",
+      "type": "recipe",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_stair_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_sun_wood_stair_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Stairs"
+    },
+    {
+      "name": "EldoradoSunWoodBleachedStair",
+      "type": "block",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_bleached_stair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodBleachedStairBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_bleached_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_stair_outer.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_bleached_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_stair.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_bleached_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_stair_inner.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Stairs"
+    },
+    {
+      "name": "EldoradoSunWoodBleachedStairRecipe",
+      "type": "recipe",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_bleached_stair_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_sun_wood_bleached_stair_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Stairs"
+    },
+    {
+      "name": "EldoradoSunWoodCompressedStair",
+      "type": "block",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_compressed_stair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_stair_outer.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_compressed_stair.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_compressed_stair.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodCompressedStairBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_stair_inner.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_compressed_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_stair.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Stairs"
+    },
+    {
+      "name": "EldoradoSunWoodCompressedStairRecipe",
+      "type": "recipe",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_compressed_stair_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_sun_wood_compressed_stair_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Stairs"
+    },
+    {
+      "name": "EldoradoWoodStair",
+      "type": "block",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_wood_stair",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_stair_outer.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodStairBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_stair.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_stair_inner.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Stairs"
+    },
+    {
+      "name": "EldoradoWoodStairRecipe",
+      "type": "recipe",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_wood_stair_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_wood_stair_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Stairs"
+    },
+    {
+      "name": "EldoradoWoodCompressedStair",
+      "type": "block",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_wood_compressed_stair",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_compressed_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_compressed_stair_outer.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodCompressedStairBlock.java",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_compressed_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_compressed_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_compressed_stair_inner.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_compressed_stair.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Stairs"
+    },
+    {
+      "name": "EldoradoWoodCompressedStairRecipe",
+      "type": "recipe",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_wood_compressed_stair_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_wood_compressed_stair_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Stairs"
+    },
+    {
+      "name": "EldoradoSunWoodSlab",
+      "type": "block",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_slab.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_slab.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_slab_full.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodSlabBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_slab_top.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Slabs"
+    },
+    {
+      "name": "EldoradoSunWoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_sun_wood_slab_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Slabs"
+    },
+    {
+      "name": "EldoradoSunWoodBleachedSlab",
+      "type": "block",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_bleached_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_slab.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodBleachedSlabBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_bleached_slab.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_bleached_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_slab_top.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_slab_full.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_bleached_slab.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Slabs"
+    },
+    {
+      "name": "EldoradoSunWoodBleachedSlabRecipe",
+      "type": "recipe",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_bleached_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_sun_wood_bleached_slab_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Slabs"
+    },
+    {
+      "name": "EldoradoSunWoodCompressedSlab",
+      "type": "block",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_compressed_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_compressed_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_slab.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodCompressedSlabBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_slab_full.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_compressed_slab.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_compressed_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_slab_top.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Slabs"
+    },
+    {
+      "name": "EldoradoSunWoodCompressedSlabRecipe",
+      "type": "recipe",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_compressed_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_sun_wood_compressed_slab_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Slabs"
+    },
+    {
+      "name": "EldoradoWoodSlab",
+      "type": "block",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_wood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_slab.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_slab_top.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_slab.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodSlabBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_slab_full.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Slabs"
+    },
+    {
+      "name": "EldoradoWoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_wood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_wood_slab_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Slabs"
+    },
+    {
+      "name": "EldoradoWoodCompressedSlab",
+      "type": "block",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_wood_compressed_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodCompressedSlabBlock.java",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_compressed_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_compressed_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_compressed_slab_top.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_compressed_slab.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_compressed_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_compressed_slab_full.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Slabs"
+    },
+    {
+      "name": "EldoradoWoodCompressedSlabRecipe",
+      "type": "recipe",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_wood_compressed_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_wood_compressed_slab_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Slabs"
+    },
+    {
+      "name": "EldoradoSunWoodFence",
+      "type": "block",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_fence_inventory.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_fence.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_fence.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_fence.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_fence.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodFenceBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_fence_post.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Fences"
+    },
+    {
+      "name": "EldoradoSunWoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_sun_wood_fence_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Fences"
+    },
+    {
+      "name": "EldoradoSunWoodStick",
+      "type": "item",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_stick.json",
+          "src/main/java/net/mcreator/eldoradocore/item/EldoradoSunWoodStickItem.java"
+        ]
+      },
+      "path": "~/Resources/Sticks"
+    },
+    {
+      "name": "EldoradoSunWoodBleachedStick",
+      "type": "item",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_bleached_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_bleached_stick.json",
+          "src/main/java/net/mcreator/eldoradocore/item/EldoradoSunWoodBleachedStickItem.java"
+        ]
+      },
+      "path": "~/Resources/Sticks"
+    },
+    {
+      "name": "EldoradoWoodStick",
+      "type": "item",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_wood_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/item/EldoradoWoodStickItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_stick.json"
+        ]
+      },
+      "path": "~/Resources/Sticks"
+    },
+    {
+      "name": "EldoradoSunWoodBleachedFence",
+      "type": "block",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_bleached_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_bleached_fence.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_fence_post.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_fence.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_bleached_fence.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodBleachedFenceBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_bleached_fence.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_fence_inventory.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Fences"
+    },
+    {
+      "name": "EldoradoSunWoodBleachedFenceRecipe",
+      "type": "recipe",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_bleached_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_sun_wood_bleached_fence_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Fences"
+    },
+    {
+      "name": "EldoradoSunWoodCompressedFence",
+      "type": "block",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_compressed_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_fence_inventory.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_fence.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodCompressedFenceBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_fence_post.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_compressed_fence.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_compressed_fence.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_compressed_fence.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Fences"
+    },
+    {
+      "name": "EldoradoSunWoodCompressedFenceRecipe",
+      "type": "recipe",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_compressed_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_sun_wood_compressed_fence_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Fences"
+    },
+    {
+      "name": "EldoradoWoodFence",
+      "type": "block",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_wood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_fence.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_fence.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_fence.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_fence_post.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_fence_inventory.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_fence.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodFenceBlock.java"
+        ]
+      },
+      "path": "~/Resources/Blocks/Fences"
+    },
+    {
+      "name": "EldoradoWoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_wood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_wood_fence_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Fences"
+    },
+    {
+      "name": "EldoradoWoodCompressedFence",
+      "type": "block",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_wood_compressed_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_compressed_fence_inventory.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_compressed_fence.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_compressed_fence.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_compressed_fence.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_compressed_fence.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_compressed_fence_post.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodCompressedFenceBlock.java"
+        ]
+      },
+      "path": "~/Resources/Blocks/Fences"
+    },
+    {
+      "name": "EldoradoWoodCompressedFenceRecipe",
+      "type": "recipe",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_wood_compressed_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_wood_compressed_fence_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Fences"
+    },
+    {
+      "name": "EldoradoSmoothStoneWall",
+      "type": "block",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_smooth_stone_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_wall.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_wall_post.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_wall_inventory.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_smooth_stone_wall.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_stone_wall.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSmoothStoneWallBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_stone_wall.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_wall_side_tall.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Walls"
+    },
+    {
+      "name": "EldoradoSmoothStoneWallRecipe",
+      "type": "recipe",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_smooth_stone_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_smooth_stone_wall_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Walls"
+    },
+    {
+      "name": "EldoradoSmoothDeepslateWall",
+      "type": "block",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_smooth_deepslate_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_wall_side_tall.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_deepslate_wall.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_deepslate_wall.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_wall_post.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_wall_inventory.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_wall.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_smooth_deepslate_wall.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSmoothDeepslateWallBlock.java"
+        ]
+      },
+      "path": "~/Resources/Blocks/Walls"
+    },
+    {
+      "name": "EldoradoSmoothDeepslateWallRecipe",
+      "type": "recipe",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_smooth_deepslate_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_smooth_deepslate_wall_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Walls"
+    },
+    {
+      "name": "EldoradoMoonStoneWall",
+      "type": "block",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_moon_stone_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_wall_post.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_moon_stone_wall.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_wall.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_moon_stone_wall.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_moon_stone_wall.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_wall_inventory.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoMoonStoneWallBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_wall_side_tall.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Walls"
+    },
+    {
+      "name": "EldoradoMoonStoneWallRecipe",
+      "type": "recipe",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_moon_stone_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_moon_stone_wall_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Walls"
+    },
+    {
+      "name": "EldoradoSandstoneBrickWall",
+      "type": "block",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sandstone_brick_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_brick_wall.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_wall.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_brick_wall.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneBrickWallBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_wall_side_tall.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_brick_wall.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_wall_post.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_wall_inventory.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Walls"
+    },
+    {
+      "name": "EldoradoSandstoneBrickWallRecipe",
+      "type": "recipe",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sandstone_brick_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_sandstone_brick_wall_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Walls"
+    },
+    {
+      "name": "EldoradoDeepslateBrickWall",
+      "type": "block",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_deepslate_brick_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_brick_wall.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateBrickWallBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_brick_wall.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_wall_post.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_brick_wall.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_wall.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_wall_inventory.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_wall_side_tall.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Walls"
+    },
+    {
+      "name": "EldoradoDeepslateBrickWallRecipe",
+      "type": "recipe",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_deepslate_brick_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_deepslate_brick_wall_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Walls"
+    },
+    {
+      "name": "EldoradoStoneBrickWall",
+      "type": "block",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_stone_brick_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_brick_wall_post.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone_brick_wall.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_brick_wall_inventory.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_brick_wall_side_tall.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone_brick_wall.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneBrickWallBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_brick_wall.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_stone_brick_wall.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Walls"
+    },
+    {
+      "name": "EldoradoStoneBrickWallRecipe",
+      "type": "recipe",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_stone_brick_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_stone_brick_wall_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Walls"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "ITEMS:forge:ingots/obscutanium_crimson": [
-      "CUSTOM:ObscutaniumCrimsonIngot"
-    ],
     "ITEMS:forge:ingots/eldoradium": [
       "CUSTOM:EldoradiumIngot"
+    ],
+    "ITEMS:forge:ingots/obscutanium_crimson": [
+      "CUSTOM:ObscutaniumCrimsonIngot"
     ],
     "ITEMS:forge:ingots/obscutanium_ember": [
       "CUSTOM:ObscutaniumEmberIngot"
@@ -3724,12 +4217,14 @@
       "CUSTOM:VerdoriumIngot"
     ],
     "BLOCKS:minecraft:slabs": [
-      "~CUSTOM:EldoradoSandstoneBrickSlab",
-      "~CUSTOM:EldoradoWoodPlankCompressedSlab",
-      "~CUSTOM:EldoradoWoodPlankSlab",
+      "~CUSTOM:EldoradoWoodCompressedSlab",
+      "~CUSTOM:EldoradoWoodSlab",
       "~CUSTOM:EldoradoSunWoodCompressedSlab",
-      "~CUSTOM:EldoradoSunWoodBleachedPlankSlab",
-      "~CUSTOM:EldoradoSunWoodPlankSlab",
+      "~CUSTOM:EldoradoSunWoodBleachedSlab",
+      "~CUSTOM:EldoradoSunWoodSlab",
+      "~CUSTOM:EldoradoStoneBrickSlab",
+      "~CUSTOM:EldoradoDeepslateBrickSlab",
+      "~CUSTOM:EldoradoSandstoneBrickSlab",
       "~CUSTOM:EldoradoMoonStoneSlab",
       "~CUSTOM:EldoradoSmoothDeepslateSlab",
       "~CUSTOM:EldoradoSmoothStoneSlab",
@@ -3746,14 +4241,14 @@
       "~CUSTOM:EldoradoWood"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:EldoradoWoodCompressedStair",
+      "~CUSTOM:EldoradoWoodStair",
+      "~CUSTOM:EldoradoSunWoodCompressedStair",
+      "~CUSTOM:EldoradoSunWoodBleachedStair",
+      "~CUSTOM:EldoradoSunWoodStair",
       "~CUSTOM:EldoradoStoneBrickStair",
       "~CUSTOM:EldoradoDeepslateBrickStair",
       "~CUSTOM:EldoradoSandstoneBrickStair",
-      "~CUSTOM:EldoradoWoodPlankCompressedStair",
-      "~CUSTOM:EldoradoWoodPlankStair",
-      "~CUSTOM:EldoradoSunWoodCompressedStair",
-      "~CUSTOM:EldoradoSunWoodBleachedPlankStair",
-      "~CUSTOM:EldoradoSunWoodPlankStair",
       "~CUSTOM:EldoradoMoonStoneStair",
       "~CUSTOM:EldoradoSmoothDeepslateStair",
       "~CUSTOM:EldoradoSmoothStoneStair",
@@ -3845,6 +4340,13 @@
       "~CUSTOM:EldoradoSunWood",
       "~CUSTOM:EldoradoWood"
     ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:EldoradoWoodCompressedFence",
+      "~CUSTOM:EldoradoWoodFence",
+      "~CUSTOM:EldoradoSunWoodCompressedFence",
+      "~CUSTOM:EldoradoSunWoodBleachedFence",
+      "~CUSTOM:EldoradoSunWoodFence"
+    ],
     "ITEMS:forge:ingots/veldordium": [
       "CUSTOM:VeldordiumIngot"
     ],
@@ -3852,6 +4354,12 @@
       "CUSTOM:ObscutaniumAlphaIngot"
     ],
     "BLOCKS:minecraft:walls": [
+      "~CUSTOM:EldoradoStoneBrickWall",
+      "~CUSTOM:EldoradoDeepslateBrickWall",
+      "~CUSTOM:EldoradoSandstoneBrickWall",
+      "~CUSTOM:EldoradoMoonStoneWall",
+      "~CUSTOM:EldoradoSmoothDeepslateWall",
+      "~CUSTOM:EldoradoSmoothStoneWall",
       "~CUSTOM:EldoradoDeepslateCobbleWall",
       "~CUSTOM:EldoradoCobblestoneWall",
       "~CUSTOM:EldoradoSandstoneRefinedWall",
@@ -3868,10 +4376,9 @@
       "item.eldorado_core.vibrant_unoctanium_hoe": "Vibrant Unoctanium Hoe",
       "block.eldorado_core.eldorado_sandstone_brick_stair": "Eldorado Sandstone Brick Stair",
       "block.eldorado_core.eldorado_stone": "Eldorado Stone",
-      "block.eldorado_core.eldorado_sandstone_brick_stair": "Eldorado Sandstone Brick Stair",
       "block.eldorado_core.eldorado_sand_stone": "Eldorado Sand Stone",
-      "item.eldorado_core.obscutanium_havoc_shovel": "Obscutanium Havoc Shovel",
       "item.eldorado_core.obscurite_hoe": "Obscurite Hoe",
+      "item.eldorado_core.obscutanium_havoc_shovel": "Obscutanium Havoc Shovel",
       "item.eldorado_core.eldonium_ingot": "Eldonium Ingot",
       "block.eldorado_core.eldorado_sand_stone_wall": "Eldorado Sand Stone Wall",
       "block.eldorado_core.eldorado_sun_wood_bleached_plank": "Eldorado Sun Wood Bleached Plank",
@@ -3879,20 +4386,20 @@
       "item.eldorado_core.obscutanium_shovel": "Obscutanium Shovel",
       "block.eldorado_core.eldoradium_ore": "Eldoradium Ore",
       "item.eldorado_core.obscutanium_axe": "Obscutanium Axe",
+      "block.eldorado_core.eldorado_deepslate_brick_wall": "Eldorado Deepslate Brick Wall",
       "item.eldorado_core.vibrant_unoctanium_shovel": "Vibrant Unoctanium Shovel",
       "block.eldorado_core.eldoradium_gem_ore": "Eldoradium Gem Ore",
       "item.eldorado_core.zultium_ore_chunk": "Zultium Ore Chunk",
       "block.eldorado_core.eldorado_cobblestone_slab": "Eldorado Cobblestone Slab",
       "block.eldorado_core.eldorado_stone_brick": "Eldorado Stone Brick",
       "block.eldorado_core.verdorium_block": "Block of Verdorium",
+      "block.eldorado_core.eldorado_moon_stone_wall": "Eldorado Moon Stone Wall",
       "biome.eldorado_core.el_dorado": "El Dorado",
       "block.eldorado_core.pure_unoctanium_block": "Block of Pure Unoctanium",
       "block.eldorado_core.eldorado_wood_plank_compressed": "Eldorado Wood Plank Compressed",
       "item.eldorado_core.kyburn_ingot": "Kyburn Ingot",
       "block.eldorado_core.eldorado_sandstone_brick_slab": "Eldorado Sandstone Brick Slab",
-      "block.eldorado_core.eldorado_sun_wood_compressed": "Eldorado Sun Wood Compressed",
       "block.eldorado_core.eldorado_sandstone_brick": "Eldorado Sandstone Brick",
-      "block.eldorado_core.eldorado_wood_plank_slab": "Eldorado Wood Plank Slab",
       "item.eldorado_core.obscutanium_havoc_hoe": "Obscutanium Havoc Hoe",
       "item.eldorado_core.veldordium_ingot": "Veldordium Ingot",
       "item.eldorado_core.obscutanium_ember_ingot": "Obscutanium Ember Ingot",
@@ -3909,32 +4416,41 @@
       "item.eldorado_core.obscutanium_hoe": "Obscutanium Hoe",
       "block.eldorado_core.eldorado_sandstone_refined_slab": "Eldorado Sandstone Refined Slab",
       "item.eldorado_core.abyssalium_ingot": "Abyssalium Ingot",
-      "block.eldorado_core.eldorado_sun_wood_bleached_plank_stair": "Eldorado Sun Wood Bleached Plank Stair",
       "item.eldorado_core.kyburn_ore_chunk": "Kyburn Ore Chunk",
       "block.eldorado_core.kyburn_block": "Block of Kyburn",
+      "item.eldorado_core.eldorado_sun_wood_bleached_stick": "Eldorado Sun Wood Bleached Stick",
+      "block.eldorado_core.eldorado_smooth_stone_wall": "Eldorado Smooth Stone Wall",
       "item.eldorado_core.abyssalium_shovel": "Abyssalium Shovel",
       "item.eldorado_core.raw_unoctanium": "Raw Unoctanium",
+      "block.eldorado_core.eldorado_sun_wood_stair": "Eldorado Sun Wood Stair",
       "item.eldorado_core.pure_unoctanium_ingot": "Pure Unoctanium Ingot",
       "block.eldorado_core.eldorado_deepslate_slab": "Eldorado Deepslate Slab",
       "item.eldorado_core.pure_unoctanium_dust": "Pure Unoctanium Dust",
       "item.eldorado_core.eldorado_hoe": "Eldorado Hoe",
       "block.eldorado_core.eldorado_gravel": "Eldorado Gravel",
       "block.eldorado_core.eldorado_deepslate_cobble_slab": "Eldorado Deepslate Cobble Slab",
+      "block.eldorado_core.eldorado_sun_wood_compressed_plank": "Eldorado Sun Wood Compressed Plank",
       "item.eldorado_core.eldoradium_ore_chunk": "Eldoradium Ore Chunk",
       "item.eldorado_core.obscurite_ingot": "Obscurite Ingot",
+      "block.eldorado_core.eldorado_wood_compressed_slab": "Eldorado Wood Compressed Slab",
       "block.eldorado_core.eldorado_smooth_deepslate": "Eldorado Smooth Deepslate",
       "block.eldorado_core.eldorado_deepslate_cobble_stairs": "Eldorado Deepslate Cobble Stairs",
       "block.eldorado_core.kyburn_ore": "Kyburn Ore",
       "item.eldorado_core.raw_kyburn": "Raw Kyburn",
+      "block.eldorado_core.eldorado_stone_brick_wall": "Eldorado Stone Brick Wall",
       "block.eldorado_core.unoctanium_ore": "Unoctanium Ore",
-      "block.eldorado_core.eldorado_sun_wood_plank_slab": "Eldorado Sun Wood Plank Slab",
+      "block.eldorado_core.eldorado_wood_slab": "Eldorado Wood Slab",
       "block.eldorado_core.eldorado_sun_wood_compressed_stair": "Eldorado Sun Wood Compressed Stair",
-      "block.eldorado_core.eldorado_wood_plank_stair": "Eldorado Wood Plank Stair",
+      "block.eldorado_core.eldorado_wood_fence": "Eldorado Wood Fence",
       "item.eldorado_core.obscutanium_sword": "Obscutanium Sword",
       "item.eldorado_core.abyssalium_pickaxe": "Abyssalium Pickaxe",
+      "block.eldorado_core.eldorado_wood_compressed_fence": "Eldorado Wood Compressed Fence",
       "item.eldorado_core.eldoradium_gem": "Eldoradium Gem",
+      "block.eldorado_core.eldorado_sun_wood_fence": "Eldorado Sun Wood Fence",
       "block.eldorado_core.eldorado_sand_stone_button": "Eldorado Sand Stone Button",
       "item.eldorado_core.obscutanium_havoc_axe": "Obscutanium Havoc Axe",
+      "block.eldorado_core.eldorado_deepslate_brick_slab": "Eldorado Deepslate Brick Slab",
+      "block.eldorado_core.eldorado_smooth_deepslate_wall": "Eldorado Smooth Deepslate Wall",
       "item.eldorado_core.pure_unoctanium_ore_chunk": "Pure Unoctanium Ore Chunk",
       "block.eldorado_core.eldorado_sandstone_refined_button": "Eldorado Sandstone Refined Button",
       "block.eldorado_core.eldorado_deepslate_cobble_button": "Eldorado Deepslate Cobble Button",
@@ -3946,17 +4462,19 @@
       "block.eldorado_core.eldorado_smooth_stone_stair": "Eldorado Smooth Stone Stair",
       "item.eldorado_core.eldorado_axe": "Eldorado Axe",
       "block.eldorado_core.eldorado_sand_stone_slab": "Eldorado Sand Stone Slab",
+      "block.eldorado_core.eldorado_wood_stair": "Eldorado Wood Stair",
       "item.eldorado_core.obscutanium_havoc_pickaxe": "Obscutanium Havoc Pickaxe",
       "block.eldorado_core.abyssalium_ore": "Abyssalium Ore",
-      "block.eldorado_core.eldorado_wood_plank_compressed_slab": "Eldorado Wood Plank Compressed Slab",
       "item.eldorado_core.verdorium_ore_chunk": "Verdorium Ore Chunk",
       "block.eldorado_core.eldorado_cobblestone_stairs": "Eldorado Cobblestone Stairs",
       "item.eldorado_core.unoctanium_ingot": "Unoctanium Ingot",
       "item.eldorado_core.obscutanium_basilisk_ingot": "Obscutanium Basilisk Ingot",
+      "block.eldorado_core.eldorado_wood_compressed_stair": "Eldorado Wood Compressed Stair",
       "item.eldorado_core.obscurite_shovel": "Obscurite Shovel",
       "item.eldorado_core.eldorado_sword": "Eldorado Sword",
       "item.eldorado_core.obscurite_pickaxe": "Obscurite Pickaxe",
       "item_group.eldorado_core.eldorado_core": "Eldorado Core",
+      "block.eldorado_core.eldorado_sun_wood_compressed_fence": "Eldorado Sun Wood Compressed Fence",
       "block.eldorado_core.eldoradium_gem_block": "Block of Eldoradium Gem",
       "block.eldorado_core.eldorado_sandstone_stairs": "Eldorado Sandstone Stairs",
       "block.eldorado_core.eldoradium_block": "Block of Eldoradium",
@@ -3965,23 +4483,24 @@
       "block.eldorado_core.eldorado_stone_wall": "Eldorado Stone Wall",
       "item.eldorado_core.obscutanium_pickaxe": "Obscutanium Pickaxe",
       "item.eldorado_core.obscutanium_dread_ingot": "Obscutanium Dread Ingot",
+      "block.eldorado_core.eldorado_sun_wood_bleached_fence": "Eldorado Sun Wood Bleached Fence",
       "item.eldorado_core.unoctanium_dust": "Unoctanium Dust",
       "block.eldorado_core.eldorado_deepslate": "Eldorado Deepslate",
-      "block.eldorado_core.eldorado_wood_plank_compressed_stair": "Eldorado Wood Plank Compressed Stair",
+      "item.eldorado_core.eldorado_wood_stick": "Eldorado Wood Stick",
       "block.eldorado_core.eldorado_smooth_stone": "Eldorado Smooth Stone",
       "block.eldorado_core.eldorado_moon_stone_slab": "Eldorado Moon Stone Slab",
       "item.eldorado_core.vibrant_unoctanium_pickaxe": "Vibrant Unoctanium Pickaxe",
       "item.eldorado_core.eldorado_shovel": "Eldorado Shovel",
+      "block.eldorado_core.eldorado_sandstone_brick_wall": "Eldorado Sandstone Brick Wall",
       "block.eldorado_core.eldorado_sand": "Eldorado Sand",
       "item.eldorado_core.abyssalium_hoe": "Abyssalium Hoe",
       "block.eldorado_core.eldorado_deepslate_stairs": "Eldorado Deepslate Stairs",
-      "block.eldorado_core.eldorado_sun_wood_plank_stair": "Eldorado Sun Wood Plank Stair",
       "item.eldorado_core.raw_zultium": "Raw Zultium",
+      "item.eldorado_core.eldorado_sun_wood_stick": "Eldorado Sun Wood Stick",
       "block.eldorado_core.eldorado_sun_wood_plank": "Eldorado Sun Wood Plank",
       "item.eldorado_core.vibranium_ingot": "Vibranium Ingot",
       "item.eldorado_core.vibrant_unoctanium_sword": "Vibrant Unoctanium Sword",
       "block.eldorado_core.obscurite_block": "Block of Obscurite",
-      "block.eldorado_core.eldorado_sun_wood_bleached_plank_slab": "Eldorado Sun Wood Bleached Plank Slab",
       "block.eldorado_core.eldorado_deepslate_brick_stair": "Eldorado Deepslate Brick Stair",
       "item.eldorado_core.eldoradium_ingot": "Eldoradium Ingot",
       "item.eldorado_core.verdorium_ingot": "Verdorium Ingot",
@@ -3991,7 +4510,9 @@
       "block.eldorado_core.eldorado_deepslate_wall": "Eldorado Deepslate Wall",
       "block.eldorado_core.eldorado_stone_stairs": "Eldorado Stone Stairs",
       "block.eldorado_core.eldorado_sandstone_refined_wall": "Eldorado Sandstone Refined Wall",
+      "block.eldorado_core.eldorado_sun_wood_bleached_slab": "Eldorado Sun Wood Bleached Slab",
       "item.eldorado_core.unoctanium_ore_chunk": "Unoctanium Ore Chunk",
+      "block.eldorado_core.eldorado_sun_wood_slab": "Eldorado Sun Wood Slab",
       "item.eldorado_core.obscurite_axe": "Obscurite Axe",
       "block.eldorado_core.eldorado_moon_stone": "Eldorado Moon Stone",
       "block.eldorado_core.zultium_ore": "Zultium Ore",
@@ -4017,11 +4538,13 @@
       "item.eldorado_core.raw_obscurite": "Raw Obscurite",
       "block.eldorado_core.eldorado_smooth_deepslate_stair": "Eldorado Smooth Deepslate Stair",
       "item.eldorado_core.eldoradium_dust": "Eldoradium Dust",
+      "block.eldorado_core.eldorado_sun_wood_bleached_stair": "Eldorado Sun Wood Bleached Stair",
       "item.eldorado_core.raw_verdorium": "Raw Verdorium",
       "item.eldorado_core.obscutanium_crimson_ingot": "Obscutanium Crimson Ingot",
       "item.eldorado_core.vibrant_unoctanium_axe": "Vibrant Unoctanium Axe",
       "block.eldorado_core.eldorado_wood": "Eldorado Wood",
-      "block.eldorado_core.eldorado_sun_wood_compressed_slab": "Eldorado Sun Wood Compressed Slab"
+      "block.eldorado_core.eldorado_sun_wood_compressed_slab": "Eldorado Sun Wood Compressed Slab",
+      "block.eldorado_core.eldorado_stone_brick_slab": "Eldorado Stone Brick Slab"
     }
   },
   "foldersRoot": {
@@ -4114,6 +4637,10 @@
           },
           {
             "name": "Kyburn",
+            "children": []
+          },
+          {
+            "name": "Sticks",
             "children": []
           }
         ]

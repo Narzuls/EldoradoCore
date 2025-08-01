@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "eldorado_core:eldorado_wood_plank_compressed"
+    },
+    "b": {
+      "item": "eldorado_core:eldorado_wood_stick"
+    }
+  },
+  "result": {
+    "item": "eldorado_core:eldorado_wood_compressed_fence",
+    "count": 3
+  }
+}
