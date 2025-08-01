@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "eldorado_core:block/eldorado_wood_plank_compressed_slab"
+    },
+    "type=top": {
+      "model": "eldorado_core:block/eldorado_wood_plank_compressed_slab_top"
+    },
+    "type=double": {
+      "model": "eldorado_core:block/eldorado_wood_plank_compressed_slab_full"
+    }
+  }
+}

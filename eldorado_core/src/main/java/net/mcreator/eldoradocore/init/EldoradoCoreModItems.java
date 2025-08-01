@@ -231,6 +231,15 @@ public class EldoradoCoreModItems {
 	public static final RegistryObject<Item> ELDORADO_SANDSTONE_BRICK_STAIR = block(EldoradoCoreModBlocks.ELDORADO_SANDSTONE_BRICK_STAIR);
 	public static final RegistryObject<Item> ELDORADO_DEEPSLATE_BRICK_STAIR = block(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_BRICK_STAIR);
 	public static final RegistryObject<Item> ELDORADO_STONE_BRICK_STAIR = block(EldoradoCoreModBlocks.ELDORADO_STONE_BRICK_STAIR);
+	public static final RegistryObject<Item> ELDORADO_SMOOTH_STONE_SLAB = block(EldoradoCoreModBlocks.ELDORADO_SMOOTH_STONE_SLAB);
+	public static final RegistryObject<Item> ELDORADO_SMOOTH_DEEPSLATE_SLAB = block(EldoradoCoreModBlocks.ELDORADO_SMOOTH_DEEPSLATE_SLAB);
+	public static final RegistryObject<Item> ELDORADO_MOON_STONE_SLAB = block(EldoradoCoreModBlocks.ELDORADO_MOON_STONE_SLAB);
+	public static final RegistryObject<Item> ELDORADO_SUN_WOOD_PLANK_SLAB = block(EldoradoCoreModBlocks.ELDORADO_SUN_WOOD_PLANK_SLAB);
+	public static final RegistryObject<Item> ELDORADO_SUN_WOOD_BLEACHED_PLANK_SLAB = block(EldoradoCoreModBlocks.ELDORADO_SUN_WOOD_BLEACHED_PLANK_SLAB);
+	public static final RegistryObject<Item> ELDORADO_SUN_WOOD_COMPRESSED_SLAB = block(EldoradoCoreModBlocks.ELDORADO_SUN_WOOD_COMPRESSED_SLAB);
+	public static final RegistryObject<Item> ELDORADO_WOOD_PLANK_SLAB = block(EldoradoCoreModBlocks.ELDORADO_WOOD_PLANK_SLAB);
+	public static final RegistryObject<Item> ELDORADO_WOOD_PLANK_COMPRESSED_SLAB = block(EldoradoCoreModBlocks.ELDORADO_WOOD_PLANK_COMPRESSED_SLAB);
+	public static final RegistryObject<Item> ELDORADO_SANDSTONE_BRICK_SLAB = block(EldoradoCoreModBlocks.ELDORADO_SANDSTONE_BRICK_SLAB);
 
 	// Start of user code block custom items
 	// End of user code block custom items
