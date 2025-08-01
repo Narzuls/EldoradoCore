@@ -1033,8 +1033,8 @@
       "registry_name": "el_dorado",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/worldgen/biome/el_dorado.json",
           "src/main/resources/data/eldorado_core/worldgen/configured_feature/el_dorado_tree.json",
+          "src/main/resources/data/eldorado_core/worldgen/biome/el_dorado.json",
           "src/main/resources/data/eldorado_core/worldgen/placed_feature/el_dorado_tree.json"
         ]
       },
@@ -1542,11 +1542,11 @@
       "registry_name": "eldorado_deepslate_cobblestone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobblestone.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_cobblestone.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_cobblestone.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateCobblestoneBlock.java",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_cobblestone.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_cobblestone.json"
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_cobblestone.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobblestone.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -2030,8 +2030,8 @@
         "files": [
           "src/main/resources/assets/eldorado_core/models/block/eldorado_gravel.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_gravel.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_gravel.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoGravelBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_gravel.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_gravel.json"
         ]
       },
@@ -2061,10 +2061,10 @@
       "registry_name": "eldorado_cobblestone_stairs",
       "metadata": {
         "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_cobblestone_stairs.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_stairs_outer.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_cobblestone_stairs.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoCobblestoneStairsBlock.java",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_cobblestone_stairs.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_cobblestone_stairs.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_stairs.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_stairs_inner.json"
@@ -2081,13 +2081,13 @@
       "registry_name": "eldorado_sandstone_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_stairs.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_stairs_inner.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_stairs.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_stairs.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_stairs.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_stairs.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_stairs_outer.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneStairsBlock.java"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_stairs.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneStairsBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_stairs_inner.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_stairs.json"
         ]
       },
       "path": "~/Resources/Blocks/Stairs"
@@ -2103,11 +2103,11 @@
         "files": [
           "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_stairs_inner.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone_stairs.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneStairsBlock.java",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone_stairs.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_stairs_outer.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_stone_stairs.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_stairs.json"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_stairs_outer.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_stairs.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneStairsBlock.java",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone_stairs.json"
         ]
       },
       "path": "~/Resources/Blocks/Stairs"
@@ -2121,13 +2121,13 @@
       "registry_name": "eldorado_deepslate_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_stairs.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateStairsBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_stairs_inner.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_stairs.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_stairs.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_stairs_outer.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_stairs.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_stairs.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateStairsBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_stairs_outer.json"
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_stairs.json"
         ]
       },
       "path": "~/Resources/Blocks/Stairs"
@@ -2141,13 +2141,13 @@
       "registry_name": "eldorado_deepslate_cobble_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_stairs_outer.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateCobbleStairsBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_stairs_inner.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_cobble_stairs.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_cobble_stairs.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_stairs.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_cobble_stairs.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_stairs.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_cobble_stairs.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_stairs_inner.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_stairs_outer.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateCobbleStairsBlock.java"
         ]
       },
       "path": "~/Resources/Blocks/Stairs"
@@ -2231,13 +2231,13 @@
       "registry_name": "eldorado_sandstone_refined_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_refined_stairs.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_stairs_inner.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_stairs.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_refined_stairs.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneRefinedStairsBlock.java",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_refined_stairs.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_stairs_outer.json"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_stairs_outer.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_stairs.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_refined_stairs.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneRefinedStairsBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_refined_stairs.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_stairs_inner.json"
         ]
       },
       "path": "~/Resources/Blocks/Stairs"
@@ -2252,12 +2252,12 @@
       "metadata": {
         "files": [
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sand_stone_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_slab_top.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_slab_full.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sand_stone_slab.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandStoneSlabBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_slab.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sand_stone_slab.json"
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandStoneSlabBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sand_stone_slab.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sand_stone_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_slab_full.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_slab_top.json"
         ]
       },
       "path": "~/Resources/Blocks/Slabs"
@@ -2271,13 +2271,13 @@
       "registry_name": "eldorado_stone_slab",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_slab_top.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneSlabBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_slab_full.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone_slab.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone_slab.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_stone_slab.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_slab_top.json"
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone_slab.json"
         ]
       },
       "path": "~/Resources/Blocks/Slabs"
@@ -2291,13 +2291,13 @@
       "registry_name": "eldorado_sandstone_refined_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_slab_top.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_refined_slab.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_refined_slab.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_slab.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_refined_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_slab_top.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_slab_full.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_refined_slab.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneRefinedSlabBlock.java"
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneRefinedSlabBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_refined_slab.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_refined_slab.json"
         ]
       },
       "path": "~/Resources/Blocks/Slabs"
@@ -2311,13 +2311,13 @@
       "registry_name": "eldorado_cobblestone_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_slab_top.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_cobblestone_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_slab_full.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_cobblestone_slab.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_cobblestone_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_slab_top.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoCobblestoneSlabBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_slab.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_cobblestone_slab.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoCobblestoneSlabBlock.java"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_slab_full.json"
         ]
       },
       "path": "~/Resources/Blocks/Slabs"
@@ -2331,13 +2331,13 @@
       "registry_name": "eldorado_deepslate_cobble_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_slab.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_cobble_slab.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateCobbleSlabBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_slab_top.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_slab_full.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_cobble_slab.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_cobble_slab.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_cobble_slab.json"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_slab.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_cobble_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_slab_top.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_slab_full.json"
         ]
       },
       "path": "~/Resources/Blocks/Slabs"
@@ -2379,13 +2379,13 @@
       "registry_name": "eldorado_deepslate_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_slab.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_slab_full.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateSlabBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_slab.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_slab_top.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateSlabBlock.java",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_slab.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_slab.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_slab_full.json"
         ]
       },
       "path": "~/Resources/Blocks/Slabs"
@@ -2455,14 +2455,14 @@
       "registry_name": "eldorado_sand_stone_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_wall_post.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_wall_side_tall.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandStoneWallBlock.java",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sand_stone_wall.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_wall_inventory.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_wall_post.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sand_stone_wall.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_sand_stone_wall.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sand_stone_wall.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_wall.json"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_wall.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandStoneWallBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_wall_side_tall.json"
         ]
       },
       "path": "~/Resources/Blocks/Walls"
@@ -2477,13 +2477,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone_wall.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_stone_wall.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_wall_inventory.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_wall_side_tall.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_wall_post.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_wall_inventory.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_wall.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone_wall.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneWallBlock.java",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_stone_wall.json"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_wall.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone_wall.json"
         ]
       },
       "path": "~/Resources/Blocks/Walls"
@@ -2497,14 +2497,14 @@
       "registry_name": "eldorado_deepslate_wall",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateWallBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_wall.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_wall.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_wall_side_tall.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_wall_post.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_wall_inventory.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_wall.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_wall.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_wall.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_wall.json"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_wall.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateWallBlock.java",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_wall.json"
         ]
       },
       "path": "~/Resources/Blocks/Walls"
@@ -2518,14 +2518,14 @@
       "registry_name": "eldorado_sandstone_refined_wall",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneRefinedWallBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_refined_wall.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_wall_inventory.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_refined_wall.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_wall.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_wall_side_tall.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneRefinedWallBlock.java",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_refined_wall.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_wall_post.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_wall_inventory.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_refined_wall.json"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_wall_side_tall.json"
         ]
       },
       "path": "~/Resources/Blocks/Walls"
@@ -2539,13 +2539,13 @@
       "registry_name": "eldorado_cobblestone_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_wall.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_cobblestone_wall.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_cobblestone_wall.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_wall_side_tall.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoCobblestoneWallBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_wall_inventory.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_cobblestone_wall.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_cobblestone_wall.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_wall.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoCobblestoneWallBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_wall_side_tall.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_wall_post.json"
         ]
       },
@@ -2560,13 +2560,13 @@
       "registry_name": "eldorado_deepslate_cobble_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_wall_inventory.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_wall_side_tall.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_wall.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_cobble_wall.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_cobble_wall.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_cobble_wall.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_wall.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateCobbleWallBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_cobble_wall.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_wall_inventory.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_wall_side_tall.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_wall_post.json"
         ]
       },
@@ -2665,13 +2665,13 @@
       "registry_name": "eldorado_sand_stone_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_button.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandStoneButtonBlock.java",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sand_stone_button.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sand_stone_button.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_button_inventory.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_sand_stone_button.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_button_pressed.json"
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandStoneButtonBlock.java",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sand_stone_button.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sand_stone_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_button_pressed.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_button.json"
         ]
       },
       "path": "~/Resources/Blocks/Buttons"
@@ -2685,13 +2685,13 @@
       "registry_name": "eldorado_stone_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone_button.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_button_inventory.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_stone_button.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneButtonBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_button.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_button_pressed.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneButtonBlock.java",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone_button.json"
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_button_inventory.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone_button.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_stone_button.json"
         ]
       },
       "path": "~/Resources/Blocks/Buttons"
@@ -2705,11 +2705,11 @@
       "registry_name": "eldorado_deepslate_button",
       "metadata": {
         "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_button.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateButtonBlock.java",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_button.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_button_pressed.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_button.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_button.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_button.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_button.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_button_inventory.json"
         ]
@@ -2725,13 +2725,13 @@
       "registry_name": "eldorado_sandstone_refined_button",
       "metadata": {
         "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_button_pressed.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_refined_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_button_inventory.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_refined_button.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneRefinedButtonBlock.java",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_refined_button.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_button_pressed.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_button_inventory.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_button.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_refined_button.json"
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_refined_button.json"
         ]
       },
       "path": "~/Resources/Blocks/Buttons"
@@ -2745,12 +2745,12 @@
       "registry_name": "eldorado_cobblestone_button",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_cobblestone_button.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoCobblestoneButtonBlock.java",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_cobblestone_button.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_button.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_button_pressed.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_button_inventory.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_button_pressed.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoCobblestoneButtonBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_cobblestone_button.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_cobblestone_button.json"
         ]
       },
@@ -2765,13 +2765,13 @@
       "registry_name": "eldorado_deepslate_cobble_button",
       "metadata": {
         "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_button_inventory.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateCobbleButtonBlock.java",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_cobble_button.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_cobble_button.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_cobble_button.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_button.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_button_pressed.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_button_inventory.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_cobble_button.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_cobble_button.json"
         ]
       },
       "path": "~/Resources/Blocks/Buttons"
@@ -2785,11 +2785,11 @@
       "registry_name": "eldorado_wood",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_wood.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -2804,10 +2804,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodBlock.java"
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -2821,11 +2821,11 @@
       "registry_name": "eldorado_smooth_stone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSmoothStoneBlock.java",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_stone.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_smooth_stone.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_stone.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_stone.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_smooth_stone.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_stone.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSmoothStoneBlock.java"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -2839,11 +2839,11 @@
       "registry_name": "eldorado_smooth_deepslate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSmoothDeepslateBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_deepslate.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_deepslate.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_smooth_deepslate.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_deepslate.json"
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSmoothDeepslateBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_deepslate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -2857,11 +2857,11 @@
       "registry_name": "eldorado_moon_stone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_moon_stone.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_moon_stone.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_moon_stone.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoMoonStoneBlock.java"
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_moon_stone.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoMoonStoneBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_moon_stone.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -2876,9 +2876,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_plank.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodPlankBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_plank.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_plank.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodPlankBlock.java",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_plank.json"
         ]
       },
@@ -2893,11 +2893,11 @@
       "registry_name": "eldorado_sun_wood_bleached_plank",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodBleachedPlankBlock.java",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_bleached_plank.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_plank.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodBleachedPlankBlock.java",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_bleached_plank.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_bleached_plank.json"
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_bleached_plank.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_plank.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -2911,11 +2911,11 @@
       "registry_name": "eldorado_sun_wood_compressed",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_compressed.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodCompressedBlock.java",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_compressed.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_compressed.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed.json"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodCompressedBlock.java",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_compressed.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -2930,9 +2930,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_plank.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodPlankBlock.java",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_plank.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_plank.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_plank.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodPlankBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank.json"
         ]
       },
@@ -2948,10 +2948,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_plank_compressed.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodPlankCompressedBlock.java",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_plank_compressed.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_plank_compressed.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_plank_compressed.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_plank_compressed.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodPlankCompressedBlock.java"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -2965,10 +2965,10 @@
       "registry_name": "eldorado_sandstone_brick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_brick.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneBrickBlock.java",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_brick.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_brick.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneBrickBlock.java",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_brick.json"
         ]
       },
@@ -2983,10 +2983,10 @@
       "registry_name": "eldorado_deepslate_brick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_brick.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_brick.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateBrickBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_brick.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_brick.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateBrickBlock.java",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_brick.json"
         ]
       },
@@ -3001,11 +3001,11 @@
       "registry_name": "eldorado_stone_brick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_stone_brick.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneBrickBlock.java",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone_brick.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_brick.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone_brick.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone_brick.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_stone_brick.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone_brick.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneBrickBlock.java"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -3019,13 +3019,13 @@
       "registry_name": "eldorado_smooth_stone_stair",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_stone_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_stair.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_smooth_stone_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_stair_outer.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoSmoothStoneStairBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_stair_inner.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_stone_stair.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_stone_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_stair.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_stone_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_stair_outer.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_smooth_stone_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_stair_inner.json"
         ]
       },
       "path": "~/Resources/Blocks/Stairs"
@@ -3053,13 +3053,13 @@
       "registry_name": "eldorado_smooth_deepslate_stair",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_deepslate_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_stair_inner.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSmoothDeepslateStairBlock.java",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_smooth_deepslate_stair.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_stair_outer.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_deepslate_stair.json"
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_smooth_deepslate_stair.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSmoothDeepslateStairBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_stair_inner.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_deepslate_stair.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_deepslate_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_stair.json"
         ]
       },
       "path": "~/Resources/Blocks/Stairs"
@@ -3087,13 +3087,13 @@
       "registry_name": "eldorado_moon_stone_stair",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_stair_outer.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_moon_stone_stair.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_moon_stone_stair.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_moon_stone_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_stair_inner.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoMoonStoneStairBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_stair.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_moon_stone_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_stair_inner.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_stair.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_moon_stone_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_stair_outer.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_moon_stone_stair.json"
         ]
       },
       "path": "~/Resources/Blocks/Stairs"
@@ -3121,13 +3121,13 @@
       "registry_name": "eldorado_sun_wood_plank_stair",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_plank_stair.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_plank_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_plank_stair.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodPlankStairBlock.java",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_plank_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_plank_stair.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_plank_stair.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_plank_stair_outer.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_plank_stair_inner.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_plank_stair.json"
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_plank_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_plank_stair_inner.json"
         ]
       },
       "path": "~/Resources/Blocks/Stairs"
@@ -3155,13 +3155,13 @@
       "registry_name": "eldorado_sun_wood_bleached_plank_stair",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_plank_stair_inner.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_bleached_plank_stair.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodBleachedPlankStairBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_bleached_plank_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_plank_stair_inner.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_plank_stair.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_plank_stair_outer.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_bleached_plank_stair.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_bleached_plank_stair.json"
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_bleached_plank_stair.json"
         ]
       },
       "path": "~/Resources/Blocks/Stairs"
@@ -3189,13 +3189,13 @@
       "registry_name": "eldorado_sun_wood_compressed_stair",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_stair_outer.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_stair.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_compressed_stair.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_compressed_stair.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodCompressedStairBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_stair_inner.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodCompressedStairBlock.java",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_compressed_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_stair.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_compressed_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_stair_outer.json"
         ]
       },
       "path": "~/Resources/Blocks/Stairs"
@@ -3223,13 +3223,13 @@
       "registry_name": "eldorado_wood_plank_stair",
       "metadata": {
         "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_stair_inner.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_stair.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_plank_stair.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodPlankStairBlock.java",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_plank_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_stair_outer.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_stair_inner.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_plank_stair.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_plank_stair.json"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_stair_outer.json"
         ]
       },
       "path": "~/Resources/Blocks/Stairs"
@@ -3257,13 +3257,13 @@
       "registry_name": "eldorado_wood_plank_compressed_stair",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodPlankCompressedStairBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed_stair_outer.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_plank_compressed_stair.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_plank_compressed_stair.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed_stair_inner.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed_stair.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodPlankCompressedStairBlock.java",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_plank_compressed_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed_stair_outer.json"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed_stair.json"
         ]
       },
       "path": "~/Resources/Blocks/Stairs"
@@ -3291,13 +3291,13 @@
       "registry_name": "eldorado_sandstone_brick_stair",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_stair_outer.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_stair_inner.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_brick_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_stair.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneBrickStairBlock.java",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_brick_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_stair_outer.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_brick_stair.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_brick_stair.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneBrickStairBlock.java"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_stair_inner.json"
         ]
       },
       "path": "~/Resources/Blocks/Stairs"
@@ -3325,13 +3325,13 @@
       "registry_name": "eldorado_deepslate_brick_stair",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_stair_outer.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateBrickStairBlock.java",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_brick_stair.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_brick_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_stair.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_brick_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_stair_inner.json"
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_brick_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_stair_inner.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_stair_outer.json"
         ]
       },
       "path": "~/Resources/Blocks/Stairs"
@@ -3360,12 +3360,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/eldorado_core/models/item/eldorado_stone_brick_stair.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_brick_stair_inner.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone_brick_stair.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_brick_stair.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneBrickStairBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_brick_stair_outer.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone_brick_stair.json"
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneBrickStairBlock.java",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone_brick_stair.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone_brick_stair.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_brick_stair_inner.json"
         ]
       },
       "path": "~/Resources/Blocks/Stairs"
@@ -3393,13 +3393,13 @@
       "registry_name": "eldorado_smooth_stone_slab",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_stone_slab.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_stone_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_slab_full.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_slab_top.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_smooth_stone_slab.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSmoothStoneSlabBlock.java"
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_stone_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_slab_top.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSmoothStoneSlabBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_stone_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_slab_full.json"
         ]
       },
       "path": "~/Resources/Blocks/Slabs"
@@ -3427,13 +3427,13 @@
       "registry_name": "eldorado_smooth_deepslate_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_deepslate_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_slab_top.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_smooth_deepslate_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_slab_full.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoSmoothDeepslateSlabBlock.java",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_deepslate_slab.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_deepslate_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_slab_top.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_slab_full.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_smooth_deepslate_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_slab.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_deepslate_slab.json"
         ]
       },
       "path": "~/Resources/Blocks/Slabs"
@@ -3461,13 +3461,13 @@
       "registry_name": "eldorado_moon_stone_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_slab_top.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_slab_full.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_slab.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoMoonStoneSlabBlock.java",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_moon_stone_slab.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_moon_stone_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_slab_top.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_moon_stone_slab.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_moon_stone_slab.json"
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoMoonStoneSlabBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_slab_full.json"
         ]
       },
       "path": "~/Resources/Blocks/Slabs"
@@ -3496,12 +3496,12 @@
       "metadata": {
         "files": [
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_plank_slab.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_plank_slab.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_plank_slab_full.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_plank_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_plank_slab.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_plank_slab_top.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodPlankSlabBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_plank_slab.json"
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_plank_slab.json"
         ]
       },
       "path": "~/Resources/Blocks/Slabs"
@@ -3529,13 +3529,13 @@
       "registry_name": "eldorado_sun_wood_bleached_plank_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_plank_slab_top.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodBleachedPlankSlabBlock.java",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_bleached_plank_slab.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_plank_slab_full.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_bleached_plank_slab.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_bleached_plank_slab.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_plank_slab.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_bleached_plank_slab.json"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_plank_slab_top.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_bleached_plank_slab.json"
         ]
       },
       "path": "~/Resources/Blocks/Slabs"
@@ -3563,13 +3563,13 @@
       "registry_name": "eldorado_sun_wood_compressed_slab",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodCompressedSlabBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_slab_top.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_compressed_slab.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_compressed_slab.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_slab.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodCompressedSlabBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_slab_full.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_compressed_slab.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_compressed_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_slab_top.json"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_slab_full.json"
         ]
       },
       "path": "~/Resources/Blocks/Slabs"
@@ -3597,11 +3597,11 @@
       "registry_name": "eldorado_wood_plank_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_slab_full.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_plank_slab.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_plank_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_slab_full.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodPlankSlabBlock.java",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_slab.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_plank_slab.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_slab_top.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_plank_slab.json"
         ]
@@ -3631,13 +3631,13 @@
       "registry_name": "eldorado_wood_plank_compressed_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_plank_compressed_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed_slab_full.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed_slab_top.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_plank_compressed_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed_slab.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodPlankCompressedSlabBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed_slab_full.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_plank_compressed_slab.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed_slab_top.json"
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_plank_compressed_slab.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_plank_compressed_slab.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodPlankCompressedSlabBlock.java"
         ]
       },
       "path": "~/Resources/Blocks/Slabs"
@@ -3665,13 +3665,13 @@
       "registry_name": "eldorado_sandstone_brick_slab",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneBrickSlabBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_slab_top.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_brick_slab.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_brick_slab.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_slab.json",
           "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_slab_full.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_brick_slab.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_brick_slab.json"
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_slab_top.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_brick_slab.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneBrickSlabBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_brick_slab.json"
         ]
       },
       "path": "~/Resources/Blocks/Slabs"
@@ -3694,11 +3694,11 @@
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "ITEMS:forge:ingots/obscutanium_crimson": [
-      "CUSTOM:ObscutaniumCrimsonIngot"
-    ],
     "ITEMS:forge:ingots/eldoradium": [
       "CUSTOM:EldoradiumIngot"
+    ],
+    "ITEMS:forge:ingots/obscutanium_crimson": [
+      "CUSTOM:ObscutaniumCrimsonIngot"
     ],
     "ITEMS:forge:ingots/obscutanium_ember": [
       "CUSTOM:ObscutaniumEmberIngot"
@@ -3866,11 +3866,11 @@
   "language_map": {
     "en_us": {
       "item.eldorado_core.vibrant_unoctanium_hoe": "Vibrant Unoctanium Hoe",
-      "block.eldorado_core.eldorado_stone": "Eldorado Stone",
       "block.eldorado_core.eldorado_sandstone_brick_stair": "Eldorado Sandstone Brick Stair",
+      "block.eldorado_core.eldorado_stone": "Eldorado Stone",
       "block.eldorado_core.eldorado_sand_stone": "Eldorado Sand Stone",
-      "item.eldorado_core.obscutanium_havoc_shovel": "Obscutanium Havoc Shovel",
       "item.eldorado_core.obscurite_hoe": "Obscurite Hoe",
+      "item.eldorado_core.obscutanium_havoc_shovel": "Obscutanium Havoc Shovel",
       "item.eldorado_core.eldonium_ingot": "Eldonium Ingot",
       "block.eldorado_core.eldorado_sand_stone_wall": "Eldorado Sand Stone Wall",
       "block.eldorado_core.eldorado_sun_wood_bleached_plank": "Eldorado Sun Wood Bleached Plank",
