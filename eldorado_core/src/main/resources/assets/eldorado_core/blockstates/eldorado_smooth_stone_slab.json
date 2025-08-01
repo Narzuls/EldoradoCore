@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "eldorado_core:block/eldorado_smooth_stone_slab"
+    },
+    "type=top": {
+      "model": "eldorado_core:block/eldorado_smooth_stone_slab_top"
+    },
+    "type=double": {
+      "model": "eldorado_core:block/eldorado_smooth_stone_slab_full"
+    }
+  }
+}

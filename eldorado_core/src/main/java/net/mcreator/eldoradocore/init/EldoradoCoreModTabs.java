@@ -163,5 +163,14 @@ public class EldoradoCoreModTabs {
 				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SANDSTONE_BRICK_STAIR.get().asItem());
 				tabData.accept(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_BRICK_STAIR.get().asItem());
 				tabData.accept(EldoradoCoreModBlocks.ELDORADO_STONE_BRICK_STAIR.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SMOOTH_STONE_SLAB.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SMOOTH_DEEPSLATE_SLAB.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_MOON_STONE_SLAB.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SUN_WOOD_PLANK_SLAB.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SUN_WOOD_BLEACHED_PLANK_SLAB.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SUN_WOOD_COMPRESSED_SLAB.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_WOOD_PLANK_SLAB.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_WOOD_PLANK_COMPRESSED_SLAB.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SANDSTONE_BRICK_SLAB.get().asItem());
 			}).withSearchBar().build());
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "eldorado_core:block/eldorado_sun_wood_plank_1",
+    "top": "eldorado_core:block/eldorado_sun_wood_plank_1",
+    "side": "eldorado_core:block/eldorado_sun_wood_plank_1"
+  },
+  "render_type": "solid"
+}
