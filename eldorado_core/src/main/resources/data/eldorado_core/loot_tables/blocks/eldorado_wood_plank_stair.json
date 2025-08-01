@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "eldorado_core:blocks/eldorado_wood_plank_stair",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "eldorado_core:eldorado_wood_plank_stair"
+        }
+      ]
+    }
+  ]
+}

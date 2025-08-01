@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "eldorado_core:block/eldorado_deepslate"
+  },
+  "render_type": "solid"
+}

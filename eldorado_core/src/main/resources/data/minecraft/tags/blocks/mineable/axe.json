@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "eldorado_core:eldorado_sun_wood_plank",
+    "eldorado_core:eldorado_sun_wood",
+    "eldorado_core:eldorado_wood"
+  ]
+}

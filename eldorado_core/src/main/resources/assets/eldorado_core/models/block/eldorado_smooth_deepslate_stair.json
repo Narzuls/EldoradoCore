@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "eldorado_core:block/eldorado_smooth_deepslate",
+    "top": "eldorado_core:block/eldorado_smooth_deepslate",
+    "side": "eldorado_core:block/eldorado_smooth_deepslate"
+  },
+  "render_type": "solid"
+}

@@ -71,6 +71,8 @@ eldorado_core/.mcreator/workspaceBackups/
 !.gitignore
 !eldorado_core/*.mcreator
 !eldorado_core/elements/
+!eldorado_core/src/main/resources/assets/*/textures/
+!eldorado_core/src/main/resources/assets/*/models/
 !eldorado_core/src/main/resources/assets/
 !eldorado_core/src/main/resources/data/
 !eldorado_core/textures/

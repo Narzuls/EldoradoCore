@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "eldorado_core:block/eldorado_deepslate_brick"
+    }
+  }
+}
