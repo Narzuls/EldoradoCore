@@ -1033,8 +1033,8 @@
       "registry_name": "el_dorado",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/worldgen/biome/el_dorado.json",
           "src/main/resources/data/eldorado_core/worldgen/configured_feature/el_dorado_tree.json",
+          "src/main/resources/data/eldorado_core/worldgen/biome/el_dorado.json",
           "src/main/resources/data/eldorado_core/worldgen/placed_feature/el_dorado_tree.json"
         ]
       },
@@ -1542,11 +1542,11 @@
       "registry_name": "eldorado_deepslate_cobblestone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobblestone.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_cobblestone.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_cobblestone.json",
           "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateCobblestoneBlock.java",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_cobblestone.json",
-          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_cobblestone.json"
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_cobblestone.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobblestone.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -3866,6 +3866,7 @@
   "language_map": {
     "en_us": {
       "item.eldorado_core.vibrant_unoctanium_hoe": "Vibrant Unoctanium Hoe",
+      "block.eldorado_core.eldorado_sandstone_brick_stair": "Eldorado Sandstone Brick Stair",
       "block.eldorado_core.eldorado_stone": "Eldorado Stone",
       "block.eldorado_core.eldorado_sandstone_brick_stair": "Eldorado Sandstone Brick Stair",
       "block.eldorado_core.eldorado_sand_stone": "Eldorado Sand Stone",
