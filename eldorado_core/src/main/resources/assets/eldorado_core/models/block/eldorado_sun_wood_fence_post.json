@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "eldorado_core:block/eldorado_sun_wood_plank_0",
+    "particle": "eldorado_core:block/eldorado_sun_wood_plank_0"
+  },
+  "render_type": "solid"
+}

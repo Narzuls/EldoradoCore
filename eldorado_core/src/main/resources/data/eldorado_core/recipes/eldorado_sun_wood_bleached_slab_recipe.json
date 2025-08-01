@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "eldorado_core:eldorado_sun_wood_bleached_plank"
+    }
+  },
+  "result": {
+    "item": "eldorado_core:eldorado_sun_wood_bleached_slab",
+    "count": 6
+  }
+}

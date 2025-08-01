@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "eldorado_core:eldorado_moon_stone"
+    }
+  },
+  "result": {
+    "item": "eldorado_core:eldorado_moon_stone_wall",
+    "count": 6
+  }
+}

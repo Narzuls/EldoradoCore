@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "eldorado_core:eldorado_wood_compressed_fence",
+    "eldorado_core:eldorado_wood_fence",
+    "eldorado_core:eldorado_sun_wood_compressed_fence",
+    "eldorado_core:eldorado_sun_wood_bleached_fence",
+    "eldorado_core:eldorado_sun_wood_fence"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "eldorado_core:eldorado_sun_wood_bleached_plank"
+    },
+    "b": {
+      "item": "eldorado_core:eldorado_sun_wood_bleached_stick"
+    }
+  },
+  "result": {
+    "item": "eldorado_core:eldorado_sun_wood_bleached_fence",
+    "count": 3
+  }
+}

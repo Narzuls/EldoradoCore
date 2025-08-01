@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "eldorado_core:eldorado_stone_brick_wall",
+    "eldorado_core:eldorado_deepslate_brick_wall",
+    "eldorado_core:eldorado_sandstone_brick_wall",
+    "eldorado_core:eldorado_moon_stone_wall",
+    "eldorado_core:eldorado_smooth_deepslate_wall",
+    "eldorado_core:eldorado_smooth_stone_wall",
     "eldorado_core:eldorado_deepslate_cobble_wall",
     "eldorado_core:eldorado_cobblestone_wall",
     "eldorado_core:eldorado_sandstone_refined_wall",

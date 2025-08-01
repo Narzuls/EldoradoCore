@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "eldorado_core:eldorado_smooth_deepslate"
+    }
+  },
+  "result": {
+    "item": "eldorado_core:eldorado_smooth_deepslate_wall",
+    "count": 6
+  }
+}

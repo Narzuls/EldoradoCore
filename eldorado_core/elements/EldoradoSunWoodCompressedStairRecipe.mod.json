@@ -12,7 +12,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:EldoradoSunWoodCompressed"
+        "value": "CUSTOM:EldoradoSunWoodPlank"
       },
       {
         "value": ""
@@ -21,22 +21,22 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:EldoradoSunWoodCompressed"
+        "value": "CUSTOM:EldoradoSunWoodPlank"
       },
       {
-        "value": "CUSTOM:EldoradoSunWoodCompressed"
+        "value": "CUSTOM:EldoradoSunWoodPlank"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:EldoradoSunWoodCompressed"
+        "value": "CUSTOM:EldoradoSunWoodPlank"
       },
       {
-        "value": "CUSTOM:EldoradoSunWoodCompressed"
+        "value": "CUSTOM:EldoradoSunWoodPlank"
       },
       {
-        "value": "CUSTOM:EldoradoSunWoodCompressed"
+        "value": "CUSTOM:EldoradoSunWoodPlank"
       }
     ],
     "recipeReturnStack": {

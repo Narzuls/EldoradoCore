@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EldoradoSunWoodBleachedPlank"
+      },
+      {
+        "value": "CUSTOM:EldoradoSunWoodBleachedStick"
+      },
+      {
+        "value": "CUSTOM:EldoradoSunWoodBleachedPlank"
+      },
+      {
+        "value": "CUSTOM:EldoradoSunWoodBleachedPlank"
+      },
+      {
+        "value": "CUSTOM:EldoradoSunWoodBleachedStick"
+      },
+      {
+        "value": "CUSTOM:EldoradoSunWoodBleachedPlank"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EldoradoSunWoodBleachedFence"
+    },
+    "name": "eldorado_sun_wood_bleached_fence_recipe",
+    "namespace": "mod"
+  }
+}
