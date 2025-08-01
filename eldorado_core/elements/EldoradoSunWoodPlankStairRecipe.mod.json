@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EldoradoSunWoodPlank"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EldoradoSunWoodPlank"
+      },
+      {
+        "value": "CUSTOM:EldoradoSunWoodPlank"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EldoradoSunWoodPlank"
+      },
+      {
+        "value": "CUSTOM:EldoradoSunWoodPlank"
+      },
+      {
+        "value": "CUSTOM:EldoradoSunWoodPlank"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EldoradoSunWoodPlankStair"
+    },
+    "name": "eldorado_sun_wood_plank_stair_recipe",
+    "namespace": "mod"
+  }
+}

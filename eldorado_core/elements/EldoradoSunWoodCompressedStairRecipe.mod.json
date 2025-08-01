@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EldoradoSunWoodCompressed"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EldoradoSunWoodCompressed"
+      },
+      {
+        "value": "CUSTOM:EldoradoSunWoodCompressed"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EldoradoSunWoodCompressed"
+      },
+      {
+        "value": "CUSTOM:EldoradoSunWoodCompressed"
+      },
+      {
+        "value": "CUSTOM:EldoradoSunWoodCompressed"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EldoradoSunWoodCompressedStair"
+    },
+    "name": "eldorado_sun_wood_compressed_stair_recipe",
+    "namespace": "mod"
+  }
+}

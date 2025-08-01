@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "eldorado_core:block/eldorado_sun_wood_plank_0",
+    "top": "eldorado_core:block/eldorado_sun_wood_plank_0",
+    "side": "eldorado_core:block/eldorado_sun_wood_plank_0"
+  },
+  "render_type": "solid"
+}

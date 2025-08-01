@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "eldorado_core:block/eldorado_sun_wood_plank_1",
+    "up": "eldorado_core:block/eldorado_sun_wood_plank_1",
+    "north": "eldorado_core:block/eldorado_sun_wood_plank_1",
+    "east": "eldorado_core:block/eldorado_sun_wood_plank_1",
+    "south": "eldorado_core:block/eldorado_sun_wood_plank_1",
+    "west": "eldorado_core:block/eldorado_sun_wood_plank_1",
+    "particle": "eldorado_core:block/eldorado_sun_wood_plank_1"
+  },
+  "render_type": "solid"
+}

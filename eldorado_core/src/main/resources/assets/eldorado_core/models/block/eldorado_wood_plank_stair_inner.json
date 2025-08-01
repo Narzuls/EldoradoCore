@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "eldorado_core:block/eldorado_wood_plank",
+    "top": "eldorado_core:block/eldorado_wood_plank",
+    "side": "eldorado_core:block/eldorado_wood_plank"
+  },
+  "render_type": "solid"
+}

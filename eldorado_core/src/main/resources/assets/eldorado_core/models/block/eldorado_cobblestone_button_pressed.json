@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "eldorado_core:block/eldorado_cobblestone"
+  },
+  "render_type": "solid"
+}
