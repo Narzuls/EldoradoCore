@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "eldorado_core:abyssalium_ore_chunk"
+    }
+  },
+  "result": {
+    "item": "eldorado_core:raw_abyssalium",
+    "count": 1
+  }
+}

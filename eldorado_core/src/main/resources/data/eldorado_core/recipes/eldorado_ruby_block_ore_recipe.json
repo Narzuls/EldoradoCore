@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "eldorado_core:eldorado_ruby_block"
+    }
+  ],
+  "result": {
+    "item": "eldorado_core:eldorado_ruby",
+    "count": 9
+  }
+}

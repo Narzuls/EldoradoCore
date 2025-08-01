@@ -1064,14 +1064,14 @@
       "registry_name": "abyssalium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/eldorado_core/worldgen/configured_feature/abyssalium_ore.json",
-          "src/main/resources/assets/eldorado_core/models/item/abyssalium_ore.json",
           "src/main/resources/data/eldorado_core/loot_tables/blocks/abyssalium_ore.json",
-          "src/main/resources/assets/eldorado_core/models/block/abyssalium_ore.json",
           "src/main/resources/data/eldorado_core/forge/biome_modifier/abyssalium_ore_biome_modifier.json",
-          "src/main/resources/assets/eldorado_core/blockstates/abyssalium_ore.json",
+          "src/main/resources/assets/eldorado_core/models/block/abyssalium_ore.json",
+          "src/main/resources/data/eldorado_core/worldgen/configured_feature/abyssalium_ore.json",
           "src/main/java/net/mcreator/eldoradocore/block/AbyssaliumOreBlock.java",
-          "src/main/resources/data/eldorado_core/worldgen/placed_feature/abyssalium_ore.json"
+          "src/main/resources/assets/eldorado_core/models/item/abyssalium_ore.json",
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/abyssalium_ore.json",
+          "src/main/resources/assets/eldorado_core/blockstates/abyssalium_ore.json"
         ]
       },
       "path": "~/Resources/Abyssalium"
@@ -2785,11 +2785,11 @@
       "registry_name": "eldorado_wood",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood.json",
           "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood.json",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_wood.json",
-          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodBlock.java",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood.json"
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood.json"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -2804,10 +2804,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood.json",
-          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood.json",
-          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodBlock.java",
           "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood.json",
-          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood.json"
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodBlock.java"
         ]
       },
       "path": "~/Resources/Blocks"
@@ -4182,16 +4182,900 @@
         ]
       },
       "path": "~/Resources/Blocks/Walls"
+    },
+    {
+      "name": "SunfireAxe",
+      "type": "tool",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunfire_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/item/sunfire_axe.json",
+          "src/main/java/net/mcreator/eldoradocore/item/SunfireAxeItem.java"
+        ]
+      },
+      "path": "~/Tools/Sunfire"
+    },
+    {
+      "name": "SunfirePickaxe",
+      "type": "tool",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunfire_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/item/sunfire_pickaxe.json",
+          "src/main/java/net/mcreator/eldoradocore/item/SunfirePickaxeItem.java"
+        ]
+      },
+      "path": "~/Tools/Sunfire"
+    },
+    {
+      "name": "SunfireHoe",
+      "type": "tool",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunfire_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/item/sunfire_hoe.json",
+          "src/main/java/net/mcreator/eldoradocore/item/SunfireHoeItem.java"
+        ]
+      },
+      "path": "~/Tools/Sunfire"
+    },
+    {
+      "name": "SunfireShovel",
+      "type": "tool",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunfire_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/item/sunfire_shovel.json",
+          "src/main/java/net/mcreator/eldoradocore/item/SunfireShovelItem.java"
+        ]
+      },
+      "path": "~/Tools/Sunfire"
+    },
+    {
+      "name": "SunfireSword",
+      "type": "tool",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunfire_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/item/SunfireSwordItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/sunfire_sword.json"
+        ]
+      },
+      "path": "~/Tools/Sunfire"
+    },
+    {
+      "name": "AbyssaliumOreChunk",
+      "type": "item",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssalium_ore_chunk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/item/AbyssaliumOreChunkItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/abyssalium_ore_chunk.json"
+        ]
+      },
+      "path": "~/Resources/Abyssalium"
+    },
+    {
+      "name": "RawAbyssaliumRecipe",
+      "type": "recipe",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_abyssalium_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/raw_abyssalium_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Abyssalium"
+    },
+    {
+      "name": "SunfireIngot",
+      "type": "item",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunfire_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/item/SunfireIngotItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/sunfire_ingot.json"
+        ]
+      },
+      "path": "~/Resources/Sunfire"
+    },
+    {
+      "name": "SunfireOre",
+      "type": "block",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunfire_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/block/SunfireOreBlock.java",
+          "src/main/resources/data/eldorado_core/forge/biome_modifier/sunfire_ore_biome_modifier.json",
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/sunfire_ore.json",
+          "src/main/resources/assets/eldorado_core/models/item/sunfire_ore.json",
+          "src/main/resources/assets/eldorado_core/blockstates/sunfire_ore.json",
+          "src/main/resources/data/eldorado_core/worldgen/configured_feature/sunfire_ore.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/sunfire_ore.json",
+          "src/main/resources/assets/eldorado_core/models/block/sunfire_ore.json"
+        ]
+      },
+      "path": "~/Resources/Sunfire"
+    },
+    {
+      "name": "SunfireBlock",
+      "type": "block",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunfire_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/block/SunfireBlockBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/sunfire_block.json",
+          "src/main/resources/assets/eldorado_core/models/item/sunfire_block.json",
+          "src/main/resources/assets/eldorado_core/blockstates/sunfire_block.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/sunfire_block.json"
+        ]
+      },
+      "path": "~/Resources/Sunfire"
+    },
+    {
+      "name": "SunfireOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunfire_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/sunfire_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Sunfire"
+    },
+    {
+      "name": "SunfireBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunfire_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/sunfire_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Sunfire"
+    },
+    {
+      "name": "SunfireOreSmelting",
+      "type": "recipe",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunfire_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/sunfire_ore_smelting.json"
+        ]
+      },
+      "path": "~/Resources/Sunfire"
+    },
+    {
+      "name": "RawSunfire",
+      "type": "item",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_sunfire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/item/RawSunfireItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/raw_sunfire.json"
+        ]
+      },
+      "path": "~/Resources/Sunfire"
+    },
+    {
+      "name": "SunfireOreChunk",
+      "type": "item",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunfire_ore_chunk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/item/sunfire_ore_chunk.json",
+          "src/main/java/net/mcreator/eldoradocore/item/SunfireOreChunkItem.java"
+        ]
+      },
+      "path": "~/Resources/Sunfire"
+    },
+    {
+      "name": "RawSunfireRecipe",
+      "type": "recipe",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_sunfire_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/raw_sunfire_recipe.json"
+        ]
+      },
+      "path": "~/Resources/Sunfire"
+    },
+    {
+      "name": "SunfireDust",
+      "type": "item",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunfire_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/item/SunfireDustItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/sunfire_dust.json"
+        ]
+      },
+      "path": "~/Resources/Sunfire"
+    },
+    {
+      "name": "EldoradoRuby",
+      "type": "item",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_ruby",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/item/EldoradoRubyItem.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_ruby.json"
+        ]
+      },
+      "path": "~/Resources/EldoradoRuby"
+    },
+    {
+      "name": "EldoradoRubyOre",
+      "type": "block",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_ruby_ore.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_ruby_ore.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoRubyOreBlock.java",
+          "src/main/resources/data/eldorado_core/forge/biome_modifier/eldorado_ruby_ore_biome_modifier.json",
+          "src/main/resources/data/eldorado_core/worldgen/configured_feature/eldorado_ruby_ore.json",
+          "src/main/resources/data/eldorado_core/worldgen/placed_feature/eldorado_ruby_ore.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_ruby_ore.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_ruby_ore.json"
+        ]
+      },
+      "path": "~/Resources/EldoradoRuby"
+    },
+    {
+      "name": "EldoradoRubyBlock",
+      "type": "block",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_ruby_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_ruby_block.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_ruby_block.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_ruby_block.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_ruby_block.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoRubyBlockBlock.java"
+        ]
+      },
+      "path": "~/Resources/EldoradoRuby"
+    },
+    {
+      "name": "EldoradoRubyOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_ruby_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_ruby_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Resources/EldoradoRuby"
+    },
+    {
+      "name": "EldoradoRubyBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_ruby_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/recipes/eldorado_ruby_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Resources/EldoradoRuby"
+    },
+    {
+      "name": "EldoradoSmoothStoneButton",
+      "type": "block",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_smooth_stone_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_button.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSmoothStoneButtonBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_stone_button.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_stone_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_button_inventory.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_smooth_stone_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_button_pressed.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Buttons"
+    },
+    {
+      "name": "EldoradoSmoothDeepslateButton",
+      "type": "block",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_smooth_deepslate_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_deepslate_button.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_smooth_deepslate_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_button.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_deepslate_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_button_inventory.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_button_pressed.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSmoothDeepslateButtonBlock.java"
+        ]
+      },
+      "path": "~/Resources/Blocks/Buttons"
+    },
+    {
+      "name": "EldoradoMoonStoneButton",
+      "type": "block",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_moon_stone_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_moon_stone_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_button_inventory.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_moon_stone_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_button.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_moon_stone_button.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoMoonStoneButtonBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_button_pressed.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Buttons"
+    },
+    {
+      "name": "EldoradoSunWoodButton",
+      "type": "block",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_button.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_button_inventory.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_button_pressed.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodButtonBlock.java"
+        ]
+      },
+      "path": "~/Resources/Blocks/Buttons"
+    },
+    {
+      "name": "EldoradoSunWoodBleachedButton",
+      "type": "block",
+      "sortid": 370,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_bleached_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_button_pressed.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_bleached_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_button.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodBleachedButtonBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_bleached_button.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_bleached_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_button_inventory.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Buttons"
+    },
+    {
+      "name": "EldoradoSunWoodCompressedButton",
+      "type": "block",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_compressed_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_compressed_button.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_compressed_button.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodCompressedButtonBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_button_pressed.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_compressed_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_button_inventory.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Buttons"
+    },
+    {
+      "name": "EldoradoWoodButton",
+      "type": "block",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_wood_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodButtonBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_button_inventory.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_button_pressed.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_button.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_button.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Buttons"
+    },
+    {
+      "name": "EldoradoWoodCompressedButton",
+      "type": "block",
+      "sortid": 373,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_wood_compressed_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_compressed_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_compressed_button_pressed.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_compressed_button.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodCompressedButtonBlock.java",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_compressed_button.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_compressed_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_compressed_button_inventory.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Buttons"
+    },
+    {
+      "name": "EldoradoSandstoneBrickButton",
+      "type": "block",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sandstone_brick_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_button.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_brick_button.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_brick_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_button_pressed.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneBrickButtonBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_button_inventory.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_brick_button.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Buttons"
+    },
+    {
+      "name": "EldoradoDeepslateBrickButton",
+      "type": "block",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_deepslate_brick_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_brick_button.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateBrickButtonBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_brick_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_button.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_brick_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_button_inventory.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_button_pressed.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Buttons"
+    },
+    {
+      "name": "EldoradoStoneBrickButton",
+      "type": "block",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_stone_brick_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_brick_button_inventory.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone_brick_button.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneBrickButtonBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_brick_button.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_brick_button_pressed.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_stone_brick_button.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone_brick_button.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/Buttons"
+    },
+    {
+      "name": "EldoradoSandStonePressurePlate",
+      "type": "block",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sand_stone_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sand_stone_pressure_plate_down.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sand_stone_pressure_plate.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sand_stone_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sand_stone_pressure_plate.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandStonePressurePlateBlock.java"
+        ]
+      },
+      "path": "~/Resources/Blocks/PressurePlates"
+    },
+    {
+      "name": "EldoradoStonePressurePlate",
+      "type": "block",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_stone_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoStonePressurePlateBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_stone_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/PressurePlates"
+    },
+    {
+      "name": "EldoradoDeepslatePressurePlate",
+      "type": "block",
+      "sortid": 379,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_deepslate_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_pressure_plate_down.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_pressure_plate.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslatePressurePlateBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_pressure_plate.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/PressurePlates"
+    },
+    {
+      "name": "EldoradoSandstoneRefinedPressurePlate",
+      "type": "block",
+      "sortid": 380,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sandstone_refined_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_refined_pressure_plate.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneRefinedPressurePlateBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_refined_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_pressure_plate_down.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_refined_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_refined_pressure_plate.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/PressurePlates"
+    },
+    {
+      "name": "EldoradoCobblestonePressurePlate",
+      "type": "block",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_cobblestone_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_cobblestone_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_pressure_plate_down.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_cobblestone_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_cobblestone_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_cobblestone_pressure_plate.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoCobblestonePressurePlateBlock.java"
+        ]
+      },
+      "path": "~/Resources/Blocks/PressurePlates"
+    },
+    {
+      "name": "EldoradoDeepslateCobblePressurePlate",
+      "type": "block",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_deepslate_cobble_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_cobble_pressure_plate.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateCobblePressurePlateBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_cobble_pressure_plate.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_cobble_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_cobble_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/PressurePlates"
+    },
+    {
+      "name": "EldoradoSmoothStonePressurePlate",
+      "type": "block",
+      "sortid": 383,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_smooth_stone_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_stone_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_pressure_plate_down.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_stone_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_stone_pressure_plate.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSmoothStonePressurePlateBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_smooth_stone_pressure_plate.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/PressurePlates"
+    },
+    {
+      "name": "EldoradoSmoothDeepslatePressurePlate",
+      "type": "block",
+      "sortid": 384,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_smooth_deepslate_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSmoothDeepslatePressurePlateBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_smooth_deepslate_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_pressure_plate.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_smooth_deepslate_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_smooth_deepslate_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_smooth_deepslate_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/PressurePlates"
+    },
+    {
+      "name": "EldoradoMoonStonePressurePlate",
+      "type": "block",
+      "sortid": 385,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_moon_stone_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_pressure_plate_down.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_moon_stone_pressure_plate.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoMoonStonePressurePlateBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_moon_stone_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_moon_stone_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_moon_stone_pressure_plate.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/PressurePlates"
+    },
+    {
+      "name": "EldoradoSunWoodPressurePlate",
+      "type": "block",
+      "sortid": 386,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_pressure_plate.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodPressurePlateBlock.java",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_pressure_plate_down.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_pressure_plate.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/PressurePlates"
+    },
+    {
+      "name": "EldoradoSunWoodBleachedPressurePlate",
+      "type": "block",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_bleached_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_bleached_pressure_plate_down.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodBleachedPressurePlateBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_bleached_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_bleached_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_bleached_pressure_plate.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/PressurePlates"
+    },
+    {
+      "name": "EldoradoSunWoodCompressedPressurePlate",
+      "type": "block",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sun_wood_compressed_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSunWoodCompressedPressurePlateBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sun_wood_compressed_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sun_wood_compressed_pressure_plate_down.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sun_wood_compressed_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sun_wood_compressed_pressure_plate.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/PressurePlates"
+    },
+    {
+      "name": "EldoradoWoodPressurePlate",
+      "type": "block",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_wood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_pressure_plate_down.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodPressurePlateBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_pressure_plate.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/PressurePlates"
+    },
+    {
+      "name": "EldoradoWoodCompressedPressurePlate",
+      "type": "block",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_wood_compressed_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoWoodCompressedPressurePlateBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_compressed_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_wood_compressed_pressure_plate_down.json",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_wood_compressed_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_wood_compressed_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_wood_compressed_pressure_plate.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/PressurePlates"
+    },
+    {
+      "name": "EldoradoSandstoneBrickPressurePlate",
+      "type": "block",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_sandstone_brick_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_sandstone_brick_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_sandstone_brick_pressure_plate.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoSandstoneBrickPressurePlateBlock.java",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_sandstone_brick_pressure_plate_down.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_sandstone_brick_pressure_plate.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/PressurePlates"
+    },
+    {
+      "name": "EldoradoDeepslateBrickPressurePlate",
+      "type": "block",
+      "sortid": 392,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_deepslate_brick_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_deepslate_brick_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_deepslate_brick_pressure_plate.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoDeepslateBrickPressurePlateBlock.java",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_deepslate_brick_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_deepslate_brick_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/PressurePlates"
+    },
+    {
+      "name": "EldoradoStoneBrickPressurePlate",
+      "type": "block",
+      "sortid": 393,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eldorado_stone_brick_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/eldorado_core/models/item/eldorado_stone_brick_pressure_plate.json",
+          "src/main/java/net/mcreator/eldoradocore/block/EldoradoStoneBrickPressurePlateBlock.java",
+          "src/main/resources/data/eldorado_core/loot_tables/blocks/eldorado_stone_brick_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_brick_pressure_plate.json",
+          "src/main/resources/assets/eldorado_core/models/block/eldorado_stone_brick_pressure_plate_down.json",
+          "src/main/resources/assets/eldorado_core/blockstates/eldorado_stone_brick_pressure_plate.json"
+        ]
+      },
+      "path": "~/Resources/Blocks/PressurePlates"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "ITEMS:forge:ingots/obscutanium_crimson": [
-      "CUSTOM:ObscutaniumCrimsonIngot"
-    ],
     "ITEMS:forge:ingots/eldoradium": [
       "CUSTOM:EldoradiumIngot"
+    ],
+    "ITEMS:forge:ingots/obscutanium_crimson": [
+      "CUSTOM:ObscutaniumCrimsonIngot"
     ],
     "ITEMS:forge:ingots/obscutanium_ember": [
       "CUSTOM:ObscutaniumEmberIngot"
@@ -4270,6 +5154,10 @@
       "CUSTOM:ZultiumIngot"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:EldoradoRubyBlock",
+      "~CUSTOM:EldoradoRubyOre",
+      "~CUSTOM:SunfireBlock",
+      "~CUSTOM:SunfireOre",
       "~CUSTOM:KyburnBlock",
       "~CUSTOM:KyburnOre",
       "~CUSTOM:PureUnoctaniumBlock",
@@ -4316,6 +5204,10 @@
       "CUSTOM:EldoniumIngot"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:EldoradoRubyBlock",
+      "~CUSTOM:EldoradoRubyOre",
+      "~CUSTOM:SunfireBlock",
+      "~CUSTOM:SunfireOre",
       "~CUSTOM:KyburnBlock",
       "~CUSTOM:KyburnOre",
       "~CUSTOM:PureUnoctaniumBlock",
@@ -4373,178 +5265,221 @@
   },
   "language_map": {
     "en_us": {
-      "item.eldorado_core.vibrant_unoctanium_hoe": "Vibrant Unoctanium Hoe",
       "block.eldorado_core.eldorado_sandstone_brick_stair": "Eldorado Sandstone Brick Stair",
-      "block.eldorado_core.eldorado_stone": "Eldorado Stone",
-      "block.eldorado_core.eldorado_sand_stone": "Eldorado Sand Stone",
-      "item.eldorado_core.obscurite_hoe": "Obscurite Hoe",
+      "block.eldorado_core.eldorado_ruby_ore": "EldoradoRuby Ore",
+      "block.eldorado_core.eldorado_stone_brick_button": "Eldorado Stone Brick Button",
       "item.eldorado_core.obscutanium_havoc_shovel": "Obscutanium Havoc Shovel",
       "item.eldorado_core.eldonium_ingot": "Eldonium Ingot",
-      "block.eldorado_core.eldorado_sand_stone_wall": "Eldorado Sand Stone Wall",
-      "block.eldorado_core.eldorado_sun_wood_bleached_plank": "Eldorado Sun Wood Bleached Plank",
+      "block.eldorado_core.eldorado_wood_button": "Eldorado Wood Button",
+      "block.eldorado_core.eldorado_stone_pressure_plate": "Eldorado Stone Pressure Plate",
       "item.eldorado_core.obscutanium_shovel": "Obscutanium Shovel",
-      "item.eldorado_core.obscutanium_havoc_ingot": "Obscutanium Havoc Ingot",
-      "block.eldorado_core.eldoradium_ore": "Eldoradium Ore",
       "item.eldorado_core.obscutanium_axe": "Obscutanium Axe",
       "block.eldorado_core.eldorado_deepslate_brick_wall": "Eldorado Deepslate Brick Wall",
       "item.eldorado_core.vibrant_unoctanium_shovel": "Vibrant Unoctanium Shovel",
       "block.eldorado_core.eldoradium_gem_ore": "Eldoradium Gem Ore",
       "item.eldorado_core.zultium_ore_chunk": "Zultium Ore Chunk",
-      "block.eldorado_core.eldorado_cobblestone_slab": "Eldorado Cobblestone Slab",
-      "block.eldorado_core.eldorado_stone_brick": "Eldorado Stone Brick",
-      "block.eldorado_core.verdorium_block": "Block of Verdorium",
       "block.eldorado_core.eldorado_moon_stone_wall": "Eldorado Moon Stone Wall",
       "biome.eldorado_core.el_dorado": "El Dorado",
-      "block.eldorado_core.pure_unoctanium_block": "Block of Pure Unoctanium",
       "block.eldorado_core.eldorado_wood_plank_compressed": "Eldorado Wood Plank Compressed",
       "item.eldorado_core.kyburn_ingot": "Kyburn Ingot",
-      "block.eldorado_core.eldorado_sandstone_brick_slab": "Eldorado Sandstone Brick Slab",
-      "block.eldorado_core.eldorado_sandstone_brick": "Eldorado Sandstone Brick",
-      "item.eldorado_core.obscutanium_havoc_hoe": "Obscutanium Havoc Hoe",
+      "block.eldorado_core.eldorado_sun_wood_bleached_pressure_plate": "Eldorado Sun Wood Bleached Pressure Plate",
+      "block.eldorado_core.eldorado_sun_wood_pressure_plate": "Eldorado Sun Wood Pressure Plate",
       "item.eldorado_core.veldordium_ingot": "Veldordium Ingot",
       "item.eldorado_core.obscutanium_ember_ingot": "Obscutanium Ember Ingot",
       "item.eldorado_core.obscurite_dust": "Obscurite Dust",
       "block.eldorado_core.eldorado_deepslate_cobblestone": "Eldorado Deepslate Cobblestone",
-      "item.eldorado_core.obscutanium_alpha_ingot": "Obscutanium Alpha Ingot",
       "item.eldorado_core.raw_eldoradium": "Raw Eldoradium",
-      "block.eldorado_core.eldorado_stone_slab": "Eldorado Stone Slab",
-      "item.eldorado_core.obscutanium_flux_ingot": "Obscutanium Flux Ingot",
-      "item.eldorado_core.obscurite_ore_chunk": "Obscurite Ore Chunk",
-      "item.eldorado_core.obscutanium_havoc_sword": "Obscutanium Havoc Sword",
       "item.eldorado_core.obscurite_sword": "Obscurite Sword",
       "block.eldorado_core.eldorado_wood_plank": "Eldorado Wood Plank",
-      "item.eldorado_core.obscutanium_hoe": "Obscutanium Hoe",
+      "block.eldorado_core.eldorado_sun_wood_compressed_pressure_plate": "Eldorado Sun Wood Compressed Pressure Plate",
       "block.eldorado_core.eldorado_sandstone_refined_slab": "Eldorado Sandstone Refined Slab",
-      "item.eldorado_core.abyssalium_ingot": "Abyssalium Ingot",
       "item.eldorado_core.kyburn_ore_chunk": "Kyburn Ore Chunk",
       "block.eldorado_core.kyburn_block": "Block of Kyburn",
       "item.eldorado_core.eldorado_sun_wood_bleached_stick": "Eldorado Sun Wood Bleached Stick",
       "block.eldorado_core.eldorado_smooth_stone_wall": "Eldorado Smooth Stone Wall",
+      "block.eldorado_core.eldorado_deepslate_slab": "Eldorado Deepslate Slab",
+      "item.eldorado_core.eldorado_hoe": "Eldorado Hoe",
+      "block.eldorado_core.eldorado_smooth_deepslate_pressure_plate": "Eldorado Smooth Deepslate Pressure Plate",
+      "block.eldorado_core.eldorado_deepslate_cobble_slab": "Eldorado Deepslate Cobble Slab",
+      "item.eldorado_core.obscurite_ingot": "Obscurite Ingot",
+      "block.eldorado_core.eldorado_deepslate_cobble_stairs": "Eldorado Deepslate Cobble Stairs",
+      "item.eldorado_core.raw_kyburn": "Raw Kyburn",
+      "block.eldorado_core.eldorado_wood_slab": "Eldorado Wood Slab",
+      "block.eldorado_core.eldorado_sun_wood_compressed_stair": "Eldorado Sun Wood Compressed Stair",
+      "block.eldorado_core.eldorado_wood_fence": "Eldorado Wood Fence",
+      "item.eldorado_core.abyssalium_pickaxe": "Abyssalium Pickaxe",
+      "item.eldorado_core.eldoradium_gem": "Eldoradium Gem",
+      "item.eldorado_core.obscutanium_havoc_axe": "Obscutanium Havoc Axe",
+      "block.eldorado_core.eldorado_smooth_deepslate_wall": "Eldorado Smooth Deepslate Wall",
+      "block.eldorado_core.eldorado_moon_stone_stair": "Eldorado Moon Stone Stair",
+      "block.eldorado_core.obscurite_ore": "Obscurite Ore",
+      "block.eldorado_core.eldorado_cobblestone_wall": "Eldorado Cobblestone Wall",
+      "block.eldorado_core.eldorado_smooth_stone_stair": "Eldorado Smooth Stone Stair",
+      "block.eldorado_core.eldorado_ruby_block": "Block of EldoradoRuby",
+      "item.eldorado_core.verdorium_ore_chunk": "Verdorium Ore Chunk",
+      "block.eldorado_core.eldorado_cobblestone_stairs": "Eldorado Cobblestone Stairs",
+      "block.eldorado_core.eldorado_wood_compressed_stair": "Eldorado Wood Compressed Stair",
+      "item.eldorado_core.obscutanium_basilisk_ingot": "Obscutanium Basilisk Ingot",
+      "item.eldorado_core.eldorado_sword": "Eldorado Sword",
+      "item.eldorado_core.obscurite_pickaxe": "Obscurite Pickaxe",
+      "block.eldorado_core.eldorado_deepslate_brick_pressure_plate": "Eldorado Deepslate Brick Pressure Plate",
+      "block.eldorado_core.eldoradium_block": "Block of Eldoradium",
+      "block.eldorado_core.eldorado_stone_wall": "Eldorado Stone Wall",
+      "item.eldorado_core.sunfire_shovel": "Sunfire Shovel",
+      "item.eldorado_core.obscutanium_dread_ingot": "Obscutanium Dread Ingot",
+      "block.eldorado_core.eldorado_moon_stone_pressure_plate": "Eldorado Moon Stone Pressure Plate",
+      "block.eldorado_core.eldorado_sand_stone_pressure_plate": "Eldorado Sand Stone Pressure Plate",
+      "item.eldorado_core.eldorado_wood_stick": "Eldorado Wood Stick",
+      "block.eldorado_core.eldorado_smooth_deepslate_button": "Eldorado Smooth Deepslate Button",
+      "item.eldorado_core.abyssalium_hoe": "Abyssalium Hoe",
+      "item.eldorado_core.eldorado_sun_wood_stick": "Eldorado Sun Wood Stick",
+      "item.eldorado_core.vibrant_unoctanium_sword": "Vibrant Unoctanium Sword",
+      "block.eldorado_core.eldorado_deepslate_brick_button": "Eldorado Deepslate Brick Button",
+      "block.eldorado_core.eldorado_cobblestone": "Eldorado Cobblestone",
+      "block.eldorado_core.eldorado_stone_stairs": "Eldorado Stone Stairs",
+      "block.eldorado_core.sunfire_block": "Block of Sunfire",
+      "item.eldorado_core.unoctanium_ore_chunk": "Unoctanium Ore Chunk",
+      "block.eldorado_core.eldorado_moon_stone": "Eldorado Moon Stone",
+      "block.eldorado_core.pure_unoctanium_ore": "Pure Unoctanium Ore",
+      "item.eldorado_core.raw_pure_unoctanium": "Raw Pure Unoctanium",
+      "block.eldorado_core.unoctanium_block": "Block of Unoctanium",
+      "item.eldorado_core.eldorado_pickaxe": "Eldorado Pickaxe",
+      "item.eldorado_core.raw_abyssalium": "Raw Abyssalium",
+      "block.eldorado_core.eldorado_smooth_deepslate_slab": "Eldorado Smooth Deepslate Slab",
+      "block.eldorado_core.eldorado_stone_button": "Eldorado Stone Button",
+      "block.eldorado_core.eldorado_cobblestone_button": "Eldorado Cobblestone Button",
+      "block.eldorado_core.eldorado_deepslate_brick": "Eldorado Deepslate Brick",
+      "block.eldorado_core.sunfire_ore": "Sunfire Ore",
+      "block.eldorado_core.eldorado_stone_brick_stair": "Eldorado Stone Brick Stair",
+      "item.eldorado_core.raw_obscurite": "Raw Obscurite",
+      "block.eldorado_core.eldorado_smooth_deepslate_stair": "Eldorado Smooth Deepslate Stair",
+      "item.eldorado_core.abyssalium_ore_chunk": "Abyssalium Ore Chunk",
+      "item.eldorado_core.eldoradium_dust": "Eldoradium Dust",
+      "item.eldorado_core.raw_verdorium": "Raw Verdorium",
+      "item.eldorado_core.vibrant_unoctanium_axe": "Vibrant Unoctanium Axe",
+      "item.eldorado_core.sunfire_ingot": "Sunfire",
+      "block.eldorado_core.eldorado_sandstone_refined_pressure_plate": "Eldorado Sandstone Refined Pressure Plate",
+      "block.eldorado_core.eldorado_deepslate_cobble_pressure_plate": "Eldorado Deepslate Cobble Pressure Plate",
+      "block.eldorado_core.eldorado_sun_wood_compressed_slab": "Eldorado Sun Wood Compressed Slab",
+      "block.eldorado_core.eldorado_stone_brick_slab": "Eldorado Stone Brick Slab",
+      "item.eldorado_core.sunfire_hoe": "Sunfire Hoe",
+      "item.eldorado_core.vibrant_unoctanium_hoe": "Vibrant Unoctanium Hoe",
+      "block.eldorado_core.eldorado_smooth_stone_button": "Eldorado Smooth Stone Button",
+      "block.eldorado_core.eldorado_stone": "Eldorado Stone",
+      "block.eldorado_core.eldorado_moon_stone_button": "Eldorado Moon Stone Button",
+      "block.eldorado_core.eldorado_sand_stone": "Eldorado Sand Stone",
+      "item.eldorado_core.obscurite_hoe": "Obscurite Hoe",
+      "block.eldorado_core.eldorado_sand_stone_wall": "Eldorado Sand Stone Wall",
+      "block.eldorado_core.eldorado_sun_wood_bleached_plank": "Eldorado Sun Wood Bleached Plank",
+      "item.eldorado_core.obscutanium_havoc_ingot": "Obscutanium Havoc Ingot",
+      "block.eldorado_core.eldoradium_ore": "Eldoradium Ore",
+      "block.eldorado_core.eldorado_smooth_stone_pressure_plate": "Eldorado Smooth Stone Pressure Plate",
+      "block.eldorado_core.eldorado_deepslate_pressure_plate": "Eldorado Deepslate Pressure Plate",
+      "block.eldorado_core.eldorado_cobblestone_slab": "Eldorado Cobblestone Slab",
+      "block.eldorado_core.eldorado_stone_brick": "Eldorado Stone Brick",
+      "block.eldorado_core.verdorium_block": "Block of Verdorium",
+      "block.eldorado_core.pure_unoctanium_block": "Block of Pure Unoctanium",
+      "block.eldorado_core.eldorado_sun_wood_button": "Eldorado Sun Wood Button",
+      "block.eldorado_core.eldorado_sandstone_brick_slab": "Eldorado Sandstone Brick Slab",
+      "block.eldorado_core.eldorado_sandstone_brick": "Eldorado Sandstone Brick",
+      "item.eldorado_core.obscutanium_havoc_hoe": "Obscutanium Havoc Hoe",
+      "item.eldorado_core.sunfire_axe": "Sunfire Axe",
+      "block.eldorado_core.eldorado_sandstone_brick_pressure_plate": "Eldorado Sandstone Brick Pressure Plate",
+      "block.eldorado_core.eldorado_wood_pressure_plate": "Eldorado Wood Pressure Plate",
+      "item.eldorado_core.obscutanium_alpha_ingot": "Obscutanium Alpha Ingot",
+      "block.eldorado_core.eldorado_stone_slab": "Eldorado Stone Slab",
+      "item.eldorado_core.obscutanium_flux_ingot": "Obscutanium Flux Ingot",
+      "item.eldorado_core.sunfire_ore_chunk": "Sunfire Ore Chunk",
+      "item.eldorado_core.obscurite_ore_chunk": "Obscurite Ore Chunk",
+      "item.eldorado_core.obscutanium_havoc_sword": "Obscutanium Havoc Sword",
+      "item.eldorado_core.obscutanium_hoe": "Obscutanium Hoe",
+      "item.eldorado_core.abyssalium_ingot": "Abyssalium Ingot",
+      "item.eldorado_core.raw_sunfire": "Raw Sunfire",
+      "block.eldorado_core.eldorado_wood_compressed_button": "Eldorado Wood Compressed Button",
+      "block.eldorado_core.eldorado_stone_brick_pressure_plate": "Eldorado Stone Brick Pressure Plate",
       "item.eldorado_core.abyssalium_shovel": "Abyssalium Shovel",
       "item.eldorado_core.raw_unoctanium": "Raw Unoctanium",
       "block.eldorado_core.eldorado_sun_wood_stair": "Eldorado Sun Wood Stair",
       "item.eldorado_core.pure_unoctanium_ingot": "Pure Unoctanium Ingot",
-      "block.eldorado_core.eldorado_deepslate_slab": "Eldorado Deepslate Slab",
       "item.eldorado_core.pure_unoctanium_dust": "Pure Unoctanium Dust",
-      "item.eldorado_core.eldorado_hoe": "Eldorado Hoe",
       "block.eldorado_core.eldorado_gravel": "Eldorado Gravel",
-      "block.eldorado_core.eldorado_deepslate_cobble_slab": "Eldorado Deepslate Cobble Slab",
       "block.eldorado_core.eldorado_sun_wood_compressed_plank": "Eldorado Sun Wood Compressed Plank",
       "item.eldorado_core.eldoradium_ore_chunk": "Eldoradium Ore Chunk",
-      "item.eldorado_core.obscurite_ingot": "Obscurite Ingot",
       "block.eldorado_core.eldorado_wood_compressed_slab": "Eldorado Wood Compressed Slab",
       "block.eldorado_core.eldorado_smooth_deepslate": "Eldorado Smooth Deepslate",
-      "block.eldorado_core.eldorado_deepslate_cobble_stairs": "Eldorado Deepslate Cobble Stairs",
       "block.eldorado_core.kyburn_ore": "Kyburn Ore",
-      "item.eldorado_core.raw_kyburn": "Raw Kyburn",
       "block.eldorado_core.eldorado_stone_brick_wall": "Eldorado Stone Brick Wall",
       "block.eldorado_core.unoctanium_ore": "Unoctanium Ore",
-      "block.eldorado_core.eldorado_wood_slab": "Eldorado Wood Slab",
-      "block.eldorado_core.eldorado_sun_wood_compressed_stair": "Eldorado Sun Wood Compressed Stair",
-      "block.eldorado_core.eldorado_wood_fence": "Eldorado Wood Fence",
       "item.eldorado_core.obscutanium_sword": "Obscutanium Sword",
-      "item.eldorado_core.abyssalium_pickaxe": "Abyssalium Pickaxe",
       "block.eldorado_core.eldorado_wood_compressed_fence": "Eldorado Wood Compressed Fence",
-      "item.eldorado_core.eldoradium_gem": "Eldoradium Gem",
       "block.eldorado_core.eldorado_sun_wood_fence": "Eldorado Sun Wood Fence",
       "block.eldorado_core.eldorado_sand_stone_button": "Eldorado Sand Stone Button",
-      "item.eldorado_core.obscutanium_havoc_axe": "Obscutanium Havoc Axe",
       "block.eldorado_core.eldorado_deepslate_brick_slab": "Eldorado Deepslate Brick Slab",
-      "block.eldorado_core.eldorado_smooth_deepslate_wall": "Eldorado Smooth Deepslate Wall",
       "item.eldorado_core.pure_unoctanium_ore_chunk": "Pure Unoctanium Ore Chunk",
       "block.eldorado_core.eldorado_sandstone_refined_button": "Eldorado Sandstone Refined Button",
       "block.eldorado_core.eldorado_deepslate_cobble_button": "Eldorado Deepslate Cobble Button",
-      "block.eldorado_core.eldorado_moon_stone_stair": "Eldorado Moon Stone Stair",
       "block.eldorado_core.verdorium_ore": "Verdorium Ore",
       "item.eldorado_core.abyssalium_axe": "Abyssalium Axe",
-      "block.eldorado_core.obscurite_ore": "Obscurite Ore",
-      "block.eldorado_core.eldorado_cobblestone_wall": "Eldorado Cobblestone Wall",
-      "block.eldorado_core.eldorado_smooth_stone_stair": "Eldorado Smooth Stone Stair",
+      "block.eldorado_core.eldorado_cobblestone_pressure_plate": "Eldorado Cobblestone Pressure Plate",
       "item.eldorado_core.eldorado_axe": "Eldorado Axe",
       "block.eldorado_core.eldorado_sand_stone_slab": "Eldorado Sand Stone Slab",
       "block.eldorado_core.eldorado_wood_stair": "Eldorado Wood Stair",
       "item.eldorado_core.obscutanium_havoc_pickaxe": "Obscutanium Havoc Pickaxe",
       "block.eldorado_core.abyssalium_ore": "Abyssalium Ore",
-      "item.eldorado_core.verdorium_ore_chunk": "Verdorium Ore Chunk",
-      "block.eldorado_core.eldorado_cobblestone_stairs": "Eldorado Cobblestone Stairs",
       "item.eldorado_core.unoctanium_ingot": "Unoctanium Ingot",
-      "item.eldorado_core.obscutanium_basilisk_ingot": "Obscutanium Basilisk Ingot",
-      "block.eldorado_core.eldorado_wood_compressed_stair": "Eldorado Wood Compressed Stair",
+      "block.eldorado_core.eldorado_sun_wood_bleached_button": "Eldorado Sun Wood Bleached Button",
+      "item.eldorado_core.sunfire_pickaxe": "Sunfire Pickaxe",
       "item.eldorado_core.obscurite_shovel": "Obscurite Shovel",
-      "item.eldorado_core.eldorado_sword": "Eldorado Sword",
-      "item.eldorado_core.obscurite_pickaxe": "Obscurite Pickaxe",
       "item_group.eldorado_core.eldorado_core": "Eldorado Core",
       "block.eldorado_core.eldorado_sun_wood_compressed_fence": "Eldorado Sun Wood Compressed Fence",
       "block.eldorado_core.eldoradium_gem_block": "Block of Eldoradium Gem",
       "block.eldorado_core.eldorado_sandstone_stairs": "Eldorado Sandstone Stairs",
-      "block.eldorado_core.eldoradium_block": "Block of Eldoradium",
-      "item.eldorado_core.ultomathium_bar": "Ultomathium Bar",
       "item.eldorado_core.abyssalium_azure_ingot": "Abyssalium Azure Ingot",
-      "block.eldorado_core.eldorado_stone_wall": "Eldorado Stone Wall",
+      "item.eldorado_core.ultomathium_bar": "Ultomathium Bar",
+      "item.eldorado_core.sunfire_dust": "Sunfire Dust",
       "item.eldorado_core.obscutanium_pickaxe": "Obscutanium Pickaxe",
-      "item.eldorado_core.obscutanium_dread_ingot": "Obscutanium Dread Ingot",
       "block.eldorado_core.eldorado_sun_wood_bleached_fence": "Eldorado Sun Wood Bleached Fence",
       "item.eldorado_core.unoctanium_dust": "Unoctanium Dust",
       "block.eldorado_core.eldorado_deepslate": "Eldorado Deepslate",
-      "item.eldorado_core.eldorado_wood_stick": "Eldorado Wood Stick",
+      "block.eldorado_core.eldorado_sun_wood_compressed_button": "Eldorado Sun Wood Compressed Button",
       "block.eldorado_core.eldorado_smooth_stone": "Eldorado Smooth Stone",
       "block.eldorado_core.eldorado_moon_stone_slab": "Eldorado Moon Stone Slab",
       "item.eldorado_core.vibrant_unoctanium_pickaxe": "Vibrant Unoctanium Pickaxe",
       "item.eldorado_core.eldorado_shovel": "Eldorado Shovel",
       "block.eldorado_core.eldorado_sandstone_brick_wall": "Eldorado Sandstone Brick Wall",
       "block.eldorado_core.eldorado_sand": "Eldorado Sand",
-      "item.eldorado_core.abyssalium_hoe": "Abyssalium Hoe",
       "block.eldorado_core.eldorado_deepslate_stairs": "Eldorado Deepslate Stairs",
       "item.eldorado_core.raw_zultium": "Raw Zultium",
-      "item.eldorado_core.eldorado_sun_wood_stick": "Eldorado Sun Wood Stick",
+      "item.eldorado_core.sunfire_sword": "Sunfire Sword",
       "block.eldorado_core.eldorado_sun_wood_plank": "Eldorado Sun Wood Plank",
       "item.eldorado_core.vibranium_ingot": "Vibranium Ingot",
-      "item.eldorado_core.vibrant_unoctanium_sword": "Vibrant Unoctanium Sword",
       "block.eldorado_core.obscurite_block": "Block of Obscurite",
       "block.eldorado_core.eldorado_deepslate_brick_stair": "Eldorado Deepslate Brick Stair",
       "item.eldorado_core.eldoradium_ingot": "Eldoradium Ingot",
       "item.eldorado_core.verdorium_ingot": "Verdorium Ingot",
       "block.eldorado_core.eldorado_deepslate_button": "Eldorado Deepslate Button",
       "block.eldorado_core.eldorado_deepslate_cobble_wall": "Eldorado Deepslate Cobble Wall",
-      "block.eldorado_core.eldorado_cobblestone": "Eldorado Cobblestone",
       "block.eldorado_core.eldorado_deepslate_wall": "Eldorado Deepslate Wall",
-      "block.eldorado_core.eldorado_stone_stairs": "Eldorado Stone Stairs",
       "block.eldorado_core.eldorado_sandstone_refined_wall": "Eldorado Sandstone Refined Wall",
       "block.eldorado_core.eldorado_sun_wood_bleached_slab": "Eldorado Sun Wood Bleached Slab",
-      "item.eldorado_core.unoctanium_ore_chunk": "Unoctanium Ore Chunk",
       "block.eldorado_core.eldorado_sun_wood_slab": "Eldorado Sun Wood Slab",
       "item.eldorado_core.obscurite_axe": "Obscurite Axe",
-      "block.eldorado_core.eldorado_moon_stone": "Eldorado Moon Stone",
+      "block.eldorado_core.eldorado_sandstone_brick_button": "Eldorado Sandstone Brick Button",
       "block.eldorado_core.zultium_ore": "Zultium Ore",
-      "block.eldorado_core.pure_unoctanium_ore": "Pure Unoctanium Ore",
       "block.eldorado_core.eldorado_sun_wood": "Eldorado Sun Wood",
-      "block.eldorado_core.unoctanium_block": "Block of Unoctanium",
-      "item.eldorado_core.raw_pure_unoctanium": "Raw Pure Unoctanium",
       "block.eldorado_core.eldorado_sandstone_refined_stairs": "Eldorado Sandstone Refined Stairs",
       "block.eldorado_core.eldorado_smooth_stone_slab": "Eldorado Smooth Stone Slab",
-      "item.eldorado_core.eldorado_pickaxe": "Eldorado Pickaxe",
-      "item.eldorado_core.raw_abyssalium": "Raw Abyssalium",
       "block.eldorado_core.eldorado_dust": "Eldorado Dust",
-      "block.eldorado_core.eldorado_smooth_deepslate_slab": "Eldorado Smooth Deepslate Slab",
       "block.eldorado_core.abyssalium_block": "Block of Abyssalium",
       "item.eldorado_core.abyssalium_sword": "Abyssalium Sword",
-      "block.eldorado_core.eldorado_stone_button": "Eldorado Stone Button",
-      "block.eldorado_core.eldorado_cobblestone_button": "Eldorado Cobblestone Button",
       "item.eldorado_core.zultium_ingot": "Zultium Ingot",
       "block.eldorado_core.zultium_block": "Block of Zultium",
       "block.eldorado_core.eldorado_sandstone_refined": "Eldorado Sandstone Refined",
-      "block.eldorado_core.eldorado_deepslate_brick": "Eldorado Deepslate Brick",
-      "block.eldorado_core.eldorado_stone_brick_stair": "Eldorado Stone Brick Stair",
-      "item.eldorado_core.raw_obscurite": "Raw Obscurite",
-      "block.eldorado_core.eldorado_smooth_deepslate_stair": "Eldorado Smooth Deepslate Stair",
-      "item.eldorado_core.eldoradium_dust": "Eldoradium Dust",
+      "block.eldorado_core.eldorado_wood_compressed_pressure_plate": "Eldorado Wood Compressed Pressure Plate",
       "block.eldorado_core.eldorado_sun_wood_bleached_stair": "Eldorado Sun Wood Bleached Stair",
-      "item.eldorado_core.raw_verdorium": "Raw Verdorium",
       "item.eldorado_core.obscutanium_crimson_ingot": "Obscutanium Crimson Ingot",
-      "item.eldorado_core.vibrant_unoctanium_axe": "Vibrant Unoctanium Axe",
       "block.eldorado_core.eldorado_wood": "Eldorado Wood",
-      "block.eldorado_core.eldorado_sun_wood_compressed_slab": "Eldorado Sun Wood Compressed Slab",
-      "block.eldorado_core.eldorado_stone_brick_slab": "Eldorado Stone Brick Slab"
+      "item.eldorado_core.eldorado_ruby": "EldoradoRuby"
     }
   },
   "foldersRoot": {
@@ -4642,6 +5577,14 @@
           {
             "name": "Sticks",
             "children": []
+          },
+          {
+            "name": "Sunfire",
+            "children": []
+          },
+          {
+            "name": "EldoradoRuby",
+            "children": []
           }
         ]
       },
@@ -4666,6 +5609,10 @@
           },
           {
             "name": "VibrantUnoctanium",
+            "children": []
+          },
+          {
+            "name": "Sunfire",
             "children": []
           }
         ]

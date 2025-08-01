@@ -6,14 +6,19 @@ package net.mcreator.eldoradocore.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.eldoradocore.EldoradoCoreMod;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class EldoradoCoreModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, EldoradoCoreMod.MODID);
 	public static final RegistryObject<CreativeModeTab> ELDORADO_CORE = REGISTRY.register("eldorado_core",
@@ -188,5 +193,56 @@ public class EldoradoCoreModTabs {
 				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SANDSTONE_BRICK_WALL.get().asItem());
 				tabData.accept(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_BRICK_WALL.get().asItem());
 				tabData.accept(EldoradoCoreModBlocks.ELDORADO_STONE_BRICK_WALL.get().asItem());
+				tabData.accept(EldoradoCoreModItems.SUNFIRE_AXE.get());
+				tabData.accept(EldoradoCoreModItems.SUNFIRE_PICKAXE.get());
+				tabData.accept(EldoradoCoreModItems.ABYSSALIUM_ORE_CHUNK.get());
+				tabData.accept(EldoradoCoreModItems.RAW_SUNFIRE.get());
+				tabData.accept(EldoradoCoreModItems.SUNFIRE_ORE_CHUNK.get());
+				tabData.accept(EldoradoCoreModItems.SUNFIRE_DUST.get());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SMOOTH_STONE_BUTTON.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SMOOTH_DEEPSLATE_BUTTON.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_MOON_STONE_BUTTON.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SUN_WOOD_BUTTON.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SUN_WOOD_BLEACHED_BUTTON.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SUN_WOOD_COMPRESSED_BUTTON.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_WOOD_BUTTON.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_WOOD_COMPRESSED_BUTTON.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SANDSTONE_BRICK_BUTTON.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_BRICK_BUTTON.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_STONE_BRICK_BUTTON.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SAND_STONE_PRESSURE_PLATE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_STONE_PRESSURE_PLATE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_PRESSURE_PLATE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SANDSTONE_REFINED_PRESSURE_PLATE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_COBBLESTONE_PRESSURE_PLATE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_COBBLE_PRESSURE_PLATE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SMOOTH_STONE_PRESSURE_PLATE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SMOOTH_DEEPSLATE_PRESSURE_PLATE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_MOON_STONE_PRESSURE_PLATE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SUN_WOOD_PRESSURE_PLATE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SUN_WOOD_BLEACHED_PRESSURE_PLATE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SUN_WOOD_COMPRESSED_PRESSURE_PLATE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_WOOD_PRESSURE_PLATE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_WOOD_COMPRESSED_PRESSURE_PLATE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_SANDSTONE_BRICK_PRESSURE_PLATE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_DEEPSLATE_BRICK_PRESSURE_PLATE.get().asItem());
+				tabData.accept(EldoradoCoreModBlocks.ELDORADO_STONE_BRICK_PRESSURE_PLATE.get().asItem());
 			}).withSearchBar().build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(EldoradoCoreModBlocks.SUNFIRE_ORE.get().asItem());
+			tabData.accept(EldoradoCoreModBlocks.SUNFIRE_BLOCK.get().asItem());
+			tabData.accept(EldoradoCoreModBlocks.ELDORADO_RUBY_ORE.get().asItem());
+			tabData.accept(EldoradoCoreModBlocks.ELDORADO_RUBY_BLOCK.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(EldoradoCoreModItems.SUNFIRE_INGOT.get());
+			tabData.accept(EldoradoCoreModItems.ELDORADO_RUBY.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(EldoradoCoreModItems.SUNFIRE_HOE.get());
+			tabData.accept(EldoradoCoreModItems.SUNFIRE_SHOVEL.get());
+			tabData.accept(EldoradoCoreModItems.SUNFIRE_SWORD.get());
+		}
+	}
 }

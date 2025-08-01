@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "eldorado_core:eldorado_ruby"
+    }
+  },
+  "result": {
+    "item": "eldorado_core:eldorado_ruby_block",
+    "count": 1
+  }
+}

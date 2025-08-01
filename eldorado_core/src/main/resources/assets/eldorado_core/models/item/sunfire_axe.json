@@ -1,0 +1,7 @@
+{
+  "parent": "eldorado_core:custom/sunfire_axe",
+  "textures": {
+    "0": "eldorado_core:block/sunfire_axe",
+    "particle": "eldorado_core:item/sunfire_axe"
+  }
+}

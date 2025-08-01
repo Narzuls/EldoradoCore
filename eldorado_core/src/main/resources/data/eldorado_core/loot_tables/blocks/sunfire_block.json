@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "eldorado_core:blocks/sunfire_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "eldorado_core:sunfire_block"
+        }
+      ]
+    }
+  ]
+}

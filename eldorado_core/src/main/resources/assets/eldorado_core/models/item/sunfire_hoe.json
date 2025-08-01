@@ -1,0 +1,7 @@
+{
+  "parent": "eldorado_core:custom/sunfire_hoe",
+  "textures": {
+    "0": "eldorado_core:block/sunfire_hoe",
+    "particle": "eldorado_core:item/sunfire_hoe"
+  }
+}

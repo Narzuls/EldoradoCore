@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "eldorado_core:block/eldorado_brick_sandstone"
+  },
+  "render_type": "solid"
+}

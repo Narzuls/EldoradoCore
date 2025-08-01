@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "eldorado_core:eldorado_ruby_block",
+    "eldorado_core:eldorado_ruby_ore",
+    "eldorado_core:sunfire_block",
+    "eldorado_core:sunfire_ore",
     "eldorado_core:kyburn_block",
     "eldorado_core:kyburn_ore",
     "eldorado_core:pure_unoctanium_block",

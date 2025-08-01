@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "eldorado_core:block/eldorado_wood_plank_compressed"
+  },
+  "render_type": "solid"
+}
